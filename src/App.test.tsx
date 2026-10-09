@@ -1,6 +1,6 @@
 import { existsSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
-import { render, screen, within } from '@testing-library/react'
+import { render, screen, waitFor, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { MemoryRouter } from 'react-router-dom'
 import { describe, expect, it, vi } from 'vitest'
@@ -34,6 +34,16 @@ describe('BKW preview routes', () => {
     )
 
     expect(screen.getByRole('heading', { level: 1, name: /pagina niet gevonden/i })).toBeInTheDocument()
+  })
+
+  it('sets a unique route title without duplicating the brand', async () => {
+    render(
+      <MemoryRouter initialEntries={['/onderhoud']}>
+        <AppRoutes />
+      </MemoryRouter>,
+    )
+
+    await waitFor(() => expect(document.title).toBe('Professioneel woningonderhoud | BKW Groep'))
   })
 })
 
