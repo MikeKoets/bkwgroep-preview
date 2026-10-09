@@ -1,7 +1,11 @@
 # BKW Groep redesign-preview — releaserapport
 
 **Datum:** 10 oktober 2026  
-**Status:** kandidaat gereed; publicatie wordt hieronder na liveverificatie aangevuld.
+**Status:** online preview gepubliceerd en live geverifieerd.
+
+- Repository: `https://github.com/MikeKoets/bkwgroep-preview`
+- Publieke preview: `https://mikekoets.github.io/bkwgroep-preview/`
+- Eerste geverifieerde deployment: GitHub Actions-run `38004155623`
 
 ## Resultaat
 
@@ -35,6 +39,11 @@ De preview bevat een opnieuw ontworpen, mobile-first website met Home, Onderhoud
 | TypeScript | Geslaagd |
 | ESLint | Geslaagd |
 | Productiebuild | Geslaagd |
+| GitHub Pages-workflow | Geslaagd |
+| Publieke root en assets | HTTP 200 |
+| Directe subroutes | Browserfallback getest; correcte URL, H1 en inhoud geladen |
+| Mobiele live navigatie | Geslaagd op 390 px |
+| Live mobiele overflow | 390 px viewport / 390 px documentbreedte |
 
 ## Screenshots
 
