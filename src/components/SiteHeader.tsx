@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { ArrowUpRight, Mail, Menu, Phone, X } from 'lucide-react'
-import { Link, NavLink, useLocation } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const navigation = [
   { to: '/', label: 'Home' },
@@ -32,11 +32,6 @@ function NavigationLinks({ onNavigate }: { onNavigate?: () => void }) {
 
 export function SiteHeader() {
   const [menuOpen, setMenuOpen] = useState(false)
-  const location = useLocation()
-
-  useEffect(() => {
-    setMenuOpen(false)
-  }, [location.pathname])
 
   useEffect(() => {
     if (!menuOpen) return
