@@ -8,7 +8,9 @@ export function ContactDemoForm() {
     <div className="demo-form-shell" aria-labelledby="contact-form-title">
       <span className="demo-badge">Preview</span>
       <h2 id="contact-form-title">Vertel kort waarmee we kunnen helpen</h2>
-      <p>Dit formulier is een visuele demo en verstuurt of bewaart geen gegevens.</p>
+      <p>
+        Dit formulier is een visuele demo en verstuurt of bewaart geen gegevens.
+      </p>
       <form
         className="contact-form"
         onSubmit={(event) => {
@@ -35,7 +37,8 @@ export function ContactDemoForm() {
       </form>
       {confirmed ? (
         <p className="form-status" role="status">
-          <CheckCircle2 aria-hidden="true" /> Demo gereed: er is niets verzonden of opgeslagen.
+          <CheckCircle2 aria-hidden="true" /> Demo gereed: er is niets verzonden
+          of opgeslagen.
         </p>
       ) : null}
     </div>

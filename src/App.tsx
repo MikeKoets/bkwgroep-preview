@@ -1,14 +1,26 @@
 import { Route, Routes } from 'react-router-dom'
+import { NavigationFocus } from './components/NavigationFocus'
 import { SiteFooter } from './components/SiteFooter'
 import { SiteHeader } from './components/SiteHeader'
-import { BusinessPage, ContactPage, HomePage, InsulationPage, LocksPage, MaintenancePage, NotFoundPage } from './pages/SitePages'
+import {
+  BusinessPage,
+  ContactPage,
+  HomePage,
+  InsulationPage,
+  LocksPage,
+  MaintenancePage,
+  NotFoundPage,
+} from './pages/SitePages'
 
 export function AppRoutes() {
   return (
     <div className="site-shell">
-      <a className="skip-link" href="#main-content">Ga naar de inhoud</a>
+      <NavigationFocus />
+      <a className="skip-link" href="#main-content">
+        Ga naar de inhoud
+      </a>
       <SiteHeader />
-      <main id="main-content">
+      <main id="main-content" tabIndex={-1}>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/onderhoud" element={<MaintenancePage />} />

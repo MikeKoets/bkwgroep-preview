@@ -34,3 +34,11 @@ De preview heeft permanent `noindex, nofollow`. Het contactformulier is een visu
 ## Publicatie
 
 Een push naar `main` bouwt en publiceert uitsluitend de statische `dist`-map via GitHub Pages. Er zijn geen secrets, backend of externe formulierdiensten nodig.
+
+## Premium V2
+
+Het V2-bewijs staat in [docs/v2](docs/v2): gap-analyse, oorspronkelijke en verbeterde browserbeelden, beeldherkomst, regressietests en onafhankelijke review.
+
+De preview heeft een eigen onderhoudsbedrijf-identiteit met echte BKW-fotografie, duidelijke dienstenroutes en direct mobiel bellen. Nieuwe pagina's beginnen bovenaan; historie, verversen en sectielinks zijn getest. Interne Pages-routes hebben echte statische directories.
+
+Voor productieovername: laat BKW de actuele contactgegevens, bedrijfsclaims, foto's en juridische teksten bevestigen; kies een echte formulierverwerking met toestemming; voer een Safari/fysieke-telefooncontrole uit; stel daarna hosting, domein en indexering bewust in. Deze repository wijzigt geen productieomgeving of DNS.

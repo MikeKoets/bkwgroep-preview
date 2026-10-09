@@ -1,15 +1,42 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter } from 'react-router-dom'
+import {
+  createBrowserRouter,
+  RouterProvider,
+  ScrollRestoration,
+} from 'react-router-dom'
 import { AppRoutes } from './App'
 import './styles.css'
 
-const baseName = import.meta.env.BASE_URL.replace(/\/$/, '') || '/'
+const basename = import.meta.env.BASE_URL.replace(/\/$/, '') || '/'
+// Hard navigation creates a new history entry without a router key. Give it a
+// stable unique key so session scroll positions cannot collide under 'default'.
+// Refresh retains the existing key; PUSH/POP keys remain owned by React Router.
+if (!window.history.state?.key) {
+  window.history.replaceState(
+    { ...window.history.state, key: crypto.randomUUID() },
+    '',
+    window.location.href,
+  )
+}
+
+const router = createBrowserRouter(
+  [
+    {
+      path: '*',
+      element: (
+        <>
+          <AppRoutes />
+          <ScrollRestoration storageKey="bkw-preview-scroll" />
+        </>
+      ),
+    },
+  ],
+  { basename },
+)
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter basename={baseName}>
-      <AppRoutes />
-    </BrowserRouter>
+    <RouterProvider router={router} />
   </StrictMode>,
 )

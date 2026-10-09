@@ -1,0 +1,269 @@
+{
+  "environment": "Local Vite dev, Chrome, unthrottled, DPR1; diagnostic only, not field data or Lighthouse scores",
+  "observations": [
+    {
+      "width": 390,
+      "layoutShift": 0,
+      "lcp": 204,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/@vite/client",
+          "transfer": 179706
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/fonts/manrope-latin.woff2",
+          "transfer": 25136
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/main.tsx",
+          "transfer": 6104
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/@react-refresh",
+          "transfer": 112259
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/node_modules/vite/dist/client/env.mjs",
+          "transfer": 3778
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=9d4f9004",
+          "transfer": 13030
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/node_modules/.vite/deps/react.js?v=9d4f9004",
+          "transfer": 1089
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/node_modules/.vite/deps/react-router-dom.js?v=38fd66ef",
+          "transfer": 472337
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/node_modules/.vite/deps/react-dom_client.js?v=c44a1f0f",
+          "transfer": 1113602
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/App.tsx?t=1791589641532",
+          "transfer": 11444
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/styles.css?t=1791589621027",
+          "transfer": 36573
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/node_modules/.vite/deps/chunk-DATKBBH3.js?v=00e89f72",
+          "transfer": 49057
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/components/SiteFooter.tsx?t=1791589491596",
+          "transfer": 26986
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/components/NavigationFocus.tsx",
+          "transfer": 5514
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/components/SiteHeader.tsx?t=1791589641532",
+          "transfer": 36583
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/pages/SitePages.tsx?t=1791589621025",
+          "transfer": 149538
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/node_modules/.vite/deps/chunk-MGR6VIHW.js?v=00e89f72",
+          "transfer": 17167
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/node_modules/.vite/deps/lucide-react.js?v=ece150ef",
+          "transfer": 805802
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/node_modules/.vite/deps/react-dom.js?v=9d4f9004",
+          "transfer": 1482
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/components/PageHero.tsx?t=1791589620925",
+          "transfer": 13977
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/components/Photo.tsx?t=1791589620925",
+          "transfer": 5603
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/components/ContactDemoForm.tsx?t=1791589491493",
+          "transfer": 12824
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/components/Seo.tsx?t=1791589491594",
+          "transfer": 4044
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/components/Ui.tsx?t=1791589620925",
+          "transfer": 23747
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/data/images.ts?t=1791589620925",
+          "transfer": 12235
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/logo-bkw.svg",
+          "transfer": 4291
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/craft-480.webp",
+          "transfer": 55886
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/maintenance-480.webp",
+          "transfer": 30724
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/locks-480.webp",
+          "transfer": 27626
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/logo-bkw.svg",
+          "transfer": 300
+        }
+      ],
+      "font": true
+    },
+    {
+      "width": 1440,
+      "layoutShift": 0,
+      "lcp": 336,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/@vite/client",
+          "transfer": 179706
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/fonts/manrope-latin.woff2",
+          "transfer": 25136
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/main.tsx",
+          "transfer": 6104
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/@react-refresh",
+          "transfer": 112259
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/node_modules/vite/dist/client/env.mjs",
+          "transfer": 3778
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=9d4f9004",
+          "transfer": 13030
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/node_modules/.vite/deps/react.js?v=9d4f9004",
+          "transfer": 1089
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/node_modules/.vite/deps/react-router-dom.js?v=38fd66ef",
+          "transfer": 472337
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/node_modules/.vite/deps/react-dom_client.js?v=c44a1f0f",
+          "transfer": 1113602
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/App.tsx?t=1791589641532",
+          "transfer": 11444
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/styles.css?t=1791589621027",
+          "transfer": 36573
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/node_modules/.vite/deps/chunk-DATKBBH3.js?v=00e89f72",
+          "transfer": 49057
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/node_modules/.vite/deps/chunk-MGR6VIHW.js?v=00e89f72",
+          "transfer": 17167
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/components/SiteFooter.tsx?t=1791589491596",
+          "transfer": 26986
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/components/NavigationFocus.tsx",
+          "transfer": 5514
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/components/SiteHeader.tsx?t=1791589641532",
+          "transfer": 36583
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/pages/SitePages.tsx?t=1791589621025",
+          "transfer": 149538
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/node_modules/.vite/deps/lucide-react.js?v=ece150ef",
+          "transfer": 805802
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/node_modules/.vite/deps/react-dom.js?v=9d4f9004",
+          "transfer": 1482
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/components/PageHero.tsx?t=1791589620925",
+          "transfer": 13977
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/components/Photo.tsx?t=1791589620925",
+          "transfer": 5603
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/components/ContactDemoForm.tsx?t=1791589491493",
+          "transfer": 12824
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/components/Seo.tsx?t=1791589491594",
+          "transfer": 4044
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/components/Ui.tsx?t=1791589620925",
+          "transfer": 23747
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/src/data/images.ts?t=1791589620925",
+          "transfer": 12235
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/logo-bkw.svg",
+          "transfer": 4291
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/craft-800.webp",
+          "transfer": 108660
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/logo-bkw.svg",
+          "transfer": 300
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/maintenance-480.webp",
+          "transfer": 30724
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/locks-480.webp",
+          "transfer": 27626
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/property-480.webp",
+          "transfer": 37552
+        },
+        {
+          "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/insulation-480.webp",
+          "transfer": 50878
+        }
+      ],
+      "font": true
+    }
+  ]
+}

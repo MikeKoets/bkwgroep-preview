@@ -1,15 +1,17 @@
 import { ArrowRight, Phone } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import { Photo } from './Photo'
+import type { ImageName } from '../data/images'
 
 type PageHeroProps = {
   eyebrow: string
   title: string
   description: string
-  image?: string
-  imageAlt?: string
-  compact?: boolean
+  image: ImageName
+  imageAlt: string
   secondaryLabel?: string
   secondaryTo?: string
+  urgent?: boolean
 }
 
 export function PageHero({
@@ -17,32 +19,47 @@ export function PageHero({
   title,
   description,
   image,
-  imageAlt = '',
-  compact = false,
-  secondaryLabel = 'Bekijk onze diensten',
-  secondaryTo = '/onderhoud',
+  imageAlt,
+  secondaryLabel = 'Bekijk werkzaamheden',
+  secondaryTo = '#werkzaamheden',
+  urgent = false,
 }: PageHeroProps) {
   return (
-    <section className={compact ? 'page-hero page-hero--compact' : 'page-hero'}>
-      {image ? <img className="page-hero__media" src={image} alt={imageAlt} /> : null}
-      <div className="page-hero__overlay" />
-      <div className="container page-hero__content">
-        <span className="eyebrow eyebrow--light">{eyebrow}</span>
-        <h1>{title}</h1>
-        <p>{description}</p>
-        <div className="hero-actions">
-          <Link className="button button--primary" to="/contact">
-            Neem contact op
-            <ArrowRight aria-hidden="true" />
-          </Link>
-          <Link className="button button--ghost" to={secondaryTo}>
-            {secondaryLabel}
-          </Link>
-          <a className="hero-phone" href="tel:+31850606663">
-            <Phone aria-hidden="true" />
-            085 060 66 63
-          </a>
+    <section className="page-hero">
+      <div className="container page-hero__grid">
+        <div className="page-hero__copy">
+          <nav className="breadcrumb" aria-label="Kruimelpad">
+            <Link to="/">Home</Link>
+            <span aria-hidden="true">/</span>
+            <span>{eyebrow}</span>
+          </nav>
+          <span className="eyebrow">{eyebrow}</span>
+          <h1>{title}</h1>
+          <p>{description}</p>
+          <div className="hero-actions">
+            {urgent ? (
+              <a className="button button--primary" href="tel:+31850606663">
+                <Phone aria-hidden="true" />
+                Bel 085 060 66 63
+              </a>
+            ) : (
+              <Link className="button button--primary" to="/contact">
+                Bespreek uw vraag <ArrowRight aria-hidden="true" />
+              </Link>
+            )}
+            <Link className="text-link" to={secondaryTo}>
+              {secondaryLabel}
+              <ArrowRight aria-hidden="true" />
+            </Link>
+          </div>
         </div>
+        <figure className="page-hero__photo">
+          <Photo name={image} alt={imageAlt} priority />
+          <figcaption>
+            <span aria-hidden="true" /> BKW Groep ·{' '}
+            {eyebrow.replace('BKW ', '')}
+          </figcaption>
+        </figure>
       </div>
     </section>
   )

@@ -2,7 +2,7 @@ import AxeBuilder from '@axe-core/playwright'
 import { expect, test } from '@playwright/test'
 
 const routes = [
-  ['', 'Professioneel onderhoud zonder verrassingen'],
+  ['', 'Vakwerk voor woning & vastgoed.'],
   ['onderhoud', 'Professioneel woningonderhoud'],
   ['slotenservice', 'Slotenservice'],
   ['isolatie', 'Isolatie voor een comfortabeler pand'],
@@ -13,14 +13,21 @@ const routes = [
 for (const [path, heading] of routes) {
   test(`route /${path || ''} renders its primary content`, async ({ page }) => {
     await page.goto(path)
-    await expect(page.getByRole('heading', { level: 1, name: heading })).toBeVisible()
-    await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', /noindex/)
+    await expect(
+      page.getByRole('heading', { level: 1, name: heading }),
+    ).toBeVisible()
+    await expect(page.locator('meta[name="robots"]')).toHaveAttribute(
+      'content',
+      /noindex/,
+    )
     await expect(page.locator('img[src*="assets/"]')).not.toHaveCount(0)
   })
 }
 
 for (const width of [320, 375, 390, 430, 768, 1024, 1440]) {
-  test(`homepage has no horizontal overflow at ${width}px`, async ({ page }) => {
+  test(`homepage has no horizontal overflow at ${width}px`, async ({
+    page,
+  }) => {
     await page.setViewportSize({ width, height: width < 700 ? 844 : 900 })
     await page.goto('')
     const dimensions = await page.evaluate(() => ({
@@ -35,29 +42,48 @@ test('mobile navigation opens, navigates and closes', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 })
   await page.goto('')
   await page.getByRole('button', { name: 'Menu openen' }).click()
-  await expect(page.getByRole('dialog', { name: 'Mobiele navigatie' })).toBeVisible()
-  await page.getByRole('navigation', { name: 'Mobiele hoofdnavigatie' }).getByRole('link', { name: 'Isolatie' }).click()
+  await expect(
+    page.getByRole('dialog', { name: 'Mobiele navigatie' }),
+  ).toBeVisible()
+  await page
+    .getByRole('navigation', { name: 'Mobiele hoofdnavigatie' })
+    .getByRole('link', { name: 'Isolatie' })
+    .click()
   await expect(page).toHaveURL(/\/isolatie$/)
-  await expect(page.getByRole('dialog', { name: 'Mobiele navigatie' })).toHaveCount(0)
+  await expect(
+    page.getByRole('dialog', { name: 'Mobiele navigatie' }),
+  ).toHaveCount(0)
 })
 
 test('contact preview does not submit a request', async ({ page }) => {
   await page.goto('contact')
   const requests: string[] = []
-  page.on('request', (request) => requests.push(request.url()))
+  page.on('request', (request) => {
+    if (
+      request.method() !== 'GET' ||
+      ['fetch', 'xhr', 'document'].includes(request.resourceType())
+    )
+      requests.push(request.url())
+  })
   await page.getByLabel('Naam').fill('Preview bezoeker')
   await page.getByLabel('E-mailadres').fill('preview@example.com')
   await page.getByLabel('Uw vraag').fill('Alleen een test.')
   await page.getByRole('button', { name: 'Demo controleren' }).click()
-  await expect(page.getByRole('status')).toContainText('niets verzonden of opgeslagen')
+  await expect(page.getByRole('status')).toContainText(
+    'niets verzonden of opgeslagen',
+  )
   expect(requests).toEqual([])
 })
 
 for (const path of ['', 'onderhoud', 'contact']) {
-  test(`has no serious accessibility violations at /${path}`, async ({ page }) => {
+  test(`has no serious accessibility violations at /${path}`, async ({
+    page,
+  }) => {
     await page.goto(path)
     const results = await new AxeBuilder({ page }).analyze()
-    const blocking = results.violations.filter(({ impact }) => impact === 'critical' || impact === 'serious')
+    const blocking = results.violations.filter(
+      ({ impact }) => impact === 'critical' || impact === 'serious',
+    )
     expect(blocking).toEqual([])
   })
 }
@@ -65,15 +91,200 @@ for (const path of ['', 'onderhoud', 'contact']) {
 test('captures durable presentation screenshots', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 1000 })
   await page.goto('')
-  await page.screenshot({ path: 'docs/screenshots/home-desktop.png', fullPage: true })
+  await page.evaluate(async () => {
+    document.querySelectorAll('img').forEach((i) => (i.loading = 'eager'))
+    await document.fonts.ready
+    await Promise.all(
+      [...document.images].map((i) => i.decode().catch(() => {})),
+    )
+  })
+  await page.screenshot({
+    path: 'docs/v2/after/home-desktop.png',
+    fullPage: true,
+  })
   await page.goto('onderhoud')
-  await page.screenshot({ path: 'docs/screenshots/onderhoud-desktop.png', fullPage: true })
+  await page.evaluate(async () => {
+    document.querySelectorAll('img').forEach((i) => (i.loading = 'eager'))
+    await document.fonts.ready
+    await Promise.all(
+      [...document.images].map((i) => i.decode().catch(() => {})),
+    )
+  })
+  await page.screenshot({
+    path: 'docs/v2/after/onderhoud-desktop.png',
+    fullPage: true,
+  })
   await page.goto('contact')
-  await page.screenshot({ path: 'docs/screenshots/contact-desktop.png', fullPage: true })
+  await page.evaluate(async () => {
+    document.querySelectorAll('img').forEach((i) => (i.loading = 'eager'))
+    await document.fonts.ready
+    await Promise.all(
+      [...document.images].map((i) => i.decode().catch(() => {})),
+    )
+  })
+  await page.screenshot({
+    path: 'docs/v2/after/contact-desktop.png',
+    fullPage: true,
+  })
 
   await page.setViewportSize({ width: 390, height: 844 })
   await page.goto('')
-  await page.screenshot({ path: 'docs/screenshots/home-mobile.png', fullPage: true })
+  await page.evaluate(async () => {
+    document.querySelectorAll('img').forEach((i) => (i.loading = 'eager'))
+    await document.fonts.ready
+    await Promise.all(
+      [...document.images].map((i) => i.decode().catch(() => {})),
+    )
+  })
+  await page.screenshot({
+    path: 'docs/v2/after/home-mobile.png',
+    fullPage: true,
+  })
   await page.goto('onderhoud')
-  await page.screenshot({ path: 'docs/screenshots/onderhoud-mobile.png', fullPage: true })
+  await page.evaluate(async () => {
+    document.querySelectorAll('img').forEach((i) => (i.loading = 'eager'))
+    await document.fonts.ready
+    await Promise.all(
+      [...document.images].map((i) => i.decode().catch(() => {})),
+    )
+  })
+  await page.screenshot({
+    path: 'docs/v2/after/onderhoud-mobile.png',
+    fullPage: true,
+  })
+})
+
+for (const width of [320, 375, 390, 430, 768, 1024, 1440]) {
+  test(`all pages have loaded photos, no clipped content or browser errors at ${width}px`, async ({
+    page,
+  }) => {
+    test.setTimeout(60000)
+    await page.setViewportSize({ width, height: 900 })
+    const errors: string[] = []
+    page.on('pageerror', (error) => errors.push(error.message))
+    page.on('console', (event) => {
+      if (event.type() === 'error')
+        errors.push(`${event.text()} ${event.location().url}`)
+    })
+    for (const [path] of routes) {
+      const response = await page.goto(path)
+      expect(response?.ok()).toBe(true)
+      await page.evaluate(async () => {
+        document.querySelectorAll('img').forEach((i) => (i.loading = 'eager'))
+        await document.fonts.ready
+        await Promise.all([...document.images].map((i) => i.decode()))
+      })
+      const checks = await page.evaluate(() => ({
+        overflow: document.documentElement.scrollWidth - innerWidth,
+        broken: [...document.images]
+          .filter((i) => !i.complete || !i.naturalWidth)
+          .map((i) => i.src),
+        outside: [
+          ...document.querySelectorAll<HTMLElement>(
+            'main a, main h1, main h2, main p, main img, footer a',
+          ),
+        ]
+          .filter((el) => {
+            const box = el.getBoundingClientRect()
+            return (
+              box.width > 0 && (box.right > innerWidth + 1 || box.left < -1)
+            )
+          })
+          .map((el) => ({ text: el.textContent, class: el.className })),
+      }))
+      expect(checks, `${path || '/'} at ${width}`).toEqual({
+        overflow: 0,
+        broken: [],
+        outside: [],
+      })
+    }
+    expect(errors).toEqual([])
+  })
+}
+
+test('mobile menu traps keyboard focus, Escape restores it, and background remains inactive', async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 390, height: 844 })
+  await page.goto('')
+  await page.getByRole('button', { name: 'Menu openen' }).click()
+  const dialog = page.getByRole('dialog', { name: 'Mobiele navigatie' })
+  await expect(dialog).toHaveAttribute('aria-modal', 'true')
+  await expect(
+    dialog.getByRole('button', { name: 'Menu sluiten' }),
+  ).toBeFocused()
+  await expect(page.locator('.site-shell')).toHaveJSProperty('inert', true)
+  await page.keyboard.press('Shift+Tab')
+  await expect(
+    dialog.getByRole('link', { name: 'Contact opnemen', exact: true }),
+  ).toBeFocused()
+  await page.keyboard.press('Tab')
+  await expect(
+    dialog.getByRole('button', { name: 'Menu sluiten' }),
+  ).toBeFocused()
+  await page.keyboard.press('Escape')
+  await expect(page.getByRole('button', { name: 'Menu openen' })).toBeFocused()
+  await expect(page.locator('.site-shell')).toHaveJSProperty('inert', false)
+})
+
+for (const path of ['slotenservice', 'isolatie', 'zakelijk']) {
+  test(`service page /${path} has no serious accessibility violations`, async ({
+    page,
+  }) => {
+    await page.goto(path)
+    const audit = await new AxeBuilder({ page }).analyze()
+    expect(
+      audit.violations.filter((v) =>
+        ['serious', 'critical'].includes(v.impact ?? ''),
+      ),
+    ).toEqual([])
+  })
+}
+
+test('review corrections: readable mobile cards, honest contact actions and unobscured hero', async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 390, height: 844 })
+  await page.goto('')
+  expect(
+    await page
+      .locator('.service-card p')
+      .first()
+      .evaluate((el) => parseFloat(getComputedStyle(el).fontSize)),
+  ).toBeGreaterThanOrEqual(15)
+  expect(
+    await page
+      .locator('.service-card__body a')
+      .first()
+      .evaluate((el) => parseFloat(getComputedStyle(el).fontSize)),
+  ).toBeGreaterThanOrEqual(14)
+  const composition = await page.locator('.home-hero__photo').evaluate((el) => {
+    const photo = el.querySelector('img')!.getBoundingClientRect()
+    const caption = el.querySelector('figcaption')!.getBoundingClientRect()
+    return { photoBottom: photo.bottom, captionTop: caption.top }
+  })
+  expect(composition.captionTop).toBeGreaterThanOrEqual(
+    composition.photoBottom - 1,
+  )
+  await page.goto('isolatie')
+  await expect(
+    page.getByRole('link', { name: 'Bespreek dakisolatie', exact: true }),
+  ).toHaveAttribute('href', /\/contact$/)
+  await expect(
+    page.getByRole('link', { name: /Meer over dakisolatie/ }),
+  ).toHaveCount(0)
+  await page.goto('slotenservice')
+  await expect(
+    page.getByRole('link', { name: 'Bel voor hulp', exact: true }),
+  ).toHaveAttribute('href', 'tel:+31850606663')
+  await page.getByRole('button', { name: 'Menu openen' }).click()
+  const audit = await new AxeBuilder({ page }).analyze()
+  expect(audit.violations).toEqual([])
+  const focused = page
+    .getByRole('dialog')
+    .getByRole('button', { name: 'Menu sluiten' })
+  await page.keyboard.press('Tab')
+  await page.keyboard.press('Shift+Tab')
+  await expect(focused).toBeFocused()
+  await expect(focused).toHaveCSS('outline-color', 'rgb(255, 171, 131)')
 })
