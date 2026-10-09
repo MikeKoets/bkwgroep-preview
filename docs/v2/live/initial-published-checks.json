@@ -1,0 +1,230 @@
+{
+  "checkedAt": "2026-10-09T23:53:14.227Z",
+  "base": "https://mikekoets.github.io/bkwgroep-preview/",
+  "source": "f296c76e2fdfb8384acb07bec77c12caab761a45",
+  "assets": [
+    {
+      "path": "/bkwgroep-preview/assets/index-Blj68NjD.js",
+      "status": 200,
+      "sha256": "99c37b3408eb49f320f8cd41a52c40d5ff64404a4ea56ab61967dcd0740db2ed",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "/bkwgroep-preview/assets/index-DsYus-hG.css",
+      "status": 200,
+      "sha256": "19ce0d0e251122867c756f315cd66a4c5f380fd9bf97284a301bca8815a56d37",
+      "matchesLocalBuild": true
+    }
+  ],
+  "routes": [
+    {
+      "route": "/",
+      "width": 1440,
+      "status": 200,
+      "resolvedUrl": "https://mikekoets.github.io/bkwgroep-preview/",
+      "refreshStatus": 200,
+      "screenshot": "home-desktop.png",
+      "title": "BKW Groep | Onderhoud, isolatie en slotenservice",
+      "h1": "Vakwerk voor woning & vastgoed.",
+      "robots": "noindex, nofollow, noarchive",
+      "overflow": 0,
+      "missingImages": [],
+      "contact": [
+        "mailto:info@bkwgroup.nl",
+        "tel:+31850606663"
+      ]
+    },
+    {
+      "route": "onderhoud",
+      "width": 1440,
+      "status": 200,
+      "resolvedUrl": "https://mikekoets.github.io/bkwgroep-preview/onderhoud/",
+      "refreshStatus": 200,
+      "screenshot": "onderhoud-desktop.png",
+      "title": "Professioneel woningonderhoud | BKW Groep",
+      "h1": "Professioneel woningonderhoud",
+      "robots": "noindex, nofollow, noarchive",
+      "overflow": 0,
+      "missingImages": [],
+      "contact": [
+        "mailto:info@bkwgroup.nl",
+        "tel:+31850606663"
+      ]
+    },
+    {
+      "route": "slotenservice",
+      "width": 1440,
+      "status": 200,
+      "resolvedUrl": "https://mikekoets.github.io/bkwgroep-preview/slotenservice/",
+      "refreshStatus": 200,
+      "screenshot": "slotenservice-desktop.png",
+      "title": "Slotenservice | BKW Groep",
+      "h1": "Slotenservice",
+      "robots": "noindex, nofollow, noarchive",
+      "overflow": 0,
+      "missingImages": [],
+      "contact": [
+        "mailto:info@bkwgroup.nl",
+        "tel:+31850606663"
+      ]
+    },
+    {
+      "route": "isolatie",
+      "width": 1440,
+      "status": 200,
+      "resolvedUrl": "https://mikekoets.github.io/bkwgroep-preview/isolatie/",
+      "refreshStatus": 200,
+      "screenshot": "isolatie-desktop.png",
+      "title": "Isolatie voor woning en vastgoed | BKW Groep",
+      "h1": "Isolatie voor een comfortabeler pand",
+      "robots": "noindex, nofollow, noarchive",
+      "overflow": 0,
+      "missingImages": [],
+      "contact": [
+        "mailto:info@bkwgroup.nl",
+        "tel:+31850606663"
+      ]
+    },
+    {
+      "route": "zakelijk",
+      "width": 1440,
+      "status": 200,
+      "resolvedUrl": "https://mikekoets.github.io/bkwgroep-preview/zakelijk/",
+      "refreshStatus": 200,
+      "screenshot": "zakelijk-desktop.png",
+      "title": "Zakelijk onderhoud en isolatie | BKW Groep",
+      "h1": "Zakelijk onderhoud en isolatie",
+      "robots": "noindex, nofollow, noarchive",
+      "overflow": 0,
+      "missingImages": [],
+      "contact": [
+        "mailto:info@bkwgroup.nl",
+        "tel:+31850606663",
+        "mailto:yoeri@bkwgroep.nl"
+      ]
+    },
+    {
+      "route": "contact",
+      "width": 1440,
+      "status": 200,
+      "resolvedUrl": "https://mikekoets.github.io/bkwgroep-preview/contact/",
+      "refreshStatus": 200,
+      "screenshot": "contact-desktop.png",
+      "title": "Contact opnemen | BKW Groep",
+      "h1": "Contact opnemen met BKW Groep",
+      "robots": "noindex, nofollow, noarchive",
+      "overflow": 0,
+      "missingImages": [],
+      "contact": [
+        "mailto:info@bkwgroup.nl",
+        "tel:+31850606663"
+      ]
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "status": 200,
+      "resolvedUrl": "https://mikekoets.github.io/bkwgroep-preview/",
+      "refreshStatus": 200,
+      "screenshot": "home-mobile.png",
+      "title": "BKW Groep | Onderhoud, isolatie en slotenservice",
+      "h1": "Vakwerk voor woning & vastgoed.",
+      "robots": "noindex, nofollow, noarchive",
+      "overflow": 0,
+      "missingImages": [],
+      "contact": [
+        "mailto:info@bkwgroup.nl",
+        "tel:+31850606663"
+      ]
+    },
+    {
+      "route": "onderhoud",
+      "width": 390,
+      "status": 200,
+      "resolvedUrl": "https://mikekoets.github.io/bkwgroep-preview/onderhoud/",
+      "refreshStatus": 200,
+      "screenshot": "onderhoud-mobile.png",
+      "title": "Professioneel woningonderhoud | BKW Groep",
+      "h1": "Professioneel woningonderhoud",
+      "robots": "noindex, nofollow, noarchive",
+      "overflow": 0,
+      "missingImages": [],
+      "contact": [
+        "mailto:info@bkwgroup.nl",
+        "tel:+31850606663"
+      ]
+    },
+    {
+      "route": "slotenservice",
+      "width": 390,
+      "status": 200,
+      "resolvedUrl": "https://mikekoets.github.io/bkwgroep-preview/slotenservice/",
+      "refreshStatus": 200,
+      "screenshot": "slotenservice-mobile.png",
+      "title": "Slotenservice | BKW Groep",
+      "h1": "Slotenservice",
+      "robots": "noindex, nofollow, noarchive",
+      "overflow": 0,
+      "missingImages": [],
+      "contact": [
+        "mailto:info@bkwgroup.nl",
+        "tel:+31850606663"
+      ]
+    },
+    {
+      "route": "isolatie",
+      "width": 390,
+      "status": 200,
+      "resolvedUrl": "https://mikekoets.github.io/bkwgroep-preview/isolatie/",
+      "refreshStatus": 200,
+      "screenshot": "isolatie-mobile.png",
+      "title": "Isolatie voor woning en vastgoed | BKW Groep",
+      "h1": "Isolatie voor een comfortabeler pand",
+      "robots": "noindex, nofollow, noarchive",
+      "overflow": 0,
+      "missingImages": [],
+      "contact": [
+        "mailto:info@bkwgroup.nl",
+        "tel:+31850606663"
+      ]
+    },
+    {
+      "route": "zakelijk",
+      "width": 390,
+      "status": 200,
+      "resolvedUrl": "https://mikekoets.github.io/bkwgroep-preview/zakelijk/",
+      "refreshStatus": 200,
+      "screenshot": "zakelijk-mobile.png",
+      "title": "Zakelijk onderhoud en isolatie | BKW Groep",
+      "h1": "Zakelijk onderhoud en isolatie",
+      "robots": "noindex, nofollow, noarchive",
+      "overflow": 0,
+      "missingImages": [],
+      "contact": [
+        "mailto:info@bkwgroup.nl",
+        "tel:+31850606663",
+        "mailto:yoeri@bkwgroep.nl"
+      ]
+    },
+    {
+      "route": "contact",
+      "width": 390,
+      "status": 200,
+      "resolvedUrl": "https://mikekoets.github.io/bkwgroep-preview/contact/",
+      "refreshStatus": 200,
+      "screenshot": "contact-mobile.png",
+      "title": "Contact opnemen | BKW Groep",
+      "h1": "Contact opnemen met BKW Groep",
+      "robots": "noindex, nofollow, noarchive",
+      "overflow": 0,
+      "missingImages": [],
+      "contact": [
+        "mailto:info@bkwgroup.nl",
+        "tel:+31850606663"
+      ]
+    }
+  ],
+  "errors": [],
+  "mobileMenuAllDestinations": "PASS",
+  "result": "PASS"
+}

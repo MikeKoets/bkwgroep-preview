@@ -42,3 +42,5 @@ Het V2-bewijs staat in [docs/v2](docs/v2): gap-analyse, oorspronkelijke en verbe
 De preview heeft een eigen onderhoudsbedrijf-identiteit met echte BKW-fotografie, duidelijke dienstenroutes en direct mobiel bellen. Nieuwe pagina's beginnen bovenaan; historie, verversen en sectielinks zijn getest. Interne Pages-routes hebben echte statische directories.
 
 Voor productieovername: laat BKW de actuele contactgegevens, bedrijfsclaims, foto's en juridische teksten bevestigen; kies een echte formulierverwerking met toestemming; voer een Safari/fysieke-telefooncontrole uit; stel daarna hosting, domein en indexering bewust in. Deze repository wijzigt geen productieomgeving of DNS.
+
+Definitieve V2-oplevering en online bewijs: [release-report](docs/v2/release-report.md).

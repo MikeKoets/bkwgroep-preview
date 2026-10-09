@@ -50,3 +50,7 @@ Initial V2 publication f296c76 passed 32/34 published interaction tests but fail
 Correction: all internal page links now point directly to the Pages directory URL, including a trailing slash in the router basename for root links. No visual or content redesign. Existing back/forward and refresh expectations stay950/650; URL checks now require the canonical trailing slash. New all-six-pages link regression failed before correction (27 slashless links on homepage) and passed after it. Legacy slashless direct URLs remain compatible via the host redirect; first direct visits start at the top.
 
 Updated final local gates: 33 unit tests; 36 Chrome browser tests, including the canonical-link regression. Typecheck, lint, build, link and diff checks passed. Published successor results recorded separately after deployment.
+
+## Final published successor verification
+
+Source `cd379f28c6b7eb96f2c506337edebd395b0f26f5`, Pages run38006802433 success. All35 online browser interaction tests PASS,0flaky/0retries. All six routes at all seven widths, no missing images/console errors/overflow; direct slashless entry301 resolves to canonical directory200 and subsequent refresh preserves history state/650px. Additional12 live desktop/mobile route and refresh checksPASS, six mobile menu destinationsPASS. Compiled JavaScript and CSS SHA256 match localdist exactly. Full evidence in `live/`, release summary in `release-report.md`.
