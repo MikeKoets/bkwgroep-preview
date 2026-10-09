@@ -5,11 +5,11 @@ import { Link, NavLink } from 'react-router-dom'
 
 const navigation = [
   { to: '/', label: 'Home' },
-  { to: '/onderhoud', label: 'Onderhoud' },
-  { to: '/slotenservice', label: 'Slotenservice' },
-  { to: '/isolatie', label: 'Isolatie' },
-  { to: '/zakelijk', label: 'Zakelijk' },
-  { to: '/contact', label: 'Contact' },
+  { to: '/onderhoud/', label: 'Onderhoud' },
+  { to: '/slotenservice/', label: 'Slotenservice' },
+  { to: '/isolatie/', label: 'Isolatie' },
+  { to: '/zakelijk/', label: 'Zakelijk' },
+  { to: '/contact/', label: 'Contact' },
 ]
 
 function NavigationLinks({ onNavigate }: { onNavigate?: () => void }) {
@@ -114,7 +114,7 @@ export function SiteHeader() {
             <NavigationLinks />
           </nav>
 
-          <Link to="/contact" className="button button--primary header-cta">
+          <Link to="/contact/" className="button button--primary header-cta">
             Adviesgesprek
             <ArrowUpRight aria-hidden="true" />
           </Link>
@@ -179,7 +179,7 @@ export function SiteHeader() {
                   </a>
                   <Link
                     className="button button--secondary"
-                    to="/contact"
+                    to="/contact/"
                     onClick={() => setMenuOpen(false)}
                   >
                     Contact opnemen

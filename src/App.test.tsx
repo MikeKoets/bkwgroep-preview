@@ -74,7 +74,7 @@ describe('shared site shell', () => {
 
   it('marks the current navigation destination', () => {
     render(
-      <MemoryRouter initialEntries={['/onderhoud']}>
+      <MemoryRouter initialEntries={['/onderhoud/']}>
         <AppRoutes />
       </MemoryRouter>,
     )

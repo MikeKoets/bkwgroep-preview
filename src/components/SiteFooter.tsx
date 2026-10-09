@@ -65,16 +65,16 @@ export function SiteFooter() {
               <Link to="/#diensten">Alle diensten</Link>
             </li>
             <li>
-              <Link to="/onderhoud">Onderhoud</Link>
+              <Link to="/onderhoud/">Onderhoud</Link>
             </li>
             <li>
-              <Link to="/slotenservice">Slotenservice</Link>
+              <Link to="/slotenservice/">Slotenservice</Link>
             </li>
             <li>
-              <Link to="/isolatie">Isolatie</Link>
+              <Link to="/isolatie/">Isolatie</Link>
             </li>
             <li>
-              <Link to="/zakelijk">Zakelijk</Link>
+              <Link to="/zakelijk/">Zakelijk</Link>
             </li>
           </ul>
         </div>

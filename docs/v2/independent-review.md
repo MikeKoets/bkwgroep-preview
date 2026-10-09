@@ -32,3 +32,7 @@ Reviewer judged V2 a substantial improvement over V1 in photography, readable hi
 Remaining Low limitations: corrective CSS overrides should be consolidated in future maintenance; verified commercial proof is still limited; existing photos constrain some crops; full-width mobile photographs make the homepage longer. None blocks the preview. The original may still persuade with recognizable team/partner/coverage evidence once confirmed by BKW.
 
 Approval covers this local preview candidate. GitHub Pages still requires published verification. No physical-device/Safari claim; no independent revalidation of every BKW fact. No third review or open-ended polish loop.
+
+## Published-host regression closure
+
+Second and final focused correction round addresses the Pages-only refresh redirect discovered during online QA. Reviewer independently inspected the directory-link/basename diff and Chrome at390/1440. Verdict: **GO, 0 Critical / 0 High / 0 Medium**. Verified all six pages use canonical trailing-slash links (including home), correct single active navigation item, related-service exclusions, new routes scroll0, back950/forward650/refresh650 with unchanged history key, anchor offsets88mobile/120desktop. No visual review was reopened. Published host still needs identical verification after successor deployment.

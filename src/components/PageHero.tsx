@@ -43,7 +43,7 @@ export function PageHero({
                 Bel 085 060 66 63
               </a>
             ) : (
-              <Link className="button button--primary" to="/contact">
+              <Link className="button button--primary" to="/contact/">
                 Bespreek uw vraag <ArrowRight aria-hidden="true" />
               </Link>
             )}

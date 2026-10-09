@@ -42,3 +42,11 @@ Final local result: **33 unit tests + 35 browser tests PASS**. Typecheck, lint, 
 Further regression: hard document navigations without a router-generated key used the shared `default` key and could inherit another page's saved position instead of a new direct anchor. `main.tsx` assigns unique keys only to keyless native history entries; reload retains existing keys and React Router owns subsequent PUSH/POP entries. Direct/cross-page anchor tests and independent review confirm this.
 
 Final published checks will be recorded after deployment, with compiled-asset fingerprint matching to the local production build.
+
+## Published-host correction (second and final focused correction round)
+
+Initial V2 publication f296c76 passed 32/34 published interaction tests but failed both refresh-restoration tests: SPA `/onderhoud` refreshed through a Pages 301 to `/onderhoud/`. Chrome discarded the original history state/key; stored scroll650 remained under the old key and the new key restored0. Actual navigation response/state diagnostics confirmed this, rather than a timing or test-click issue. Initial failed report is retained in `live/initial-browser-tests.json`.
+
+Correction: all internal page links now point directly to the Pages directory URL, including a trailing slash in the router basename for root links. No visual or content redesign. Existing back/forward and refresh expectations stay950/650; URL checks now require the canonical trailing slash. New all-six-pages link regression failed before correction (27 slashless links on homepage) and passed after it. Legacy slashless direct URLs remain compatible via the host redirect; first direct visits start at the top.
+
+Updated final local gates: 33 unit tests; 36 Chrome browser tests, including the canonical-link regression. Typecheck, lint, build, link and diff checks passed. Published successor results recorded separately after deployment.

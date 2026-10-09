@@ -10,6 +10,36 @@ async function clickVisible(page: Page, target: Locator) {
   await page.mouse.click(rect.x + rect.width / 2, rect.y + rect.height / 2)
 }
 
+test('internal page links use directory URLs so Pages refresh does not discard history state', async ({
+  page,
+}) => {
+  for (const path of [
+    '',
+    'onderhoud/',
+    'slotenservice/',
+    'isolatie/',
+    'zakelijk/',
+    'contact/',
+  ]) {
+    await page.goto(path)
+    const nonCanonical = await page.evaluate(() =>
+      [...document.querySelectorAll<HTMLAnchorElement>('a[href]')]
+        .map((a) => new URL(a.href))
+        .filter(
+          (url) =>
+            url.origin === location.origin &&
+            url.pathname.startsWith('/bkwgroep-preview') &&
+            !url.pathname.endsWith('/'),
+        )
+        .map((url) => url.pathname),
+    )
+    expect(
+      nonCanonical,
+      `${path || '/'} must avoid GitHub Pages' slash redirect`,
+    ).toEqual([])
+  }
+})
+
 test('new page navigation starts at the top', async ({ page }) => {
   await page.goto('')
   await page.evaluate(() => window.scrollTo({ top: 1250, behavior: 'instant' }))
@@ -20,7 +50,7 @@ test('new page navigation starts at the top', async ({ page }) => {
       .getByRole('navigation', { name: 'Hoofdnavigatie', exact: true })
       .getByRole('link', { name: 'Onderhoud', exact: true }),
   )
-  await expect(page).toHaveURL(/\/onderhoud$/)
+  await expect(page).toHaveURL(/\/onderhoud\/$/)
   await expect.poll(() => page.evaluate(() => scrollY)).toBe(0)
 })
 

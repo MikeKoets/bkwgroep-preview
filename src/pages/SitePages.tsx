@@ -79,10 +79,10 @@ function TextImageSection({
 
 function RelatedServices({ exclude }: { exclude: string }) {
   const services = [
-    { to: '/onderhoud', label: 'Onderhoud' },
-    { to: '/slotenservice', label: 'Slotenservice' },
-    { to: '/isolatie', label: 'Isolatie' },
-    { to: '/zakelijk', label: 'Zakelijk' },
+    { to: '/onderhoud/', label: 'Onderhoud' },
+    { to: '/slotenservice/', label: 'Slotenservice' },
+    { to: '/isolatie/', label: 'Isolatie' },
+    { to: '/zakelijk/', label: 'Zakelijk' },
   ]
   return (
     <section className="related-services">
@@ -125,7 +125,7 @@ export function HomePage() {
               BKW Groep helpt particulieren en zakelijke opdrachtgevers verder.
             </p>
             <div className="hero-actions">
-              <Link className="button button--primary" to="/contact">
+              <Link className="button button--primary" to="/contact/">
                 Bespreek uw vraag
                 <ArrowUpRight aria-hidden="true" />
               </Link>
@@ -190,7 +190,7 @@ export function HomePage() {
               imageAlt="BKW-medewerker in gesprek bij een voordeur"
               title="Onderhoud"
               description="Herstel, woningverbetering en renovatie. Voor het werk dat vandaag nodig is en morgen verschil maakt."
-              to="/onderhoud"
+              to="/onderhoud/"
             />
             <ServiceCard
               number="02"
@@ -199,7 +199,7 @@ export function HomePage() {
               imageAlt="Slotenmakers werken aan een deurslot"
               title="Slotenservice"
               description="Een deur openen, een slot vervangen of schade herstellen. Ook voor advies over inbraakpreventie."
-              to="/slotenservice"
+              to="/slotenservice/"
             />
             <ServiceCard
               number="03"
@@ -208,7 +208,7 @@ export function HomePage() {
               imageAlt="BKW-medewerker brengt spouwmuurisolatie aan"
               title="Isolatie"
               description="Spouwmuur, dak, vloer of bodem. Verken welke isolatie bij uw woning of gebouw past."
-              to="/isolatie"
+              to="/isolatie/"
             />
             <ServiceCard
               number="04"
@@ -217,7 +217,7 @@ export function HomePage() {
               imageAlt="Gebouw uit de bedrijfsfotografie van BKW Groep"
               title="Zakelijk"
               description="Onderhoud, storingen en isolatie voor VvE’s, woningcorporaties en andere vastgoedorganisaties."
-              to="/zakelijk"
+              to="/zakelijk/"
             />
           </div>
         </div>
@@ -232,7 +232,7 @@ export function HomePage() {
               daarbij horen. Een duidelijke vraag is het begin van een
               duidelijke aanpak.
             </p>
-            <Link className="text-link" to="/contact">
+            <Link className="text-link" to="/contact/">
               Maak uw vraag concreet
               <ArrowRight aria-hidden="true" />
             </Link>
@@ -290,7 +290,7 @@ export function HomePage() {
               <li>Storingsdienst</li>
               <li>Renovatie &amp; isolatie</li>
             </ul>
-            <Link className="button button--primary" to="/zakelijk">
+            <Link className="button button--primary" to="/zakelijk/">
               Ontdek BKW Zakelijk
               <ArrowUpRight aria-hidden="true" />
             </Link>
@@ -385,7 +385,7 @@ export function MaintenancePage() {
           <ProcessSteps steps={processSteps} />
         </div>
       </section>
-      <RelatedServices exclude="/onderhoud" />
+      <RelatedServices exclude="/onderhoud/" />
       <ContactCta
         eyebrow="Onderhoudsvraag?"
         title="Vertel wat er aan uw woning moet gebeuren."
@@ -428,14 +428,14 @@ export function LocksPage() {
               icon={ShieldCheck}
               title="Herstel & vervangen"
               description="Een defect slot vervangen, een noodafsluiting plaatsen of schade na inbraak herstellen."
-              to="/contact"
+              to="/contact/"
               actionLabel="Bespreek herstel"
             />
             <ServiceCard
               icon={ClipboardCheck}
               title="Inbraakpreventie"
               description="Advies en inspectie van deuren en ramen. Bespreek wat er aan de beveiliging kan worden verbeterd."
-              to="/contact"
+              to="/contact/"
               actionLabel="Vraag preventief advies"
             />
           </div>
@@ -465,7 +465,7 @@ export function LocksPage() {
           </div>
         </div>
       </section>
-      <RelatedServices exclude="/slotenservice" />
+      <RelatedServices exclude="/slotenservice/" />
       <ContactCta
         eyebrow="Preventief advies?"
         title="Een goed slot begint bij uw situatie."
@@ -500,28 +500,28 @@ export function InsulationPage() {
               icon={Home}
               title="Spouwmuur"
               description="Onderzoek naar de spouw en de mogelijkheden voor het aanbrengen van isolatie."
-              to="/contact"
+              to="/contact/"
               actionLabel="Bespreek spouwmuurisolatie"
             />
             <ServiceCard
               icon={ThermometerSun}
               title="Dakisolatie"
               description="Bespreek isolatie van het dak als onderdeel van de gebouwschil."
-              to="/contact"
+              to="/contact/"
               actionLabel="Bespreek dakisolatie"
             />
             <ServiceCard
               icon={Hammer}
               title="Vloerisolatie"
               description="Isolatie aan de onderzijde van de vloer, waar de constructie dit toelaat."
-              to="/contact"
+              to="/contact/"
               actionLabel="Bespreek vloerisolatie"
             />
             <ServiceCard
               icon={Building2}
               title="Bodemisolatie"
               description="Verken een oplossing voor de bodem van een geschikte kruipruimte."
-              to="/contact"
+              to="/contact/"
               actionLabel="Bespreek bodemisolatie"
             />
           </div>
@@ -544,12 +544,12 @@ export function InsulationPage() {
             'Bespreek subsidiemogelijkheden waar relevant',
           ]}
         />
-        <Link className="text-link" to="/zakelijk">
+        <Link className="text-link" to="/zakelijk/">
           Isolatie voor uw organisatie
           <ArrowRight aria-hidden="true" />
         </Link>
       </TextImageSection>
-      <RelatedServices exclude="/isolatie" />
+      <RelatedServices exclude="/isolatie/" />
       <ContactCta
         eyebrow="Isolatie bespreken?"
         title="Wat past bij uw woning of gebouw?"
@@ -641,12 +641,12 @@ export function BusinessPage() {
             </a>
           </div>
         </div>
-        <Link className="text-link" to="/contact">
+        <Link className="text-link" to="/contact/">
           Contact &amp; adresgegevens
           <ArrowRight aria-hidden="true" />
         </Link>
       </TextImageSection>
-      <RelatedServices exclude="/zakelijk" />
+      <RelatedServices exclude="/zakelijk/" />
       <ContactCta
         eyebrow="Een zakelijke aanvraag?"
         title="Maak uw volgende onderhoudsvraag concreet."

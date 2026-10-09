@@ -49,7 +49,7 @@ test('mobile navigation opens, navigates and closes', async ({ page }) => {
     .getByRole('navigation', { name: 'Mobiele hoofdnavigatie' })
     .getByRole('link', { name: 'Isolatie' })
     .click()
-  await expect(page).toHaveURL(/\/isolatie$/)
+  await expect(page).toHaveURL(/\/isolatie\/$/)
   await expect(
     page.getByRole('dialog', { name: 'Mobiele navigatie' }),
   ).toHaveCount(0)
@@ -269,7 +269,7 @@ test('review corrections: readable mobile cards, honest contact actions and unob
   await page.goto('isolatie')
   await expect(
     page.getByRole('link', { name: 'Bespreek dakisolatie', exact: true }),
-  ).toHaveAttribute('href', /\/contact$/)
+  ).toHaveAttribute('href', /\/contact\/$/)
   await expect(
     page.getByRole('link', { name: /Meer over dakisolatie/ }),
   ).toHaveCount(0)

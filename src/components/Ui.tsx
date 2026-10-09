@@ -134,7 +134,7 @@ export function ContactCta({
           <p>{text}</p>
         </div>
         <div className="contact-cta__actions">
-          <Link className="button button--primary" to="/contact">
+          <Link className="button button--primary" to="/contact/">
             Contact opnemen
             <ArrowRight aria-hidden="true" />
           </Link>
