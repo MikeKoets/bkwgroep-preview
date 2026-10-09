@@ -1,6 +1,6 @@
 # BKW Groep redesign-preview — releaserapport
 
-**Datum:** 10 oktober 2026  
+**Datum:** 10 oktober 2026
 **Status:** online preview gepubliceerd en live geverifieerd.
 
 - Repository: `https://github.com/MikeKoets/bkwgroep-preview`
