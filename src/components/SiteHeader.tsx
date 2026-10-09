@@ -73,8 +73,7 @@ export function SiteHeader() {
       <div className="main-nav">
         <div className="container main-nav__inner">
           <Link to="/" className="wordmark" aria-label="BKW Groep home">
-            <span className="wordmark__bkw">BKW</span>
-            <span className="wordmark__group">GROEP</span>
+            <img src={`${import.meta.env.BASE_URL}assets/logo-bkw.svg`} alt="" width="210" height="69" />
           </Link>
 
           <nav className="desktop-nav" aria-label="Hoofdnavigatie">

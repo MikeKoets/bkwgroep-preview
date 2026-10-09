@@ -7,8 +7,7 @@ export function SiteFooter() {
       <div className="container footer-grid">
         <div className="footer-brand">
           <Link to="/" className="wordmark wordmark--footer" aria-label="BKW Groep home">
-            <span className="wordmark__bkw">BKW</span>
-            <span className="wordmark__group">GROEP</span>
+            <img src={`${import.meta.env.BASE_URL}assets/logo-bkw.svg`} alt="" width="210" height="69" />
           </Link>
           <p>Professionele ondersteuning bij onderhoud, storingen, sloten en isolatie.</p>
           <div className="social-links" aria-label="Sociale media">

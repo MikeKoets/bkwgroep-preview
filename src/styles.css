@@ -54,6 +54,7 @@ p { line-height: 1.7; }
 .main-nav { background: rgb(37 39 38 / 96%); color: var(--white); border-bottom: 1px solid rgb(255 255 255 / 10%); backdrop-filter: blur(14px); }
 .main-nav__inner { min-height: 78px; display: flex; align-items: center; gap: clamp(1rem, 2.5vw, 2.5rem); }
 .wordmark { display: inline-flex; flex-direction: column; flex: 0 0 auto; font-weight: 900; line-height: .76; letter-spacing: -.08em; }
+.wordmark img { width: 7.8rem; height: auto; }
 .wordmark__bkw { color: var(--brand); font-size: 2rem; }
 .wordmark__group { color: var(--white); font-size: 1.05rem; letter-spacing: .02em; }
 .desktop-nav { display: flex; align-items: stretch; align-self: stretch; margin-left: auto; }
