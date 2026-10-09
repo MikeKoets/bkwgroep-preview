@@ -569,6 +569,55 @@ p { line-height: 1.7; }
   color: var(--brand);
 }
 
+.contact-form {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.75rem;
+}
+
+.contact-form label {
+  display: grid;
+  gap: 0.45rem;
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 0.85rem;
+  font-weight: 750;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 0.4rem;
+  padding: 0.8rem 0.9rem;
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.07);
+  resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--brand);
+}
+
+.contact-form .button {
+  justify-self: start;
+  margin-top: 0.4rem;
+}
+
+.form-status {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  margin: 1rem 0 0;
+  color: #dcefe4;
+  font-size: 0.88rem;
+}
+
+.form-status svg {
+  width: 1.1rem;
+  flex: none;
+}
+
 .not-found {
   min-height: 60vh;
   padding-block: 8rem;

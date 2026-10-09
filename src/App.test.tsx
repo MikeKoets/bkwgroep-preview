@@ -3,7 +3,7 @@ import { join } from 'node:path'
 import { render, screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { MemoryRouter } from 'react-router-dom'
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it, vi } from 'vitest'
 import { AppRoutes } from './App'
 
 const routes = [
@@ -151,6 +151,25 @@ describe('verified BKW page content', () => {
       'mailto:info@bkwgroup.nl',
     )
     expect(screen.getAllByText(/noordeindseweg 256a/i)).not.toHaveLength(0)
+  })
+
+  it('keeps the preview contact form local and sends no network request', async () => {
+    const user = userEvent.setup()
+    const fetchSpy = vi.spyOn(globalThis, 'fetch')
+    render(
+      <MemoryRouter initialEntries={['/contact']}>
+        <AppRoutes />
+      </MemoryRouter>,
+    )
+
+    await user.type(screen.getByLabelText(/^naam$/i), 'Preview bezoeker')
+    await user.type(screen.getByLabelText(/^e-mailadres$/i), 'preview@example.com')
+    await user.type(screen.getByLabelText(/^uw vraag$/i), 'Dit is alleen een testbericht.')
+    await user.click(screen.getByRole('button', { name: /demo controleren/i }))
+
+    expect(fetchSpy).not.toHaveBeenCalled()
+    expect(screen.getByRole('status')).toHaveTextContent(/niets verzonden of opgeslagen/i)
+    fetchSpy.mockRestore()
   })
 })
 

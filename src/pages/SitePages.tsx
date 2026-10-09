@@ -1,7 +1,6 @@
 import {
   ArrowRight,
   Building2,
-  CheckCircle2,
   ClipboardCheck,
   Hammer,
   Home,
@@ -15,6 +14,7 @@ import {
 } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { PageHero } from '../components/PageHero'
+import { ContactDemoForm } from '../components/ContactDemoForm'
 import { Seo } from '../components/Seo'
 import {
   ContactCta,
@@ -211,12 +211,7 @@ export function ContactPage() {
               <div><MapPin aria-hidden="true" /><span><strong>Adres</strong>Noordeindseweg 256A<br />2651 LL Berkel en Rodenrijs</span></div>
             </div>
           </div>
-          <div className="demo-form-shell" aria-labelledby="contact-form-title">
-            <span className="demo-badge">Preview</span>
-            <h2 id="contact-form-title">Vertel kort waarmee we kunnen helpen</h2>
-            <p>Dit formulier is een visuele demo en verstuurt of bewaart geen gegevens.</p>
-            <div className="demo-form-placeholder"><CheckCircle2 aria-hidden="true" /><span>Veilige demo zonder formulierverwerking</span></div>
-          </div>
+          <ContactDemoForm />
         </div>
       </section>
     </>
