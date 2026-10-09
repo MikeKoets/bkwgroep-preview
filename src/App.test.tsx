@@ -47,7 +47,7 @@ describe('shared site shell', () => {
 
     expect(screen.getAllByRole('link', { name: /bkw groep home/i })).not.toHaveLength(0)
     expect(screen.getByRole('navigation', { name: /hoofdnavigatie/i })).toBeInTheDocument()
-    expect(screen.getByRole('link', { name: /bel 085 060 66 63/i })).toHaveAttribute(
+    expect(screen.getAllByRole('link', { name: /bel 085 060 66 63/i })[0]).toHaveAttribute(
       'href',
       'tel:+31850606663',
     )
@@ -101,6 +101,56 @@ describe('shared site shell', () => {
 
     expect(screen.queryByRole('dialog', { name: /mobiele navigatie/i })).not.toBeInTheDocument()
     expect(document.body.style.overflow).toBe('')
+  })
+})
+
+describe('verified BKW page content', () => {
+  it.each([
+    ['/onderhoud', /professioneel woningonderhoud/i],
+    ['/slotenservice', /^slotenservice$/i],
+    ['/isolatie', /isolatie voor een comfortabeler pand/i],
+    ['/zakelijk', /zakelijk onderhoud en isolatie/i],
+    ['/contact', /contact opnemen met bkw groep/i],
+  ])('renders the expected page at %s', (path, heading) => {
+    render(
+      <MemoryRouter initialEntries={[path]}>
+        <AppRoutes />
+      </MemoryRouter>,
+    )
+
+    expect(screen.getByRole('heading', { level: 1, name: heading })).toBeInTheDocument()
+  })
+
+  it('presents the four verified service areas on the homepage', () => {
+    render(
+      <MemoryRouter initialEntries={['/']}>
+        <AppRoutes />
+      </MemoryRouter>,
+    )
+
+    expect(screen.getByRole('heading', { level: 2, name: /team voor onderhoud/i })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { level: 3, name: 'Onderhoud' })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { level: 3, name: 'Slotenservice' })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { level: 3, name: 'Isolatie' })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { level: 3, name: 'Zakelijk' })).toBeInTheDocument()
+  })
+
+  it('uses the verified contact details', () => {
+    render(
+      <MemoryRouter initialEntries={['/contact']}>
+        <AppRoutes />
+      </MemoryRouter>,
+    )
+
+    expect(screen.getAllByRole('link', { name: /085 060 66 63/i })[0]).toHaveAttribute(
+      'href',
+      'tel:+31850606663',
+    )
+    expect(screen.getAllByRole('link', { name: /info@bkwgroup.nl/i })[0]).toHaveAttribute(
+      'href',
+      'mailto:info@bkwgroup.nl',
+    )
+    expect(screen.getAllByText(/noordeindseweg 256a/i)).not.toHaveLength(0)
   })
 })
 
