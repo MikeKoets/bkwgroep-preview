@@ -1,5 +1,7 @@
 # BKW Groep V3 — releasebewijs
 
+> Latere gerichte hero-update op verzoek van de eigenaar: [teamhero-release](hero-team-update/release-report.md). Onderstaande identiteit, metingen en screenshots zijn het oorspronkelijke V3-releasebewijs; ze worden niet als bewijs voor de latere fotobanner gebruikt.
+
 ## Preview en identiteit
 
 Basis: `e7b2fbb93f4621d282eaf68d45afcd02ddd8dde0`. Werkbranch: `codex/bkw-v3` in de zelfstandige BKW-previewrepository.

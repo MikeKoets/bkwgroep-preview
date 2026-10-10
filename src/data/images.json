@@ -313,5 +313,29 @@
         "height": 954
       }
     ]
+  },
+  "teamBanner": {
+    "variants": [
+      {
+        "src": "teamBanner-480.webp",
+        "width": 480,
+        "height": 189
+      },
+      {
+        "src": "teamBanner-800.webp",
+        "width": 800,
+        "height": 315
+      },
+      {
+        "src": "teamBanner-1200.webp",
+        "width": 1200,
+        "height": 473
+      },
+      {
+        "src": "teamBanner-1800.webp",
+        "width": 1800,
+        "height": 709
+      }
+    ]
   }
 }

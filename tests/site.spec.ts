@@ -89,6 +89,7 @@ for (const path of ['', 'onderhoud', 'contact']) {
 }
 
 test('captures durable presentation screenshots', async ({ page }, testInfo) => {
+  const screenshotRoot = process.env.BKW_SCREENSHOT_DIR || 'docs/v3/after'
   await page.setViewportSize({ width: 1440, height: 1000 })
   await page.goto('')
   await page.evaluate(async () => {
@@ -99,7 +100,7 @@ test('captures durable presentation screenshots', async ({ page }, testInfo) => 
     )
   })
   await page.screenshot({
-    path: `docs/v3/after/${testInfo.project.name}/home-desktop.png`,
+    path: `${screenshotRoot}/${testInfo.project.name}/home-desktop.png`,
     fullPage: true,
   })
   await page.goto('onderhoud')
@@ -111,7 +112,7 @@ test('captures durable presentation screenshots', async ({ page }, testInfo) => 
     )
   })
   await page.screenshot({
-    path: `docs/v3/after/${testInfo.project.name}/onderhoud-desktop.png`,
+    path: `${screenshotRoot}/${testInfo.project.name}/onderhoud-desktop.png`,
     fullPage: true,
   })
   await page.goto('contact')
@@ -123,7 +124,7 @@ test('captures durable presentation screenshots', async ({ page }, testInfo) => 
     )
   })
   await page.screenshot({
-    path: `docs/v3/after/${testInfo.project.name}/contact-desktop.png`,
+    path: `${screenshotRoot}/${testInfo.project.name}/contact-desktop.png`,
     fullPage: true,
   })
 
@@ -137,7 +138,7 @@ test('captures durable presentation screenshots', async ({ page }, testInfo) => 
     )
   })
   await page.screenshot({
-    path: `docs/v3/after/${testInfo.project.name}/home-mobile.png`,
+    path: `${screenshotRoot}/${testInfo.project.name}/home-mobile.png`,
     fullPage: true,
   })
   await page.goto('onderhoud')
@@ -149,7 +150,7 @@ test('captures durable presentation screenshots', async ({ page }, testInfo) => 
     )
   })
   await page.screenshot({
-    path: `docs/v3/after/${testInfo.project.name}/onderhoud-mobile.png`,
+    path: `${screenshotRoot}/${testInfo.project.name}/onderhoud-mobile.png`,
     fullPage: true,
   })
 })
@@ -258,14 +259,9 @@ test('review corrections: readable mobile cards, honest contact actions and unob
       .first()
       .evaluate((el) => parseFloat(getComputedStyle(el).fontSize)),
   ).toBeGreaterThanOrEqual(14)
-  const composition = await page.locator('.home-hero__photo').evaluate((el) => {
-    const photo = el.querySelector('img')!.getBoundingClientRect()
-    const caption = el.querySelector('figcaption')!.getBoundingClientRect()
-    return { photoBottom: photo.bottom, captionTop: caption.top }
-  })
-  expect(composition.captionTop).toBeGreaterThanOrEqual(
-    composition.photoBottom - 1,
-  )
+  await expect(page.locator('.home-hero img')).toHaveAttribute('alt', /BKW-medewerkers/)
+  await expect(page.locator('.home-hero figcaption')).toHaveCount(0)
+  await expect(page.locator('.home-hero .button--primary')).toHaveAttribute('href', /\/contact\/$/)
   await page.goto('isolatie')
   await expect(
     page.getByRole('link', { name: 'Bespreek dakisolatie', exact: true }),

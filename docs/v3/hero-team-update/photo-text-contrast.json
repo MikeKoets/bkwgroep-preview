@@ -1,0 +1,250 @@
+{
+  "method": "Actual composed photo+CSS overlay; text hidden while its boxes remain; maximum background luminance across each text box; stronger conservative bound than individual glyph pixels. 7 viewport widths. Large text3:1, normal4.5:1.",
+  "results": [
+    {
+      "viewport": 320,
+      "selector": ".home-hero .eyebrow",
+      "worstBackgroundContrast": 6.11,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "viewport": 320,
+      "selector": ".home-hero h1",
+      "worstBackgroundContrast": 8.65,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "viewport": 320,
+      "selector": ".home-hero h1 span",
+      "worstBackgroundContrast": 5.43,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "viewport": 320,
+      "selector": ".home-hero__copy > p",
+      "worstBackgroundContrast": 13.42,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "viewport": 320,
+      "selector": ".home-hero .text-link",
+      "worstBackgroundContrast": 16.62,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "viewport": 375,
+      "selector": ".home-hero .eyebrow",
+      "worstBackgroundContrast": 10.96,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "viewport": 375,
+      "selector": ".home-hero h1",
+      "worstBackgroundContrast": 9.55,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "viewport": 375,
+      "selector": ".home-hero h1 span",
+      "worstBackgroundContrast": 6.21,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "viewport": 375,
+      "selector": ".home-hero__copy > p",
+      "worstBackgroundContrast": 15.63,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "viewport": 375,
+      "selector": ".home-hero .text-link",
+      "worstBackgroundContrast": 16.95,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "viewport": 390,
+      "selector": ".home-hero .eyebrow",
+      "worstBackgroundContrast": 10.96,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "viewport": 390,
+      "selector": ".home-hero h1",
+      "worstBackgroundContrast": 9.54,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "viewport": 390,
+      "selector": ".home-hero h1 span",
+      "worstBackgroundContrast": 6.22,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "viewport": 390,
+      "selector": ".home-hero__copy > p",
+      "worstBackgroundContrast": 15.65,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "viewport": 390,
+      "selector": ".home-hero .text-link",
+      "worstBackgroundContrast": 16.95,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "viewport": 430,
+      "selector": ".home-hero .eyebrow",
+      "worstBackgroundContrast": 10.33,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "viewport": 430,
+      "selector": ".home-hero h1",
+      "worstBackgroundContrast": 9.54,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "viewport": 430,
+      "selector": ".home-hero h1 span",
+      "worstBackgroundContrast": 6.21,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "viewport": 430,
+      "selector": ".home-hero__copy > p",
+      "worstBackgroundContrast": 15.65,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "viewport": 430,
+      "selector": ".home-hero .text-link",
+      "worstBackgroundContrast": 16.95,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "viewport": 768,
+      "selector": ".home-hero .eyebrow",
+      "worstBackgroundContrast": 10.11,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "viewport": 768,
+      "selector": ".home-hero h1",
+      "worstBackgroundContrast": 12.73,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "viewport": 768,
+      "selector": ".home-hero h1 span",
+      "worstBackgroundContrast": 6.91,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "viewport": 768,
+      "selector": ".home-hero__copy > p",
+      "worstBackgroundContrast": 15.6,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "viewport": 768,
+      "selector": ".home-hero .text-link",
+      "worstBackgroundContrast": 17.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "viewport": 1024,
+      "selector": ".home-hero .eyebrow",
+      "worstBackgroundContrast": 6.97,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "viewport": 1024,
+      "selector": ".home-hero h1",
+      "worstBackgroundContrast": 9.77,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "viewport": 1024,
+      "selector": ".home-hero h1 span",
+      "worstBackgroundContrast": 5.81,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "viewport": 1024,
+      "selector": ".home-hero__copy > p",
+      "worstBackgroundContrast": 15.23,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "viewport": 1024,
+      "selector": ".home-hero .text-link",
+      "worstBackgroundContrast": 16.8,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "viewport": 1440,
+      "selector": ".home-hero .eyebrow",
+      "worstBackgroundContrast": 6.31,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "viewport": 1440,
+      "selector": ".home-hero h1",
+      "worstBackgroundContrast": 7.15,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "viewport": 1440,
+      "selector": ".home-hero h1 span",
+      "worstBackgroundContrast": 5.48,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "viewport": 1440,
+      "selector": ".home-hero__copy > p",
+      "worstBackgroundContrast": 15.03,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "viewport": 1440,
+      "selector": ".home-hero .text-link",
+      "worstBackgroundContrast": 16.44,
+      "threshold": 4.5,
+      "pass": true
+    }
+  ]
+}

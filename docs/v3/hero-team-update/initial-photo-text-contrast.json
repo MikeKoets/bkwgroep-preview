@@ -1,0 +1,247 @@
+[
+  {
+    "viewport": 320,
+    "selector": ".home-hero .eyebrow",
+    "worstBackgroundContrast": 3.32,
+    "threshold": 4.5,
+    "pass": false
+  },
+  {
+    "viewport": 320,
+    "selector": ".home-hero h1",
+    "worstBackgroundContrast": 8.65,
+    "threshold": 3,
+    "pass": true
+  },
+  {
+    "viewport": 320,
+    "selector": ".home-hero h1 span",
+    "worstBackgroundContrast": 5.43,
+    "threshold": 3,
+    "pass": true
+  },
+  {
+    "viewport": 320,
+    "selector": ".home-hero__copy > p",
+    "worstBackgroundContrast": 13.42,
+    "threshold": 4.5,
+    "pass": true
+  },
+  {
+    "viewport": 320,
+    "selector": ".home-hero .text-link",
+    "worstBackgroundContrast": 16.62,
+    "threshold": 4.5,
+    "pass": true
+  },
+  {
+    "viewport": 375,
+    "selector": ".home-hero .eyebrow",
+    "worstBackgroundContrast": 5.95,
+    "threshold": 4.5,
+    "pass": true
+  },
+  {
+    "viewport": 375,
+    "selector": ".home-hero h1",
+    "worstBackgroundContrast": 9.55,
+    "threshold": 3,
+    "pass": true
+  },
+  {
+    "viewport": 375,
+    "selector": ".home-hero h1 span",
+    "worstBackgroundContrast": 6.21,
+    "threshold": 3,
+    "pass": true
+  },
+  {
+    "viewport": 375,
+    "selector": ".home-hero__copy > p",
+    "worstBackgroundContrast": 15.63,
+    "threshold": 4.5,
+    "pass": true
+  },
+  {
+    "viewport": 375,
+    "selector": ".home-hero .text-link",
+    "worstBackgroundContrast": 16.95,
+    "threshold": 4.5,
+    "pass": true
+  },
+  {
+    "viewport": 390,
+    "selector": ".home-hero .eyebrow",
+    "worstBackgroundContrast": 5.95,
+    "threshold": 4.5,
+    "pass": true
+  },
+  {
+    "viewport": 390,
+    "selector": ".home-hero h1",
+    "worstBackgroundContrast": 9.54,
+    "threshold": 3,
+    "pass": true
+  },
+  {
+    "viewport": 390,
+    "selector": ".home-hero h1 span",
+    "worstBackgroundContrast": 6.22,
+    "threshold": 3,
+    "pass": true
+  },
+  {
+    "viewport": 390,
+    "selector": ".home-hero__copy > p",
+    "worstBackgroundContrast": 15.65,
+    "threshold": 4.5,
+    "pass": true
+  },
+  {
+    "viewport": 390,
+    "selector": ".home-hero .text-link",
+    "worstBackgroundContrast": 16.95,
+    "threshold": 4.5,
+    "pass": true
+  },
+  {
+    "viewport": 430,
+    "selector": ".home-hero .eyebrow",
+    "worstBackgroundContrast": 5.61,
+    "threshold": 4.5,
+    "pass": true
+  },
+  {
+    "viewport": 430,
+    "selector": ".home-hero h1",
+    "worstBackgroundContrast": 9.54,
+    "threshold": 3,
+    "pass": true
+  },
+  {
+    "viewport": 430,
+    "selector": ".home-hero h1 span",
+    "worstBackgroundContrast": 6.21,
+    "threshold": 3,
+    "pass": true
+  },
+  {
+    "viewport": 430,
+    "selector": ".home-hero__copy > p",
+    "worstBackgroundContrast": 15.65,
+    "threshold": 4.5,
+    "pass": true
+  },
+  {
+    "viewport": 430,
+    "selector": ".home-hero .text-link",
+    "worstBackgroundContrast": 16.95,
+    "threshold": 4.5,
+    "pass": true
+  },
+  {
+    "viewport": 768,
+    "selector": ".home-hero .eyebrow",
+    "worstBackgroundContrast": 5.49,
+    "threshold": 4.5,
+    "pass": true
+  },
+  {
+    "viewport": 768,
+    "selector": ".home-hero h1",
+    "worstBackgroundContrast": 12.73,
+    "threshold": 3,
+    "pass": true
+  },
+  {
+    "viewport": 768,
+    "selector": ".home-hero h1 span",
+    "worstBackgroundContrast": 6.91,
+    "threshold": 3,
+    "pass": true
+  },
+  {
+    "viewport": 768,
+    "selector": ".home-hero__copy > p",
+    "worstBackgroundContrast": 15.6,
+    "threshold": 4.5,
+    "pass": true
+  },
+  {
+    "viewport": 768,
+    "selector": ".home-hero .text-link",
+    "worstBackgroundContrast": 17.14,
+    "threshold": 4.5,
+    "pass": true
+  },
+  {
+    "viewport": 1024,
+    "selector": ".home-hero .eyebrow",
+    "worstBackgroundContrast": 3.78,
+    "threshold": 4.5,
+    "pass": false
+  },
+  {
+    "viewport": 1024,
+    "selector": ".home-hero h1",
+    "worstBackgroundContrast": 9.77,
+    "threshold": 3,
+    "pass": true
+  },
+  {
+    "viewport": 1024,
+    "selector": ".home-hero h1 span",
+    "worstBackgroundContrast": 5.81,
+    "threshold": 3,
+    "pass": true
+  },
+  {
+    "viewport": 1024,
+    "selector": ".home-hero__copy > p",
+    "worstBackgroundContrast": 15.23,
+    "threshold": 4.5,
+    "pass": true
+  },
+  {
+    "viewport": 1024,
+    "selector": ".home-hero .text-link",
+    "worstBackgroundContrast": 16.8,
+    "threshold": 4.5,
+    "pass": true
+  },
+  {
+    "viewport": 1440,
+    "selector": ".home-hero .eyebrow",
+    "worstBackgroundContrast": 3.43,
+    "threshold": 4.5,
+    "pass": false
+  },
+  {
+    "viewport": 1440,
+    "selector": ".home-hero h1",
+    "worstBackgroundContrast": 7.15,
+    "threshold": 3,
+    "pass": true
+  },
+  {
+    "viewport": 1440,
+    "selector": ".home-hero h1 span",
+    "worstBackgroundContrast": 5.48,
+    "threshold": 3,
+    "pass": true
+  },
+  {
+    "viewport": 1440,
+    "selector": ".home-hero__copy > p",
+    "worstBackgroundContrast": 15.03,
+    "threshold": 4.5,
+    "pass": true
+  },
+  {
+    "viewport": 1440,
+    "selector": ".home-hero .text-link",
+    "worstBackgroundContrast": 16.44,
+    "threshold": 4.5,
+    "pass": true
+  }
+]

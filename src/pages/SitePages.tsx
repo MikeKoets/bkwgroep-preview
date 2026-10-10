@@ -111,6 +111,14 @@ export function HomePage() {
         description="Vakwerk voor woning en vastgoed. BKW Groep helpt particulieren en zakelijke opdrachtgevers met onderhoud, isolatie en slotenservice."
       />
       <section className="home-hero">
+        <div className="home-hero__photo">
+          <Photo
+            name="teamBanner"
+            alt="BKW-medewerkers met gereedschap en bedrijfsvoertuigen"
+            priority
+            sizes="(max-width: 760px) 1100px, 100vw"
+          />
+        </div>
         <div className="container home-hero__grid">
           <div className="home-hero__copy">
             <span className="eyebrow">
@@ -121,12 +129,12 @@ export function HomePage() {
               woning <span>&amp; vastgoed.</span>
             </h1>
             <p>
-              Onderhoud, isolatie en slotenservice. Voor particulieren en
-              zakelijke opdrachtgevers.
+              Onderhoud, slotenservice en isolatie.
+              Voor uw woning of zakelijk pand.
             </p>
             <div className="hero-actions">
               <Link className="button button--primary" to="/contact/">
-                Bespreek uw vraag
+                Neem contact op
                 <ArrowUpRight aria-hidden="true" />
               </Link>
               <Link className="text-link" to="/#diensten">
@@ -134,23 +142,7 @@ export function HomePage() {
                 <ArrowRight aria-hidden="true" />
               </Link>
             </div>
-            <div className="hero-note">
-              <span aria-hidden="true" />
-              <span>Eén aanspreekpunt. Heldere afstemming.</span>
-            </div>
           </div>
-          <figure className="home-hero__photo">
-            <Photo
-              name="heroWork"
-              alt="BKW-vakman aan het werk bij een woning, met boormachine en gereedschap"
-              priority
-              sizes="(max-width: 760px) calc(100vw - 40px), (max-width: 1440px) 46vw, 600px"
-            />
-            <figcaption>
-              <span aria-hidden="true" />
-              BKW Groep · Vakwerk aan uw woning
-            </figcaption>
-          </figure>
         </div>
       </section>
       <section className="urgent-strip" aria-label="Direct hulp nodig">

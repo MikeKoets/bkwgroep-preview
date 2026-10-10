@@ -1,14 +1,24 @@
 import { expect, test } from '@playwright/test'
 import AxeBuilder from '@axe-core/playwright'
 
-test('home hero shows proposition, primary action and the complete working photograph in a mobile screen', async ({ page }) => {
+test('home hero presents the original team panorama as one compact full-width banner with overlaid contact action', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 })
   await page.goto('')
   await page.evaluate(() => document.fonts.ready)
-  const photo = await page.locator('.home-hero__photo').boundingBox()
-  expect(photo?.y).toBeLessThan(440)
-  expect((photo?.y ?? 0) + (photo?.height ?? 0)).toBeLessThanOrEqual(800)
-  await expect(page.locator('.home-hero .button--primary')).toBeVisible()
+  const hero = await page.locator('.home-hero').boundingBox()
+  const photo = await page.locator('.home-hero__photo img').boundingBox()
+  const heading = await page.locator('.home-hero h1').boundingBox()
+  const action = await page.locator('.home-hero .button--primary').boundingBox()
+  expect(photo?.x).toBe(0)
+  expect(photo?.width).toBe(390)
+  expect(photo?.y).toBe(hero?.y)
+  expect((hero?.y ?? 0) + (hero?.height ?? 0)).toBeLessThanOrEqual(650)
+  expect(heading!.y).toBeGreaterThan(photo!.y)
+  expect(action!.y + action!.height).toBeLessThan(photo!.y + photo!.height)
+  await expect(page.locator('.home-hero img')).toHaveAttribute('src', /teamBanner-/)
+  await expect(page.locator('.home-hero img')).toHaveAttribute('alt', /BKW-medewerkers/)
+  await expect(page.locator('.home-hero .button--primary')).toHaveAttribute('href', /\/contact\/$/)
+  await expect(page.locator('.home-hero figcaption')).toHaveCount(0)
   await expect(page.locator('.mobile-phone')).toHaveAttribute('href', 'tel:+31850606663')
 })
 

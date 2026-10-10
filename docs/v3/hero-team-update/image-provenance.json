@@ -1,0 +1,36 @@
+{
+  "source": "BKW homepage original, retained in public/assets/images/home-hero.webp; see docs/assets-source-map.md",
+  "original": [
+    1800,
+    709
+  ],
+  "crop": "none; responsive CSS cover only",
+  "upscaled": false,
+  "processing": "Lanczos downsampling; WebP quality76; original baked darkening retained",
+  "variants": [
+    {
+      "src": "teamBanner-480.webp",
+      "width": 480,
+      "height": 189,
+      "bytes": 12002
+    },
+    {
+      "src": "teamBanner-800.webp",
+      "width": 800,
+      "height": 315,
+      "bytes": 29320
+    },
+    {
+      "src": "teamBanner-1200.webp",
+      "width": 1200,
+      "height": 473,
+      "bytes": 59112
+    },
+    {
+      "src": "teamBanner-1800.webp",
+      "width": 1800,
+      "height": 709,
+      "bytes": 117882
+    }
+  ]
+}
