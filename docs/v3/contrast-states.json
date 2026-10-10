@@ -5,197 +5,233 @@
     "state": "default",
     "color": "rgb(24, 32, 27)",
     "background": "rgb(242, 107, 50)",
+    "border": "rgba(0, 0, 0, 0)",
     "outline": "rgb(24, 32, 27)",
     "outlineStyle": "none",
     "contrast": 5.49,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "/",
     "selector": ".button--primary",
     "state": "hover",
     "color": "rgb(24, 32, 27)",
-    "background": "rgb(242, 107, 50)",
+    "background": "rgb(245, 113, 56)",
+    "border": "rgba(0, 0, 0, 0)",
     "outline": "rgb(24, 32, 27)",
     "outlineStyle": "none",
-    "contrast": 5.49,
-    "normalTextPass": true
+    "contrast": 5.79,
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "/",
+    "selector": ".button--primary",
+    "state": "focus",
+    "color": "rgb(24, 32, 27)",
+    "background": "rgb(245, 113, 56)",
+    "border": "rgba(0, 0, 0, 0)",
+    "outline": "rgb(255, 171, 131)",
+    "outlineStyle": "solid",
+    "contrast": 5.79,
+    "textPass": true,
+    "inputBorderContrast": null
+  },
+  {
+    "route": "/",
+    "selector": ".text-link",
+    "state": "default",
+    "color": "rgb(37, 41, 39)",
+    "background": "rgb(246, 244, 239)",
+    "border": "rgb(37, 41, 39)",
+    "outline": "rgb(37, 41, 39)",
+    "outlineStyle": "none",
+    "contrast": 13.41,
+    "textPass": true,
+    "inputBorderContrast": null
+  },
+  {
+    "route": "/",
+    "selector": ".text-link",
+    "state": "hover",
+    "color": "rgb(37, 41, 39)",
+    "background": "rgb(246, 244, 239)",
+    "border": "rgb(37, 41, 39)",
+    "outline": "rgb(37, 41, 39)",
+    "outlineStyle": "none",
+    "contrast": 13.41,
+    "textPass": true,
+    "inputBorderContrast": null
+  },
+  {
+    "route": "/",
+    "selector": ".text-link",
+    "state": "focus",
+    "color": "rgb(48, 43, 38)",
+    "background": "rgb(246, 244, 239)",
+    "border": "rgb(48, 43, 38)",
+    "outline": "rgb(169, 64, 22)",
+    "outlineStyle": "solid",
+    "contrast": 12.74,
+    "textPass": true,
+    "inputBorderContrast": null
+  },
+  {
+    "route": "/",
+    "selector": ".desktop-nav .nav-link",
+    "state": "default",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 255, 255)",
+    "outline": "rgb(255, 255, 255)",
+    "outlineStyle": "none",
+    "contrast": 15.41,
+    "textPass": true,
+    "inputBorderContrast": null
+  },
+  {
+    "route": "/",
+    "selector": ".desktop-nav .nav-link",
+    "state": "hover",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 255, 255)",
+    "outline": "rgb(255, 255, 255)",
+    "outlineStyle": "none",
+    "contrast": 15.41,
+    "textPass": true,
+    "inputBorderContrast": null
+  },
+  {
+    "route": "/",
+    "selector": ".desktop-nav .nav-link",
+    "state": "focus",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 255, 255)",
+    "outline": "rgb(255, 171, 131)",
+    "outlineStyle": "solid",
+    "contrast": 15.41,
+    "textPass": true,
+    "inputBorderContrast": null
+  },
+  {
+    "route": "/",
+    "selector": ".footer-links a",
+    "state": "default",
+    "color": "rgb(224, 230, 225)",
+    "background": "rgb(32, 38, 35)",
+    "border": "rgb(224, 230, 225)",
+    "outline": "rgb(224, 230, 225)",
+    "outlineStyle": "none",
+    "contrast": 12.16,
+    "textPass": true,
+    "inputBorderContrast": null
+  },
+  {
+    "route": "/",
+    "selector": ".footer-links a",
+    "state": "hover",
+    "color": "rgb(255, 171, 131)",
+    "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 171, 131)",
+    "outline": "rgb(255, 171, 131)",
+    "outlineStyle": "none",
+    "contrast": 8.37,
+    "textPass": true,
+    "inputBorderContrast": null
+  },
+  {
+    "route": "/",
+    "selector": ".footer-links a",
+    "state": "focus",
+    "color": "rgb(255, 171, 131)",
+    "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 171, 131)",
+    "outline": "rgb(255, 171, 131)",
+    "outlineStyle": "solid",
+    "contrast": 8.37,
+    "textPass": true,
+    "inputBorderContrast": null
+  },
+  {
+    "route": "onderhoud/",
+    "selector": ".button--primary",
+    "state": "default",
+    "color": "rgb(24, 32, 27)",
+    "background": "rgb(242, 107, 50)",
+    "border": "rgba(0, 0, 0, 0)",
+    "outline": "rgb(24, 32, 27)",
+    "outlineStyle": "none",
+    "contrast": 5.49,
+    "textPass": true,
+    "inputBorderContrast": null
+  },
+  {
+    "route": "onderhoud/",
+    "selector": ".button--primary",
+    "state": "hover",
+    "color": "rgb(24, 32, 27)",
+    "background": "rgb(242, 107, 50)",
+    "border": "rgba(0, 0, 0, 0)",
+    "outline": "rgb(24, 32, 27)",
+    "outlineStyle": "none",
+    "contrast": 5.49,
+    "textPass": true,
+    "inputBorderContrast": null
+  },
+  {
+    "route": "onderhoud/",
     "selector": ".button--primary",
     "state": "focus",
     "color": "rgb(24, 32, 27)",
     "background": "rgb(243, 109, 52)",
+    "border": "rgba(0, 0, 0, 0)",
     "outline": "rgb(255, 171, 131)",
     "outlineStyle": "solid",
     "contrast": 5.59,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
-    "route": "/",
+    "route": "onderhoud/",
     "selector": ".text-link",
     "state": "default",
     "color": "rgb(37, 41, 39)",
     "background": "rgb(246, 244, 239)",
+    "border": "rgb(37, 41, 39)",
     "outline": "rgb(37, 41, 39)",
     "outlineStyle": "none",
     "contrast": 13.41,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
-    "route": "/",
+    "route": "onderhoud/",
     "selector": ".text-link",
     "state": "hover",
     "color": "rgb(37, 41, 39)",
     "background": "rgb(246, 244, 239)",
+    "border": "rgb(37, 41, 39)",
     "outline": "rgb(37, 41, 39)",
     "outlineStyle": "none",
     "contrast": 13.41,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
-    "route": "/",
+    "route": "onderhoud/",
     "selector": ".text-link",
     "state": "focus",
     "color": "rgb(37, 41, 39)",
     "background": "rgb(246, 244, 239)",
+    "border": "rgb(37, 41, 39)",
     "outline": "rgb(169, 64, 22)",
     "outlineStyle": "solid",
     "contrast": 13.41,
-    "normalTextPass": true
-  },
-  {
-    "route": "/",
-    "selector": ".desktop-nav .nav-link",
-    "state": "default",
-    "color": "rgb(255, 255, 255)",
-    "background": "rgb(32, 38, 35)",
-    "outline": "rgb(255, 255, 255)",
-    "outlineStyle": "none",
-    "contrast": 15.41,
-    "normalTextPass": true
-  },
-  {
-    "route": "/",
-    "selector": ".desktop-nav .nav-link",
-    "state": "hover",
-    "color": "rgb(255, 255, 255)",
-    "background": "rgb(32, 38, 35)",
-    "outline": "rgb(255, 255, 255)",
-    "outlineStyle": "none",
-    "contrast": 15.41,
-    "normalTextPass": true
-  },
-  {
-    "route": "/",
-    "selector": ".desktop-nav .nav-link",
-    "state": "focus",
-    "color": "rgb(255, 255, 255)",
-    "background": "rgb(32, 38, 35)",
-    "outline": "rgb(255, 171, 131)",
-    "outlineStyle": "solid",
-    "contrast": 15.41,
-    "normalTextPass": true
-  },
-  {
-    "route": "/",
-    "selector": ".footer-links a",
-    "state": "default",
-    "color": "rgb(224, 230, 225)",
-    "background": "rgb(32, 38, 35)",
-    "outline": "rgb(224, 230, 225)",
-    "outlineStyle": "none",
-    "contrast": 12.16,
-    "normalTextPass": true
-  },
-  {
-    "route": "/",
-    "selector": ".footer-links a",
-    "state": "hover",
-    "color": "rgb(255, 171, 131)",
-    "background": "rgb(32, 38, 35)",
-    "outline": "rgb(255, 171, 131)",
-    "outlineStyle": "none",
-    "contrast": 8.37,
-    "normalTextPass": true
-  },
-  {
-    "route": "/",
-    "selector": ".footer-links a",
-    "state": "focus",
-    "color": "rgb(255, 171, 131)",
-    "background": "rgb(32, 38, 35)",
-    "outline": "rgb(255, 171, 131)",
-    "outlineStyle": "solid",
-    "contrast": 8.37,
-    "normalTextPass": true
-  },
-  {
-    "route": "onderhoud/",
-    "selector": ".button--primary",
-    "state": "default",
-    "color": "rgb(24, 32, 27)",
-    "background": "rgb(242, 107, 50)",
-    "outline": "rgb(24, 32, 27)",
-    "outlineStyle": "none",
-    "contrast": 5.49,
-    "normalTextPass": true
-  },
-  {
-    "route": "onderhoud/",
-    "selector": ".button--primary",
-    "state": "hover",
-    "color": "rgb(24, 32, 27)",
-    "background": "rgb(242, 107, 50)",
-    "outline": "rgb(24, 32, 27)",
-    "outlineStyle": "none",
-    "contrast": 5.49,
-    "normalTextPass": true
-  },
-  {
-    "route": "onderhoud/",
-    "selector": ".button--primary",
-    "state": "focus",
-    "color": "rgb(24, 32, 27)",
-    "background": "rgb(242, 107, 50)",
-    "outline": "rgb(255, 171, 131)",
-    "outlineStyle": "solid",
-    "contrast": 5.49,
-    "normalTextPass": true
-  },
-  {
-    "route": "onderhoud/",
-    "selector": ".text-link",
-    "state": "default",
-    "color": "rgb(37, 41, 39)",
-    "background": "rgb(246, 244, 239)",
-    "outline": "rgb(37, 41, 39)",
-    "outlineStyle": "none",
-    "contrast": 13.41,
-    "normalTextPass": true
-  },
-  {
-    "route": "onderhoud/",
-    "selector": ".text-link",
-    "state": "hover",
-    "color": "rgb(37, 41, 39)",
-    "background": "rgb(246, 244, 239)",
-    "outline": "rgb(37, 41, 39)",
-    "outlineStyle": "none",
-    "contrast": 13.41,
-    "normalTextPass": true
-  },
-  {
-    "route": "onderhoud/",
-    "selector": ".text-link",
-    "state": "focus",
-    "color": "rgb(37, 41, 39)",
-    "background": "rgb(246, 244, 239)",
-    "outline": "rgb(169, 64, 22)",
-    "outlineStyle": "solid",
-    "contrast": 13.41,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "onderhoud/",
@@ -203,10 +239,12 @@
     "state": "default",
     "color": "rgb(200, 208, 202)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(200, 208, 202)",
     "outline": "rgb(200, 208, 202)",
     "outlineStyle": "none",
     "contrast": 9.78,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "onderhoud/",
@@ -214,10 +252,12 @@
     "state": "hover",
     "color": "rgb(255, 255, 255)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 255, 255)",
     "outline": "rgb(255, 255, 255)",
     "outlineStyle": "none",
     "contrast": 15.41,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "onderhoud/",
@@ -225,10 +265,12 @@
     "state": "focus",
     "color": "rgb(255, 255, 255)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 255, 255)",
     "outline": "rgb(255, 171, 131)",
     "outlineStyle": "solid",
     "contrast": 15.41,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "onderhoud/",
@@ -236,10 +278,12 @@
     "state": "default",
     "color": "rgb(224, 230, 225)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(224, 230, 225)",
     "outline": "rgb(224, 230, 225)",
     "outlineStyle": "none",
     "contrast": 12.16,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "onderhoud/",
@@ -247,10 +291,12 @@
     "state": "hover",
     "color": "rgb(255, 171, 131)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 171, 131)",
     "outline": "rgb(255, 171, 131)",
     "outlineStyle": "none",
     "contrast": 8.37,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "onderhoud/",
@@ -258,10 +304,12 @@
     "state": "focus",
     "color": "rgb(255, 171, 131)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 171, 131)",
     "outline": "rgb(255, 171, 131)",
     "outlineStyle": "solid",
     "contrast": 8.37,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "slotenservice/",
@@ -269,10 +317,12 @@
     "state": "default",
     "color": "rgb(24, 32, 27)",
     "background": "rgb(242, 107, 50)",
+    "border": "rgba(0, 0, 0, 0)",
     "outline": "rgb(24, 32, 27)",
     "outlineStyle": "none",
     "contrast": 5.49,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "slotenservice/",
@@ -280,21 +330,25 @@
     "state": "hover",
     "color": "rgb(24, 32, 27)",
     "background": "rgb(242, 107, 50)",
+    "border": "rgba(0, 0, 0, 0)",
     "outline": "rgb(24, 32, 27)",
     "outlineStyle": "none",
     "contrast": 5.49,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "slotenservice/",
     "selector": ".button--primary",
     "state": "focus",
     "color": "rgb(24, 32, 27)",
-    "background": "rgb(242, 107, 50)",
+    "background": "rgb(243, 109, 52)",
+    "border": "rgba(0, 0, 0, 0)",
     "outline": "rgb(255, 171, 131)",
     "outlineStyle": "solid",
-    "contrast": 5.49,
-    "normalTextPass": true
+    "contrast": 5.59,
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "slotenservice/",
@@ -302,10 +356,12 @@
     "state": "default",
     "color": "rgb(37, 41, 39)",
     "background": "rgb(246, 244, 239)",
+    "border": "rgb(37, 41, 39)",
     "outline": "rgb(37, 41, 39)",
     "outlineStyle": "none",
     "contrast": 13.41,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "slotenservice/",
@@ -313,10 +369,12 @@
     "state": "hover",
     "color": "rgb(37, 41, 39)",
     "background": "rgb(246, 244, 239)",
+    "border": "rgb(37, 41, 39)",
     "outline": "rgb(37, 41, 39)",
     "outlineStyle": "none",
     "contrast": 13.41,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "slotenservice/",
@@ -324,10 +382,12 @@
     "state": "focus",
     "color": "rgb(37, 41, 39)",
     "background": "rgb(246, 244, 239)",
+    "border": "rgb(37, 41, 39)",
     "outline": "rgb(169, 64, 22)",
     "outlineStyle": "solid",
     "contrast": 13.41,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "slotenservice/",
@@ -335,10 +395,12 @@
     "state": "default",
     "color": "rgb(200, 208, 202)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(200, 208, 202)",
     "outline": "rgb(200, 208, 202)",
     "outlineStyle": "none",
     "contrast": 9.78,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "slotenservice/",
@@ -346,10 +408,12 @@
     "state": "hover",
     "color": "rgb(255, 255, 255)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 255, 255)",
     "outline": "rgb(255, 255, 255)",
     "outlineStyle": "none",
     "contrast": 15.41,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "slotenservice/",
@@ -357,10 +421,12 @@
     "state": "focus",
     "color": "rgb(255, 255, 255)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 255, 255)",
     "outline": "rgb(255, 171, 131)",
     "outlineStyle": "solid",
     "contrast": 15.41,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "slotenservice/",
@@ -368,10 +434,12 @@
     "state": "default",
     "color": "rgb(224, 230, 225)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(224, 230, 225)",
     "outline": "rgb(224, 230, 225)",
     "outlineStyle": "none",
     "contrast": 12.16,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "slotenservice/",
@@ -379,10 +447,12 @@
     "state": "hover",
     "color": "rgb(255, 171, 131)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 171, 131)",
     "outline": "rgb(255, 171, 131)",
     "outlineStyle": "none",
     "contrast": 8.37,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "slotenservice/",
@@ -390,10 +460,12 @@
     "state": "focus",
     "color": "rgb(255, 171, 131)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 171, 131)",
     "outline": "rgb(255, 171, 131)",
     "outlineStyle": "solid",
     "contrast": 8.37,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "isolatie/",
@@ -401,10 +473,12 @@
     "state": "default",
     "color": "rgb(24, 32, 27)",
     "background": "rgb(242, 107, 50)",
+    "border": "rgba(0, 0, 0, 0)",
     "outline": "rgb(24, 32, 27)",
     "outlineStyle": "none",
     "contrast": 5.49,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "isolatie/",
@@ -412,21 +486,25 @@
     "state": "hover",
     "color": "rgb(24, 32, 27)",
     "background": "rgb(242, 107, 50)",
+    "border": "rgba(0, 0, 0, 0)",
     "outline": "rgb(24, 32, 27)",
     "outlineStyle": "none",
     "contrast": 5.49,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "isolatie/",
     "selector": ".button--primary",
     "state": "focus",
     "color": "rgb(24, 32, 27)",
-    "background": "rgb(242, 107, 50)",
+    "background": "rgb(243, 109, 52)",
+    "border": "rgba(0, 0, 0, 0)",
     "outline": "rgb(255, 171, 131)",
     "outlineStyle": "solid",
-    "contrast": 5.49,
-    "normalTextPass": true
+    "contrast": 5.59,
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "isolatie/",
@@ -434,10 +512,12 @@
     "state": "default",
     "color": "rgb(37, 41, 39)",
     "background": "rgb(246, 244, 239)",
+    "border": "rgb(37, 41, 39)",
     "outline": "rgb(37, 41, 39)",
     "outlineStyle": "none",
     "contrast": 13.41,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "isolatie/",
@@ -445,10 +525,12 @@
     "state": "hover",
     "color": "rgb(37, 41, 39)",
     "background": "rgb(246, 244, 239)",
+    "border": "rgb(37, 41, 39)",
     "outline": "rgb(37, 41, 39)",
     "outlineStyle": "none",
     "contrast": 13.41,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "isolatie/",
@@ -456,10 +538,12 @@
     "state": "focus",
     "color": "rgb(37, 41, 39)",
     "background": "rgb(246, 244, 239)",
+    "border": "rgb(37, 41, 39)",
     "outline": "rgb(169, 64, 22)",
     "outlineStyle": "solid",
     "contrast": 13.41,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "isolatie/",
@@ -467,10 +551,12 @@
     "state": "default",
     "color": "rgb(200, 208, 202)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(200, 208, 202)",
     "outline": "rgb(200, 208, 202)",
     "outlineStyle": "none",
     "contrast": 9.78,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "isolatie/",
@@ -478,10 +564,12 @@
     "state": "hover",
     "color": "rgb(255, 255, 255)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 255, 255)",
     "outline": "rgb(255, 255, 255)",
     "outlineStyle": "none",
     "contrast": 15.41,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "isolatie/",
@@ -489,10 +577,12 @@
     "state": "focus",
     "color": "rgb(255, 255, 255)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 255, 255)",
     "outline": "rgb(255, 171, 131)",
     "outlineStyle": "solid",
     "contrast": 15.41,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "isolatie/",
@@ -500,10 +590,12 @@
     "state": "default",
     "color": "rgb(224, 230, 225)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(224, 230, 225)",
     "outline": "rgb(224, 230, 225)",
     "outlineStyle": "none",
     "contrast": 12.16,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "isolatie/",
@@ -511,10 +603,12 @@
     "state": "hover",
     "color": "rgb(255, 171, 131)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 171, 131)",
     "outline": "rgb(255, 171, 131)",
     "outlineStyle": "none",
     "contrast": 8.37,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "isolatie/",
@@ -522,10 +616,12 @@
     "state": "focus",
     "color": "rgb(255, 171, 131)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 171, 131)",
     "outline": "rgb(255, 171, 131)",
     "outlineStyle": "solid",
     "contrast": 8.37,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "zakelijk/",
@@ -533,10 +629,12 @@
     "state": "default",
     "color": "rgb(24, 32, 27)",
     "background": "rgb(242, 107, 50)",
+    "border": "rgba(0, 0, 0, 0)",
     "outline": "rgb(24, 32, 27)",
     "outlineStyle": "none",
     "contrast": 5.49,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "zakelijk/",
@@ -544,10 +642,12 @@
     "state": "hover",
     "color": "rgb(24, 32, 27)",
     "background": "rgb(242, 107, 50)",
+    "border": "rgba(0, 0, 0, 0)",
     "outline": "rgb(24, 32, 27)",
     "outlineStyle": "none",
     "contrast": 5.49,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "zakelijk/",
@@ -555,10 +655,12 @@
     "state": "focus",
     "color": "rgb(24, 32, 27)",
     "background": "rgb(242, 107, 50)",
+    "border": "rgba(0, 0, 0, 0)",
     "outline": "rgb(255, 171, 131)",
     "outlineStyle": "solid",
     "contrast": 5.49,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "zakelijk/",
@@ -566,10 +668,12 @@
     "state": "default",
     "color": "rgb(37, 41, 39)",
     "background": "rgb(246, 244, 239)",
+    "border": "rgb(37, 41, 39)",
     "outline": "rgb(37, 41, 39)",
     "outlineStyle": "none",
     "contrast": 13.41,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "zakelijk/",
@@ -577,10 +681,12 @@
     "state": "hover",
     "color": "rgb(37, 41, 39)",
     "background": "rgb(246, 244, 239)",
+    "border": "rgb(37, 41, 39)",
     "outline": "rgb(37, 41, 39)",
     "outlineStyle": "none",
     "contrast": 13.41,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "zakelijk/",
@@ -588,10 +694,12 @@
     "state": "focus",
     "color": "rgb(37, 41, 39)",
     "background": "rgb(246, 244, 239)",
+    "border": "rgb(37, 41, 39)",
     "outline": "rgb(169, 64, 22)",
     "outlineStyle": "solid",
     "contrast": 13.41,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "zakelijk/",
@@ -599,10 +707,12 @@
     "state": "default",
     "color": "rgb(200, 208, 202)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(200, 208, 202)",
     "outline": "rgb(200, 208, 202)",
     "outlineStyle": "none",
     "contrast": 9.78,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "zakelijk/",
@@ -610,10 +720,12 @@
     "state": "hover",
     "color": "rgb(255, 255, 255)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 255, 255)",
     "outline": "rgb(255, 255, 255)",
     "outlineStyle": "none",
     "contrast": 15.41,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "zakelijk/",
@@ -621,10 +733,12 @@
     "state": "focus",
     "color": "rgb(255, 255, 255)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 255, 255)",
     "outline": "rgb(255, 171, 131)",
     "outlineStyle": "solid",
     "contrast": 15.41,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "zakelijk/",
@@ -632,10 +746,12 @@
     "state": "default",
     "color": "rgb(224, 230, 225)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(224, 230, 225)",
     "outline": "rgb(224, 230, 225)",
     "outlineStyle": "none",
     "contrast": 12.16,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "zakelijk/",
@@ -643,10 +759,12 @@
     "state": "hover",
     "color": "rgb(255, 171, 131)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 171, 131)",
     "outline": "rgb(255, 171, 131)",
     "outlineStyle": "none",
     "contrast": 8.37,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "zakelijk/",
@@ -654,10 +772,12 @@
     "state": "focus",
     "color": "rgb(255, 171, 131)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 171, 131)",
     "outline": "rgb(255, 171, 131)",
     "outlineStyle": "solid",
     "contrast": 8.37,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "contact/",
@@ -665,10 +785,12 @@
     "state": "default",
     "color": "rgb(24, 32, 27)",
     "background": "rgb(242, 107, 50)",
+    "border": "rgba(0, 0, 0, 0)",
     "outline": "rgb(24, 32, 27)",
     "outlineStyle": "none",
     "contrast": 5.49,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "contact/",
@@ -676,10 +798,12 @@
     "state": "hover",
     "color": "rgb(24, 32, 27)",
     "background": "rgb(242, 107, 50)",
+    "border": "rgba(0, 0, 0, 0)",
     "outline": "rgb(24, 32, 27)",
     "outlineStyle": "none",
     "contrast": 5.49,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "contact/",
@@ -687,10 +811,12 @@
     "state": "focus",
     "color": "rgb(24, 32, 27)",
     "background": "rgb(242, 107, 50)",
+    "border": "rgba(0, 0, 0, 0)",
     "outline": "rgb(255, 171, 131)",
     "outlineStyle": "solid",
     "contrast": 5.49,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "contact/",
@@ -698,10 +824,12 @@
     "state": "default",
     "color": "rgb(200, 208, 202)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(200, 208, 202)",
     "outline": "rgb(200, 208, 202)",
     "outlineStyle": "none",
     "contrast": 9.78,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "contact/",
@@ -709,10 +837,12 @@
     "state": "hover",
     "color": "rgb(255, 255, 255)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 255, 255)",
     "outline": "rgb(255, 255, 255)",
     "outlineStyle": "none",
     "contrast": 15.41,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "contact/",
@@ -720,10 +850,12 @@
     "state": "focus",
     "color": "rgb(255, 255, 255)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 255, 255)",
     "outline": "rgb(255, 171, 131)",
     "outlineStyle": "solid",
     "contrast": 15.41,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "contact/",
@@ -731,10 +863,12 @@
     "state": "default",
     "color": "rgb(224, 230, 225)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(224, 230, 225)",
     "outline": "rgb(224, 230, 225)",
     "outlineStyle": "none",
     "contrast": 12.16,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "contact/",
@@ -742,10 +876,12 @@
     "state": "hover",
     "color": "rgb(255, 171, 131)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 171, 131)",
     "outline": "rgb(255, 171, 131)",
     "outlineStyle": "none",
     "contrast": 8.37,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "contact/",
@@ -753,10 +889,12 @@
     "state": "focus",
     "color": "rgb(255, 171, 131)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgb(255, 171, 131)",
     "outline": "rgb(255, 171, 131)",
     "outlineStyle": "solid",
     "contrast": 8.37,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "contact/",
@@ -764,10 +902,12 @@
     "state": "default",
     "color": "rgb(255, 255, 255)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgba(0, 0, 0, 0)",
     "outline": "rgb(255, 255, 255)",
     "outlineStyle": "none",
     "contrast": 15.41,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "contact/",
@@ -775,20 +915,112 @@
     "state": "hover",
     "color": "rgb(255, 255, 255)",
     "background": "rgb(32, 38, 35)",
+    "border": "rgba(0, 0, 0, 0)",
     "outline": "rgb(255, 255, 255)",
     "outlineStyle": "none",
     "contrast": 15.41,
-    "normalTextPass": true
+    "textPass": true,
+    "inputBorderContrast": null
   },
   {
     "route": "contact/",
     "selector": ".contact-form .button",
     "state": "focus",
     "color": "rgb(255, 255, 255)",
-    "background": "rgb(32, 38, 35)",
+    "background": "rgb(34, 41, 37)",
+    "border": "rgba(0, 0, 0, 0)",
     "outline": "rgb(169, 64, 22)",
     "outlineStyle": "solid",
-    "contrast": 15.41,
-    "normalTextPass": true
+    "contrast": 14.87,
+    "textPass": true,
+    "inputBorderContrast": null
+  },
+  {
+    "route": "contact/",
+    "selector": ".contact-form input",
+    "state": "default",
+    "color": "rgb(37, 41, 39)",
+    "background": "rgb(255, 255, 255)",
+    "border": "rgb(134, 144, 135)",
+    "outline": "rgb(37, 41, 39)",
+    "outlineStyle": "none",
+    "contrast": 14.74,
+    "textPass": true,
+    "inputBorderContrast": 3.31
+  },
+  {
+    "route": "contact/",
+    "selector": ".contact-form input",
+    "state": "hover",
+    "color": "rgb(37, 41, 39)",
+    "background": "rgb(255, 255, 255)",
+    "border": "rgb(134, 144, 135)",
+    "outline": "rgb(37, 41, 39)",
+    "outlineStyle": "none",
+    "contrast": 14.74,
+    "textPass": true,
+    "inputBorderContrast": 3.31
+  },
+  {
+    "route": "contact/",
+    "selector": ".contact-form input",
+    "state": "focus",
+    "color": "rgb(37, 41, 39)",
+    "background": "rgb(255, 255, 255)",
+    "border": "rgb(134, 144, 135)",
+    "outline": "rgb(169, 64, 22)",
+    "outlineStyle": "solid",
+    "contrast": 14.74,
+    "textPass": true,
+    "inputBorderContrast": 3.31
+  },
+  {
+    "route": "contact/",
+    "selector": ".contact-form textarea",
+    "state": "default",
+    "color": "rgb(37, 41, 39)",
+    "background": "rgb(255, 255, 255)",
+    "border": "rgb(134, 144, 135)",
+    "outline": "rgb(37, 41, 39)",
+    "outlineStyle": "none",
+    "contrast": 14.74,
+    "textPass": true,
+    "inputBorderContrast": 3.31
+  },
+  {
+    "route": "contact/",
+    "selector": ".contact-form textarea",
+    "state": "hover",
+    "color": "rgb(37, 41, 39)",
+    "background": "rgb(255, 255, 255)",
+    "border": "rgb(134, 144, 135)",
+    "outline": "rgb(37, 41, 39)",
+    "outlineStyle": "none",
+    "contrast": 14.74,
+    "textPass": true,
+    "inputBorderContrast": 3.31
+  },
+  {
+    "route": "contact/",
+    "selector": ".contact-form textarea",
+    "state": "focus",
+    "color": "rgb(37, 41, 39)",
+    "background": "rgb(255, 255, 255)",
+    "border": "rgb(134, 144, 135)",
+    "outline": "rgb(169, 64, 22)",
+    "outlineStyle": "solid",
+    "contrast": 14.74,
+    "textPass": true,
+    "inputBorderContrast": 3.31
+  },
+  {
+    "route": "contact/",
+    "selector": ".contact-form .button",
+    "state": "disabled/no-JS",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(43, 51, 46)",
+    "disabled": true,
+    "contrast": 13,
+    "textPass": true
   }
 ]

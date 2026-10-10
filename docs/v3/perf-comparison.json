@@ -1,0 +1,111 @@
+{
+  "status": "local complete; live pending publication",
+  "baselineSource": "e7b2fbb93f4621d282eaf68d45afcd02ddd8dde0",
+  "candidateSource": "f3eca45be9f51cbebb2c309c983e2f43a229500c",
+  "candidateBuildSha256": "9b3bcfd3f748ecab995f7eccebc18360cf0a26ce442a838bdb697a511889da47",
+  "method": "Lighthouse13.5 mobile simulate, identical settings; six complete route rows per environment, no mixing of local/live",
+  "rows": [
+    {
+      "environment": "local",
+      "route": "/",
+      "before": {
+        "performance": 91,
+        "lcpMs": 3381.87615,
+        "cls": 0,
+        "tbtMs": 37
+      },
+      "after": {
+        "performance": 96,
+        "lcpMs": 2410.9685,
+        "cls": 0,
+        "tbtMs": 116.5
+      },
+      "pass": true
+    },
+    {
+      "environment": "local",
+      "route": "onderhoud/",
+      "before": {
+        "performance": 97,
+        "lcpMs": 2557.7922,
+        "cls": 0,
+        "tbtMs": 0
+      },
+      "after": {
+        "performance": 100,
+        "lcpMs": 1880.5848,
+        "cls": 0,
+        "tbtMs": 0
+      },
+      "pass": true
+    },
+    {
+      "environment": "local",
+      "route": "slotenservice/",
+      "before": {
+        "performance": 98,
+        "lcpMs": 2256.93675,
+        "cls": 0,
+        "tbtMs": 0
+      },
+      "after": {
+        "performance": 100,
+        "lcpMs": 1655.763,
+        "cls": 0,
+        "tbtMs": 0
+      },
+      "pass": true
+    },
+    {
+      "environment": "local",
+      "route": "isolatie/",
+      "before": {
+        "performance": 95,
+        "lcpMs": 2781.3475500000004,
+        "cls": 0,
+        "tbtMs": 0
+      },
+      "after": {
+        "performance": 98,
+        "lcpMs": 2404.4469,
+        "cls": 0,
+        "tbtMs": 0
+      },
+      "pass": true
+    },
+    {
+      "environment": "local",
+      "route": "zakelijk/",
+      "before": {
+        "performance": 95,
+        "lcpMs": 2854.96155,
+        "cls": 0,
+        "tbtMs": 0
+      },
+      "after": {
+        "performance": 99,
+        "lcpMs": 2253.38,
+        "cls": 0,
+        "tbtMs": 0
+      },
+      "pass": true
+    },
+    {
+      "environment": "local",
+      "route": "contact/",
+      "before": {
+        "performance": 99,
+        "lcpMs": 2105.14185,
+        "cls": 0,
+        "tbtMs": 0
+      },
+      "after": {
+        "performance": 100,
+        "lcpMs": 1202.6241,
+        "cls": 0,
+        "tbtMs": 0
+      },
+      "pass": true
+    }
+  ]
+}
