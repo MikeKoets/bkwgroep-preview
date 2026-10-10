@@ -1,9 +1,16 @@
 {
-  "status": "local complete; live pending publication",
+  "status": "all twelve local/live target gates PASS",
   "baselineSource": "e7b2fbb93f4621d282eaf68d45afcd02ddd8dde0",
-  "candidateSource": "f3eca45be9f51cbebb2c309c983e2f43a229500c",
+  "candidateRuntimeSource": "f3eca45be9f51cbebb2c309c983e2f43a229500c",
+  "publishedSource": "e431e6c04a41a6031c544fd36a6b02bb1acfcf66",
   "candidateBuildSha256": "9b3bcfd3f748ecab995f7eccebc18360cf0a26ce442a838bdb697a511889da47",
-  "method": "Lighthouse13.5 mobile simulate, identical settings; six complete route rows per environment, no mixing of local/live",
+  "method": "Lighthouse13.5 mobile simulate, Slow4G/4xCPU,cold profile,serial; environments compared separately",
+  "thresholds": {
+    "performance_min": 90,
+    "lcpMs_max_exclusive": 2500,
+    "cls_max_exclusive": 0.05,
+    "tbtMs_max_exclusive": 200
+  },
   "rows": [
     {
       "environment": "local",
@@ -102,6 +109,108 @@
       "after": {
         "performance": 100,
         "lcpMs": 1202.6241,
+        "cls": 0,
+        "tbtMs": 0
+      },
+      "pass": true
+    },
+    {
+      "environment": "live",
+      "route": "/",
+      "before": {
+        "performance": 99,
+        "lcpMs": 2103.8,
+        "cls": 0,
+        "tbtMs": 0
+      },
+      "after": {
+        "performance": 100,
+        "lcpMs": 1378.0365000000002,
+        "cls": 0,
+        "tbtMs": 1.5
+      },
+      "pass": true
+    },
+    {
+      "environment": "live",
+      "route": "onderhoud/",
+      "before": {
+        "performance": 99,
+        "lcpMs": 1809.8434,
+        "cls": 0,
+        "tbtMs": 0
+      },
+      "after": {
+        "performance": 100,
+        "lcpMs": 1214.1865,
+        "cls": 0,
+        "tbtMs": 0
+      },
+      "pass": true
+    },
+    {
+      "environment": "live",
+      "route": "slotenservice/",
+      "before": {
+        "performance": 99,
+        "lcpMs": 1916.7730999999999,
+        "cls": 0,
+        "tbtMs": 0
+      },
+      "after": {
+        "performance": 100,
+        "lcpMs": 1209.8040999999998,
+        "cls": 0,
+        "tbtMs": 1
+      },
+      "pass": true
+    },
+    {
+      "environment": "live",
+      "route": "isolatie/",
+      "before": {
+        "performance": 99,
+        "lcpMs": 2111.5477,
+        "cls": 0,
+        "tbtMs": 0
+      },
+      "after": {
+        "performance": 100,
+        "lcpMs": 1360.3555000000001,
+        "cls": 0,
+        "tbtMs": 0
+      },
+      "pass": true
+    },
+    {
+      "environment": "live",
+      "route": "zakelijk/",
+      "before": {
+        "performance": 99,
+        "lcpMs": 2113.9175999999998,
+        "cls": 0,
+        "tbtMs": 0
+      },
+      "after": {
+        "performance": 100,
+        "lcpMs": 1225.6424,
+        "cls": 0,
+        "tbtMs": 0
+      },
+      "pass": true
+    },
+    {
+      "environment": "live",
+      "route": "contact/",
+      "before": {
+        "performance": 100,
+        "lcpMs": 1661.1478,
+        "cls": 0,
+        "tbtMs": 0
+      },
+      "after": {
+        "performance": 100,
+        "lcpMs": 1064.2426,
         "cls": 0,
         "tbtMs": 0
       },

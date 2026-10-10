@@ -36,3 +36,11 @@ Basis: e7b2fbb93f4621d282eaf68d45afcd02ddd8dde0. BKW-previewrepository, branchco
 ## Performance en online sluiting
 
 Lighthouse live/lokaal vóór en na: afzonderlijke JSONbestanden en perf-comparison.json. Gesimuleerde mobiele Slow4G/4xCPU, koud profiel, zes routes, serialisatie zonder gelijktijdige browsertests. Dit zijn labmetingen. Zie release-report.md voor definitieve resultaten en review/livebewijs.
+
+## Gepubliceerde sluitcontrole
+
+Eerste publicatie `e431e6c04a41a6031c544fd36a6b02bb1acfcf66`, dezelfde runtime als de onafhankelijk gereviewde `f3eca45be9f51cbebb2c309c983e2f43a229500c`. Pages-workflow38010478615 geslaagd. `live/published-integrity.json` bewijst alle76bestanden byte-identiek met dist, twaalf echte online full-page screenshots, zes routes desktop/mobile HTTP200, nuloverflow en brandedunknown-route HTTP404.
+
+De volledige online Chromium/WebKit-suite: **88/88 PASS,0flaky,0skipped,0retries**. De twee lokale duurzame screenshotcases zijn online uitgesloten om de lokale voor/na-bewijzen te behouden; de twaalf afzonderlijke online screenshots zijn hierboven opgenomen. Rapport: `live/browser-tests.json`, gestart2026-10-10T00:47:46.121Z. Alle zes routes en zeven breedtes, menu, scroll/refresh/anchors, vertraagde hydration, demo-submit inclusief JS-uit, metadata en Axe worden op de werkelijke Pages-host getest.
+
+Onafhankelijke lokale én live-review GO:0Critical/0High/0Medium/0Low, geen reviewcorrectieronde. Zes online Lighthouse-routes P100,LCP1064–1378ms,CLS0,TBT0–1,5ms; alle twaalf lokale/online doelen PASS. Bron/buildhashes zijn in perf-comparison.json en het reviewverslag gekoppeld.

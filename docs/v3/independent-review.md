@@ -29,3 +29,32 @@ The supplied final Lighthouse evidence passes every stated threshold across six 
 This is a **local preview GO**, pending published-host closure. It does not claim physical iOS testing, spoken VoiceOver/NVDA validation, field performance, or a working production form. No repository files were changed, rebuilt, committed, or published during this review.
 
 **Local review complete. Available for the requested read-only live closure.**
+
+
+# Independent V3 live closure
+
+**LIVE GO — Critical 0 / High 0 / Medium 0 / Low 0.** No blockers or corrections required.
+
+Independently reviewed the actual published site at https://mikekoets.github.io/bkwgroep-preview/ in Chromium and WebKit.
+
+Published source `e431e6c04a41a6031c544fd36a6b02bb1acfcf66` contains the previously approved runtime `f3eca45be9f51cbebb2c309c983e2f43a229500c`. The intervening changes are review/evidence tooling and documentation. I independently fetched and byte-checked 13 published files: all six route HTML documents, branded 404, both JavaScript bundles, CSS, font, hero photograph, and OG image. All match local dist and the integrity report. The supplied full report records **76/76 identical files**.
+
+Independent live checks passed:
+
+- All six routes at **390 and 1440**, in both engines: **24 route/viewport visits plus refreshes**, with no overflow, missing images, console errors on valid pages, or incorrect preview metadata.
+- Navigation scroll **0**, back **950**, forward **650**, refresh **650**, in both engines at both widths.
+- Home anchor offsets approximately **88 px mobile / 120 px desktop**.
+- Legacy slashless service URL resolves to its directory URL; subsequent refresh preserves **650 px**.
+- Unknown URL returns **HTTP 404**, displays the branded missing-page view, and successfully returns home.
+- Mobile menu keyboard cycle, Escape, restored trigger focus, and background inert cleanup.
+- Synthetic demo validation and confirmation with **no submission requests or entered-data storage**.
+- With JavaScript disabled, submit remains disabled and Enter causes **no document submission**, in both engines.
+- noindex, nofollow, noarchive retained; no canonical or active JSON-LD.
+
+Fresh mobile WebKit rendering and the published desktop image confirm the approved V3 hero is live.
+
+The supplied online browser report records **88 passed, 0 unexpected, 0 flaky, 0 skipped**. The final live Lighthouse report is linked to the same build fingerprint and records all six routes at **P100**, **LCP 1064–1378 ms**, **CLS 0**, and **TBT 0–1.5 ms**. I inspected this evidence without rerunning Lighthouse.
+
+Approval covers this published preview. Physical iOS and spoken VoiceOver/NVDA remain untested; the form remains an explicit demo. No files were edited, built, committed, or published during this closure.
+
+**Independent live closure complete.**
