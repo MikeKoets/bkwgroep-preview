@@ -284,3 +284,27 @@ test('review corrections: readable mobile cards, honest contact actions and unob
   await expect(focused).toBeFocused()
   await expect(focused).toHaveCSS('outline-color', 'rgb(255, 171, 131)')
 })
+
+
+test('mobile drawer opens from the left and its right backdrop closes it without moving the page', async ({ page }) => {
+  for (const width of [320, 375, 390, 430, 768, 1024]) {
+    await page.setViewportSize({ width, height: 844 })
+    await page.goto('')
+    const trigger = page.getByRole('button', { name: 'Menu openen' })
+    await expect(trigger).toHaveAttribute('data-interactive', 'true')
+    await page.evaluate(() => document.fonts.ready)
+    await page.evaluate(() => scrollTo({ top: 500, behavior: 'instant' }))
+    const triggerBox = await trigger.boundingBox()
+    // Click its visible sticky position: locator.click auto-scrolls sticky controls.
+    await page.mouse.click(triggerBox!.x + triggerBox!.width / 2, triggerBox!.y + triggerBox!.height / 2)
+    const dialog = page.getByRole('dialog', { name: 'Mobiele navigatie' })
+    await expect.poll(async () => (await dialog.boundingBox())!.x).toBe(0)
+    const box = await dialog.boundingBox()
+    expect(box!.width).toBeCloseTo(Math.min(width * 0.88, 390), 0)
+    expect(await page.evaluate(() => document.documentElement.scrollWidth - innerWidth)).toBeLessThanOrEqual(1)
+    await page.mouse.click(width - 8, 100)
+    await expect(dialog).toHaveCount(0)
+    await expect(page.locator('.site-shell')).toHaveJSProperty('inert', false)
+    await expect.poll(() => page.evaluate(() => scrollY)).toBe(500)
+  }
+})

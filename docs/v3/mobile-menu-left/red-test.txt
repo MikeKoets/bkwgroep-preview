@@ -1,0 +1,80 @@
+
+Running 2 tests using 2 workers
+
+(node:70431) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:70430) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 [chromium] › tests/site.spec.ts:289:1 › mobile drawer opens from the left and its right backdrop closes it without moving the page (6.0s)
+  ✘  1 [webkit] › tests/site.spec.ts:289:1 › mobile drawer opens from the left and its right backdrop closes it without moving the page (6.7s)
+
+
+  1) [chromium] › tests/site.spec.ts:289:1 › mobile drawer opens from the left and its right backdrop closes it without moving the page 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 38.40625
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+      294 |     await page.getByRole('button', { name: 'Menu openen' }).click()
+      295 |     const dialog = page.getByRole('dialog', { name: 'Mobiele navigatie' })
+    > 296 |     await expect.poll(async () => (await dialog.boundingBox())!.x).toBe(0)
+          |                                                                    ^
+      297 |     const box = await dialog.boundingBox()
+      298 |     expect(box!.width).toBeCloseTo(Math.min(width * 0.88, 390), 0)
+      299 |     expect(await page.evaluate(() => document.documentElement.scrollWidth - innerWidth)).toBeLessThanOrEqual(1)
+        at /Users/jsmecommerceb.v./Documents/Codex/worktrees/bkwgroep-preview/tests/site.spec.ts:296:68
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/site-mobile-drawer-opens-f-60ef9--it-without-moving-the-page-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/site-mobile-drawer-opens-f-60ef9--it-without-moving-the-page-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/site-mobile-drawer-opens-f-60ef9--it-without-moving-the-page-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/site-mobile-drawer-opens-f-60ef9--it-without-moving-the-page-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [webkit] › tests/site.spec.ts:289:1 › mobile drawer opens from the left and its right backdrop closes it without moving the page 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 38.40625
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+      294 |     await page.getByRole('button', { name: 'Menu openen' }).click()
+      295 |     const dialog = page.getByRole('dialog', { name: 'Mobiele navigatie' })
+    > 296 |     await expect.poll(async () => (await dialog.boundingBox())!.x).toBe(0)
+          |                                                                    ^
+      297 |     const box = await dialog.boundingBox()
+      298 |     expect(box!.width).toBeCloseTo(Math.min(width * 0.88, 390), 0)
+      299 |     expect(await page.evaluate(() => document.documentElement.scrollWidth - innerWidth)).toBeLessThanOrEqual(1)
+        at /Users/jsmecommerceb.v./Documents/Codex/worktrees/bkwgroep-preview/tests/site.spec.ts:296:68
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/site-mobile-drawer-opens-f-60ef9--it-without-moving-the-page-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/site-mobile-drawer-opens-f-60ef9--it-without-moving-the-page-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/site-mobile-drawer-opens-f-60ef9--it-without-moving-the-page-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/site-mobile-drawer-opens-f-60ef9--it-without-moving-the-page-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [chromium] › tests/site.spec.ts:289:1 › mobile drawer opens from the left and its right backdrop closes it without moving the page 
+    [webkit] › tests/site.spec.ts:289:1 › mobile drawer opens from the left and its right backdrop closes it without moving the page 

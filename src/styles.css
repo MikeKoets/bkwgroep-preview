@@ -322,15 +322,20 @@ main:focus {
   inset: 0;
   z-index: 120;
   display: grid;
-  grid-template-columns: 1fr min(88vw, 390px);
+  grid-template-columns: min(88vw, 390px) 1fr;
   height: 100vh;
   max-height: 100dvh;
 }
 .mobile-nav-backdrop {
+  grid-column: 2;
+  grid-row: 1;
   background: rgb(10 17 12 / 60%);
   border: 0;
 }
 .mobile-nav {
+  grid-column: 1;
+  grid-row: 1;
+  animation: mobile-menu-enter 180ms ease-out;
   min-width: 0;
   background: var(--dark);
   padding: 24px 24px max(24px, env(safe-area-inset-bottom));
@@ -339,6 +344,14 @@ main:focus {
   flex-direction: column;
   overflow-y: auto;
   padding-top: max(24px, env(safe-area-inset-top));
+}
+@keyframes mobile-menu-enter {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 .mobile-nav__header {
   display: flex;
