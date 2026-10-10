@@ -35,3 +35,25 @@ Physical iOS and spoken VoiceOver/NVDA remain untested. The form remains a demo.
 ## Implementer correction
 
 Reproduced the Low finding in both engines with a new regression:800px selected for1421.72px painted width. Smallest correction adds a1422px sizes hint between mobile and wide desktop. Mobile hint is retained. No layout/CSS/image-generation change. Updated complete local suite and independent closure follow below.
+
+## Final local reviewer closure
+
+**Final local GO — Critical 0 / High 0 / Medium 0 / Low 0.**
+
+The tablet image-resolution finding is closed. Independently verified Chromium and WebKit at768 and1024px/DPR1: both now select teamBanner-1800.webp, exceeding the measured1421.72px effective cover width. No overflow.
+
+Confirmed runtime diff from reviewed c1007428 is one sizes attribute. Routing, menu, scroll restoration, form safety, and indexing logic unchanged. Browser checks confirm retained noindex,nofollow,noarchive, with no canonical or active JSON-LD. Viewed updated mobile/desktop hero captures: team framing, copy and CTA remain intact.
+
+Saved final browser report92passed/0unexpected/0flaky/0skipped. Photo-text contrast35/35passed, minimum5.43:1. Independently recomputed build SHA256 f4b46e2db66bfcc8f2cde64feffeb44987137a85c7d22a084b675d4247a39f01, matching exact-source Lighthouse. All six routes P98–100,LCP1128–2404ms,CLS0,TBT0. Home P98/LCP2329.7ms.
+
+Approval applies to source a2128f4573f173d0d5ae7d327caf39ab5783338a, tree c1a14d7d4f3029395ef62aab17106a2f33cf0f01. No edits/builds/commits/deployments during review. Physical iOS/spoken screenreader limitations remain. Ready for publication and subsequent live closure.
+
+## Final live reviewer closure
+
+**Final LIVE GO — Critical 0 / High 0 / Medium 0 / Low 0.**
+
+Independently checked published teamhero in Chromium and WebKit. Actual homepage390/768/1024/1440: approved team banner, readable copy, visible contact CTA, no overflow or console errors. Tablet correction closed online: both engines select teamBanner-1800.webp at768/1024; mobile expected1200variant. All six routes load/refresh with noindex,nofollow,noarchive, no canonical/active JSON-LD.
+
+Contact reaches scroll0. Services anchor lands88px below viewport top. Mobile menu keyboard cycle/Escape pass. Navigation0/back950/forward650/refresh650 passes both engines. Synthetic demo validation/confirmation pass with zero submission requests. Fresh public mobile rendering and saved desktop capture match approved presentation. Independently fetched homepage HTML, bootstrap and both used teamphoto variants match local dist byte-for-byte.
+
+Supplied evidence80/80identical published files, brandedHTTP404,90browser tests with0unexpected/flaky/skipped. Exact-source live Lighthouse all6P100,LCP1063–1654ms,CLS0,TBT0–3ms; home LCP1653.9/TBT1.5ms. Approval covers a2128f4573f173d0d5ae7d327caf39ab5783338a/buildfingerprintf4b46e2db66bfcc8f2cde64feffeb44987137a85c7d22a084b675d4247a39f01. No runtime changes since local approval. Physical iOS/spoken screenreader unavailable; form demo. No reviewer edits/builds/commits/deployments. Deployment closure complete.
