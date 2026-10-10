@@ -17,3 +17,15 @@ Volledige lokale suite96/96PASS,0unexpected/flaky/skipped. Unit37PASS, lint/type
 Uitsluitend bestaande GitHub Pages-preview; productie BKW/DNS/hosting en PT3 onaangeraakt. Previewrobots behouden, geen backend/formulierverzending. Geen fysieke iPhone of gesproken screenreader beschikbaar. Voor deze CSS-menupositie is geen nieuwe Lighthouse-serie gedraaid; vorig home-performancebewijs blijft historie.
 
 Online publicatie/sluitcontrole volgt hieronder.
+
+## Gepubliceerde kandidaat
+
+Runtimef22fdff43dbc54e054ab213594ca21b3c5778737/tree666a3b1f7d01c32ec352ffc04afb28826733d15f. [Pages-run38014363401](https://github.com/MikeKoets/bkwgroep-preview/actions/runs/38014363401) build/deploymentPASS.
+
+[Publicatie-integriteit](live/published-integrity.json):80/80bestanden byte-identiek aan goedgekeurde dist;8nieuwe daadwerkelijke openbare menucaptures in beide engines op320/390/430/768; zero overflow. Motion-suppressie op public host bevestigd. [Gerichte online tests](live/browser-tests.json):14/14PASS,0unexpected/flaky/skipped,links openen/backdrop sluiten,navigeren,focus/Escape/inert,late eerste tik en open-menuAxe0Serious/Critical.
+
+[Menu mobiel live](live/chromium-390.png). Gepubliceerd en online geverifieerd: https://mikekoets.github.io/bkwgroep-preview/
+
+## Sluiting
+
+[Onafhankelijke openbare review](independent-review.md):**GO0Critical/0High/0Medium/0Low**. Beide engines320/390:x0,rechterbackdrop,focus/Escape/inert,scroll500→500→500,reduce-motion en navigatie bevestigd. Geen runtimewijziging na de goedgekeurde kandidaat. Afsluitend bewijscommit wijzigt alleen docs/v3/mobile-menu-left. Geen open bevindingen.

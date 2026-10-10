@@ -1,0 +1,634 @@
+{
+  "config": {
+    "argv": [
+      "/Users/jsmecommerceb.v./.nvm/versions/node/v25.7.0/bin/node",
+      "/Users/jsmecommerceb.v./Documents/Codex/worktrees/bkwgroep-preview/node_modules/.bin/playwright",
+      "test",
+      "--grep",
+      "mobile drawer opens from the left|mobile navigation opens|mobile menu traps|first-frame menu tap|touch menu and form",
+      "--reporter=json"
+    ],
+    "configFile": "/Users/jsmecommerceb.v./Documents/Codex/worktrees/bkwgroep-preview/playwright.config.ts",
+    "rootDir": "/Users/jsmecommerceb.v./Documents/Codex/worktrees/bkwgroep-preview/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 3
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/jsmecommerceb.v./Documents/Codex/worktrees/bkwgroep-preview/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/jsmecommerceb.v./Documents/Codex/worktrees/bkwgroep-preview/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/jsmecommerceb.v./Documents/Codex/worktrees/bkwgroep-preview/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/jsmecommerceb.v./Documents/Codex/worktrees/bkwgroep-preview/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/jsmecommerceb.v./Documents/Codex/worktrees/bkwgroep-preview/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "name": "chromium",
+        "testDir": "/Users/jsmecommerceb.v./Documents/Codex/worktrees/bkwgroep-preview/tests",
+        "snapshotDir": "/Users/jsmecommerceb.v./Documents/Codex/worktrees/bkwgroep-preview/tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "https://mikekoets.github.io/bkwgroep-preview/",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "browserName": "chromium",
+          "channel": "chrome"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/jsmecommerceb.v./Documents/Codex/worktrees/bkwgroep-preview/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "name": "webkit",
+        "testDir": "/Users/jsmecommerceb.v./Documents/Codex/worktrees/bkwgroep-preview/tests",
+        "snapshotDir": "/Users/jsmecommerceb.v./Documents/Codex/worktrees/bkwgroep-preview/tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "https://mikekoets.github.io/bkwgroep-preview/",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "browserName": "webkit"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "webkit"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 3,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "site.spec.ts",
+      "file": "site.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "mobile navigation opens, navigates and closes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1437,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T01:46:46.508Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-db8801eecb15a8a77af9",
+          "file": "site.spec.ts",
+          "line": 41,
+          "column": 1
+        },
+        {
+          "title": "mobile menu traps keyboard focus, Escape restores it, and background remains inactive",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1130,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T01:46:46.498Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-9a23fccf09869e3884ed",
+          "file": "site.spec.ts",
+          "line": 206,
+          "column": 1
+        },
+        {
+          "title": "mobile drawer opens from the left and its right backdrop closes it without moving the page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 4479,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T01:46:46.511Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-f9ae19258ac8972d1e5a",
+          "file": "site.spec.ts",
+          "line": 289,
+          "column": 1
+        },
+        {
+          "title": "mobile navigation opens, navigates and closes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1422,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T01:46:51.288Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-02f79697e1ac2bcd1443",
+          "file": "site.spec.ts",
+          "line": 41,
+          "column": 1
+        },
+        {
+          "title": "mobile menu traps keyboard focus, Escape restores it, and background remains inactive",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1262,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T01:46:51.289Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-a7c19aa3ccc69f80a849",
+          "file": "site.spec.ts",
+          "line": 206,
+          "column": 1
+        },
+        {
+          "title": "mobile drawer opens from the left and its right backdrop closes it without moving the page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 4346,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T01:46:52.133Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-eb5c943d3b710a396c1b",
+          "file": "site.spec.ts",
+          "line": 289,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "v3.spec.ts",
+      "file": "v3.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "touch menu and form respect iOS layout requirements at 375",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1270,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T01:46:48.202Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "db0217481e7e2341cf40-97c423e7d9ce73bf6232",
+          "file": "v3.spec.ts",
+          "line": 68,
+          "column": 3
+        },
+        {
+          "title": "touch menu and form respect iOS layout requirements at 390",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1034,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T01:46:48.533Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "db0217481e7e2341cf40-836d845e62692f5c1293",
+          "file": "v3.spec.ts",
+          "line": 68,
+          "column": 3
+        },
+        {
+          "title": "touch menu and form respect iOS layout requirements at 430",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1072,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T01:46:49.485Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "db0217481e7e2341cf40-8dfb83f5e74ebaf4e9fa",
+          "file": "v3.spec.ts",
+          "line": 68,
+          "column": 3
+        },
+        {
+          "title": "a first-frame menu tap and user scroll survive a deliberately delayed interactive bundle",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1108,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T01:46:49.579Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "db0217481e7e2341cf40-c0d2fd7490609c4bf576",
+          "file": "v3.spec.ts",
+          "line": 113,
+          "column": 1
+        },
+        {
+          "title": "touch menu and form respect iOS layout requirements at 375",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1105,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T01:46:53.389Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "db0217481e7e2341cf40-b3026d0eca0298073029",
+          "file": "v3.spec.ts",
+          "line": 68,
+          "column": 3
+        },
+        {
+          "title": "touch menu and form respect iOS layout requirements at 390",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1203,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T01:46:53.549Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "db0217481e7e2341cf40-5f8448dec94874045307",
+          "file": "v3.spec.ts",
+          "line": 68,
+          "column": 3
+        },
+        {
+          "title": "touch menu and form respect iOS layout requirements at 430",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 959,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T01:46:54.504Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "db0217481e7e2341cf40-22fd8f9ea75427b8ee85",
+          "file": "v3.spec.ts",
+          "line": 68,
+          "column": 3
+        },
+        {
+          "title": "a first-frame menu tap and user scroll survive a deliberately delayed interactive bundle",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 869,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T01:46:54.760Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "db0217481e7e2341cf40-29baf7b207f87c51ffe8",
+          "file": "v3.spec.ts",
+          "line": 113,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-10T01:46:46.150Z",
+    "duration": 10640.839,
+    "expected": 14,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,506 @@
+{
+  "source": "f22fdff43dbc54e054ab213594ca21b3c5778737",
+  "checkedAt": "2026-10-10T01:46:33.387Z",
+  "files": [
+    {
+      "file": "dist/404.html",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/fonts/OFL-Manrope.txt",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/fonts/manrope-latin.woff2",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/images/business.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/images/contact.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/images/home-hero.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/images/locks-hero.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/images/maintenance-hero.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/images/professionals.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/index-IdU9pxUX.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/logo-bkw.svg",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/main-DZUj3NJs.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/og-bkw.jpg",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/craft-1200.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/craft-1570.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/craft-480.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/craft-640.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/craft-720.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/craft-800.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/detail-1200.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/detail-480.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/detail-640.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/detail-720.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/detail-800.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/fleet-1200.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/fleet-1600.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/fleet-480.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/fleet-640.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/fleet-720.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/fleet-800.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/heroWork-480.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/heroWork-640.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/heroWork-720.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/heroWork-790.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/insulation-1160.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/insulation-480.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/insulation-640.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/insulation-720.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/insulation-800.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/locks-1200.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/locks-1599.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/locks-480.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/locks-640.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/locks-720.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/locks-800.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/maintenance-1176.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/maintenance-480.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/maintenance-640.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/maintenance-720.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/maintenance-800.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/property-1200.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/property-1540.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/property-480.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/property-640.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/property-720.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/property-800.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/team-1200.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/team-1600.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/team-480.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/team-640.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/team-720.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/team-800.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/teamBanner-1200.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/teamBanner-1800.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/teamBanner-480.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/teamBanner-800.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/workshop-1200.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/workshop-1600.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/workshop-480.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/workshop-640.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/workshop-720.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/photos/workshop-800.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/assets/style-CNKMmRRP.css",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/contact/index.html",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/index.html",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/isolatie/index.html",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/onderhoud/index.html",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/robots.txt",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/slotenservice/index.html",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "file": "dist/zakelijk/index.html",
+      "status": 200,
+      "pass": true
+    }
+  ],
+  "cases": [
+    {
+      "engine": "chromium",
+      "width": 320,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 281.59375,
+        "height": 568
+      },
+      "overflow": 0
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 343.1875,
+        "height": 844
+      },
+      "overflow": 0
+    },
+    {
+      "engine": "chromium",
+      "width": 430,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 378.390625,
+        "height": 844
+      },
+      "overflow": 0
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      },
+      "overflow": 0
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 281.59375,
+        "height": 568
+      },
+      "overflow": 0
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 343.1875,
+        "height": 844
+      },
+      "overflow": 0
+    },
+    {
+      "engine": "webkit",
+      "width": 430,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 378.390625,
+        "height": 844
+      },
+      "overflow": 0
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      },
+      "overflow": 0
+    }
+  ],
+  "reducedMotion": [
+    {
+      "engine": "chromium",
+      "animation": "none"
+    },
+    {
+      "engine": "webkit",
+      "animation": "none"
+    }
+  ]
+}
