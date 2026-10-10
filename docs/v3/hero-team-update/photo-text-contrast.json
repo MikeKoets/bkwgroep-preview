@@ -1,5 +1,5 @@
 {
-  "method": "Actual composed photo+CSS overlay; text hidden while its boxes remain; maximum background luminance across each text box; stronger conservative bound than individual glyph pixels. 7 viewport widths. Large text3:1, normal4.5:1.",
+  "method": "Actual composed photo+CSS overlay; text hidden with boxes retained; conservative maximum background luminance across each text box.",
   "results": [
     {
       "viewport": 320,
@@ -144,70 +144,70 @@
     {
       "viewport": 768,
       "selector": ".home-hero .eyebrow",
-      "worstBackgroundContrast": 10.11,
+      "worstBackgroundContrast": 9.49,
       "threshold": 4.5,
       "pass": true
     },
     {
       "viewport": 768,
       "selector": ".home-hero h1",
-      "worstBackgroundContrast": 12.73,
+      "worstBackgroundContrast": 12.13,
       "threshold": 3,
       "pass": true
     },
     {
       "viewport": 768,
       "selector": ".home-hero h1 span",
-      "worstBackgroundContrast": 6.91,
+      "worstBackgroundContrast": 6.2,
       "threshold": 3,
       "pass": true
     },
     {
       "viewport": 768,
       "selector": ".home-hero__copy > p",
-      "worstBackgroundContrast": 15.6,
+      "worstBackgroundContrast": 15.62,
       "threshold": 4.5,
       "pass": true
     },
     {
       "viewport": 768,
       "selector": ".home-hero .text-link",
-      "worstBackgroundContrast": 17.14,
+      "worstBackgroundContrast": 16.58,
       "threshold": 4.5,
       "pass": true
     },
     {
       "viewport": 1024,
       "selector": ".home-hero .eyebrow",
-      "worstBackgroundContrast": 6.97,
+      "worstBackgroundContrast": 6.95,
       "threshold": 4.5,
       "pass": true
     },
     {
       "viewport": 1024,
       "selector": ".home-hero h1",
-      "worstBackgroundContrast": 9.77,
+      "worstBackgroundContrast": 9.03,
       "threshold": 3,
       "pass": true
     },
     {
       "viewport": 1024,
       "selector": ".home-hero h1 span",
-      "worstBackgroundContrast": 5.81,
+      "worstBackgroundContrast": 6.01,
       "threshold": 3,
       "pass": true
     },
     {
       "viewport": 1024,
       "selector": ".home-hero__copy > p",
-      "worstBackgroundContrast": 15.23,
+      "worstBackgroundContrast": 14.11,
       "threshold": 4.5,
       "pass": true
     },
     {
       "viewport": 1024,
       "selector": ".home-hero .text-link",
-      "worstBackgroundContrast": 16.8,
+      "worstBackgroundContrast": 16.62,
       "threshold": 4.5,
       "pass": true
     },

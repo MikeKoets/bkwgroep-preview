@@ -1,0 +1,78 @@
+
+Running 2 tests using 2 workers
+
+(node:45721) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+(node:45722) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+[1/2] [chromium] › tests/v3.spec.ts:137:1 › tablet team banner selects enough source pixels for its actual cover width
+[2/2] [webkit] › tests/v3.spec.ts:137:1 › tablet team banner selects enough source pixels for its actual cover width
+  1) [webkit] › tests/v3.spec.ts:137:1 › tablet team banner selects enough source pixels for its actual cover width 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 1421.7207334273626
+    Received:    800
+
+      145 |       return { source: Number(img.currentSrc.match(/teamBanner-(\d+)\.webp/)?.[1]), cover: Math.max(box.width, box.height * 1800 / 709) }
+      146 |     })
+    > 147 |     expect(painted.source).toBeGreaterThanOrEqual(Math.min(painted.cover, 1800))
+          |                            ^
+      148 |   }
+      149 | })
+      150 |
+        at /Users/jsmecommerceb.v./Documents/Codex/worktrees/bkwgroep-preview/tests/v3.spec.ts:147:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/v3-tablet-team-banner-sele-e9ce8--for-its-actual-cover-width-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/v3-tablet-team-banner-sele-e9ce8--for-its-actual-cover-width-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/v3-tablet-team-banner-sele-e9ce8--for-its-actual-cover-width-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/v3-tablet-team-banner-sele-e9ce8--for-its-actual-cover-width-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  2) [chromium] › tests/v3.spec.ts:137:1 › tablet team banner selects enough source pixels for its actual cover width 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 1421.7207334273626
+    Received:    800
+
+      145 |       return { source: Number(img.currentSrc.match(/teamBanner-(\d+)\.webp/)?.[1]), cover: Math.max(box.width, box.height * 1800 / 709) }
+      146 |     })
+    > 147 |     expect(painted.source).toBeGreaterThanOrEqual(Math.min(painted.cover, 1800))
+          |                            ^
+      148 |   }
+      149 | })
+      150 |
+        at /Users/jsmecommerceb.v./Documents/Codex/worktrees/bkwgroep-preview/tests/v3.spec.ts:147:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/v3-tablet-team-banner-sele-e9ce8--for-its-actual-cover-width-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/v3-tablet-team-banner-sele-e9ce8--for-its-actual-cover-width-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/v3-tablet-team-banner-sele-e9ce8--for-its-actual-cover-width-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/v3-tablet-team-banner-sele-e9ce8--for-its-actual-cover-width-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  2 failed
+    [chromium] › tests/v3.spec.ts:137:1 › tablet team banner selects enough source pixels for its actual cover width 
+    [webkit] › tests/v3.spec.ts:137:1 › tablet team banner selects enough source pixels for its actual cover width 

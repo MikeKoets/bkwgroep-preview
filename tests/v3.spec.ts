@@ -133,3 +133,17 @@ test('a first-frame menu tap and user scroll survive a deliberately delayed inte
   await page.goBack()
   await expect.poll(() => page.evaluate(() => scrollY)).toBe(950)
 })
+
+test('tablet team banner selects enough source pixels for its actual cover width', async ({ page }) => {
+  for (const width of [768, 1024]) {
+    await page.setViewportSize({ width, height: 900 })
+    await page.goto('')
+    const painted = await page.locator('.home-hero img').evaluate(async (image) => {
+      const img = image as HTMLImageElement
+      await img.decode()
+      const box = img.getBoundingClientRect()
+      return { source: Number(img.currentSrc.match(/teamBanner-(\d+)\.webp/)?.[1]), cover: Math.max(box.width, box.height * 1800 / 709) }
+    })
+    expect(painted.source).toBeGreaterThanOrEqual(Math.min(painted.cover, 1800))
+  }
+})

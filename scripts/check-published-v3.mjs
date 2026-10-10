@@ -4,6 +4,7 @@ import { execFileSync } from 'node:child_process'
 import { chromium } from '@playwright/test'
 
 const base = 'https://mikekoets.github.io/bkwgroep-preview/'
+const evidenceDir = process.env.BKW_EVIDENCE_DIR || 'docs/v3/live'
 const report = { checkedAt: new Date().toISOString(), source: execFileSync('git', ['rev-parse', 'HEAD'], { encoding: 'utf8' }).trim(), files: [], captures: [] }
 const files = []
 async function walk(path) {
@@ -14,7 +15,7 @@ async function walk(path) {
   }
 }
 await walk('dist')
-await mkdir('docs/v3/live', { recursive: true })
+await mkdir(evidenceDir, { recursive: true })
 for (const file of files.sort()) {
   const relative = file.slice(5)
   const response = await fetch(base + relative)
@@ -37,7 +38,7 @@ try {
       await Promise.all([...document.images].map(image => image.decode()))
     })
     const name = `${route.replace('/', '') || 'home'}-${width}.png`
-    await page.screenshot({ path: `docs/v3/live/${name}`, fullPage: true })
+    await page.screenshot({ path: `${evidenceDir}/${name}`, fullPage: true })
     report.captures.push({ route: route || '/', width, status: response.status(), screenshot: name, overflow: await page.evaluate(() => document.documentElement.scrollWidth - innerWidth) })
   }
   const response = await page.goto(base + 'niet-bestaand-v3/')
@@ -45,6 +46,6 @@ try {
   if (response.status() !== 404 || !report.notFound.heading) throw new Error('Branded Pages 404 failed')
 } finally { await browser.close() }
 report.pass = report.files.every(file => file.pass) && report.captures.every(capture => capture.overflow <= 1)
-await writeFile('docs/v3/live/published-integrity.json', JSON.stringify(report, null, 2) + '\n')
+await writeFile(`${evidenceDir}/published-integrity.json`, JSON.stringify(report, null, 2) + '\n')
 console.log(`${report.files.length} exact published files, ${report.captures.length} live screenshots, branded 404: ${report.pass ? 'PASS' : 'FAIL'}`)
 if (!report.pass) process.exitCode = 1

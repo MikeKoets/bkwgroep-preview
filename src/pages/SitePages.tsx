@@ -116,7 +116,7 @@ export function HomePage() {
             name="teamBanner"
             alt="BKW-medewerkers met gereedschap en bedrijfsvoertuigen"
             priority
-            sizes="(max-width: 760px) 1100px, 100vw"
+            sizes="(max-width: 760px) 1100px, (max-width: 1422px) 1422px, 100vw"
           />
         </div>
         <div className="container home-hero__grid">
