@@ -1,0 +1,657 @@
+{
+  "checkedAt": "2026-10-10T01:26:23.244Z",
+  "source": "bafecef6fc421e40e94baba69896789f2473e6db",
+  "files": [
+    {
+      "path": "404.html",
+      "status": 200,
+      "bytes": 36935,
+      "sha256": "154d021e72ccac95ddc43aa1a7c2ba2413b1537f0a06329e5bfb97780150ddf1",
+      "pass": true
+    },
+    {
+      "path": "assets/fonts/OFL-Manrope.txt",
+      "status": 200,
+      "bytes": 4387,
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+      "pass": true
+    },
+    {
+      "path": "assets/fonts/manrope-latin.woff2",
+      "status": 200,
+      "bytes": 23144,
+      "sha256": "508745ef324dfe35c176108db55e010fc7d160de2e3071c9eec0fef270945959",
+      "pass": true
+    },
+    {
+      "path": "assets/images/business.webp",
+      "status": 200,
+      "bytes": 133510,
+      "sha256": "2fec7fb87489b272ab62de920cffb17dfe74161b266b2252a9ee0c0a53cb0b54",
+      "pass": true
+    },
+    {
+      "path": "assets/images/contact.webp",
+      "status": 200,
+      "bytes": 165486,
+      "sha256": "c7d74856f389d0c85f056110131177d000928f1a06e6da78b2a6ea2447982b76",
+      "pass": true
+    },
+    {
+      "path": "assets/images/home-hero.webp",
+      "status": 200,
+      "bytes": 147436,
+      "sha256": "930ae51de2f355fe1f5989113946b63698ff18310dcfcab56e8bb3040cfd0e6c",
+      "pass": true
+    },
+    {
+      "path": "assets/images/locks-hero.webp",
+      "status": 200,
+      "bytes": 92758,
+      "sha256": "f92e0ce8a225ff84bfbf462e0098e18af7cf42a4d92cef642417556fc656d696",
+      "pass": true
+    },
+    {
+      "path": "assets/images/maintenance-hero.webp",
+      "status": 200,
+      "bytes": 92982,
+      "sha256": "65e66b98231186e566bc4bcec0948fab64383e2a17bf9918d0dfa827ccec73c4",
+      "pass": true
+    },
+    {
+      "path": "assets/images/professionals.webp",
+      "status": 200,
+      "bytes": 136830,
+      "sha256": "e7c9edd79393e8d15ac753bc8b9c98359bbaecd6697423c05ad4b7ad0333afed",
+      "pass": true
+    },
+    {
+      "path": "assets/index-IdU9pxUX.js",
+      "status": 200,
+      "bytes": 2228,
+      "sha256": "063526c72a033af5e32178b8ae35bb608d83626bba94e7227f12d906208ccd62",
+      "pass": true
+    },
+    {
+      "path": "assets/logo-bkw.svg",
+      "status": 200,
+      "bytes": 3991,
+      "sha256": "af1cfd3e674d9d2012614c710675ec2e6b7fe0bad25744aca9b2a30091282da5",
+      "pass": true
+    },
+    {
+      "path": "assets/main-DZUj3NJs.js",
+      "status": 200,
+      "bytes": 362374,
+      "sha256": "fac5f3c920fa6809ff2e997ac29b8d3f5940de9cc5d30d75de9fc3127128a51f",
+      "pass": true
+    },
+    {
+      "path": "assets/og-bkw.jpg",
+      "status": 200,
+      "bytes": 137479,
+      "sha256": "7f4b656265d44126053e2c2a06586eb7608d1ac82558ec7bb6a68db22108fcad",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/craft-1200.webp",
+      "status": 200,
+      "bytes": 128424,
+      "sha256": "000803ef8db82fed3dac298ecc023ecdf4084f2ad2cc5d903d5e843e54d20821",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/craft-1570.webp",
+      "status": 200,
+      "bytes": 223832,
+      "sha256": "446a8aecdc0fad7a8aa1ac170ef4e6344fb8aec8b66e0b657f12f8da2db96c29",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/craft-480.webp",
+      "status": 200,
+      "bytes": 36780,
+      "sha256": "75e2f920f7c34d99af0f9cc24f7ea39d184ded817ecfcd60041ca08336dfc768",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/craft-640.webp",
+      "status": 200,
+      "bytes": 51786,
+      "sha256": "925864932bd7d74cde26d672a7e012801d54d4777b93c12194749465a6a9362e",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/craft-720.webp",
+      "status": 200,
+      "bytes": 59120,
+      "sha256": "3cec005530efe2ed02352a2bcaaf2738dddf031fd54bcba004e0f6fdd545729c",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/craft-800.webp",
+      "status": 200,
+      "bytes": 68318,
+      "sha256": "1d7507a53b622c01dc3dbe406e9013de0e378da551245f0db5ee90971d4a164b",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/detail-1200.webp",
+      "status": 200,
+      "bytes": 46112,
+      "sha256": "9ffba0935b2f290dae46a90a673710e5abf474535591b1d0b5b96d372d197be7",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/detail-480.webp",
+      "status": 200,
+      "bytes": 13194,
+      "sha256": "e0903418365214401843166137d5acd30ad8ba654e94655e1c0f9bf8216b2adf",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/detail-640.webp",
+      "status": 200,
+      "bytes": 19714,
+      "sha256": "217bc2dbdb31436df1353629d0f8dd179c8cbf1af8b8a594d5351aa66ea8d9b9",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/detail-720.webp",
+      "status": 200,
+      "bytes": 23214,
+      "sha256": "21d0c39a402f6e733ed5a8a7ca04a40f8873b6482da3230ef514db1b5b29e6bc",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/detail-800.webp",
+      "status": 200,
+      "bytes": 26550,
+      "sha256": "7be39426f044a71dca4ca6f4cb70f96a987d585eade5857027e684a36b9858f8",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/fleet-1200.webp",
+      "status": 200,
+      "bytes": 97368,
+      "sha256": "7024c9224373904f10537e6c1b54af2e5a650b4357a52d3873ae338c300fa96f",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/fleet-1600.webp",
+      "status": 200,
+      "bytes": 146432,
+      "sha256": "d891717eac1398b20f1649ec33345aa0337c8d4387f4cb4e0e3ce4acf48dfdf2",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/fleet-480.webp",
+      "status": 200,
+      "bytes": 25088,
+      "sha256": "7b95a5c3c836353cd2c8da8cf874531315c7b4b061d42b7f414b39ddaa2115c2",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/fleet-640.webp",
+      "status": 200,
+      "bytes": 39610,
+      "sha256": "81372be4760772b20afdb667473b136e2787236e3ad1e1cc60e3fd9865c4173d",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/fleet-720.webp",
+      "status": 200,
+      "bytes": 47230,
+      "sha256": "79385bebdc9c11bfa2418027965e8ab51f10a677f958f03c7ab40147cbdf5050",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/fleet-800.webp",
+      "status": 200,
+      "bytes": 55446,
+      "sha256": "19319c91c89a4dc127066390bc6a90e936375eb50818069f698009a5ba93ba91",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/heroWork-480.webp",
+      "status": 200,
+      "bytes": 34546,
+      "sha256": "bcccda8508aa6fedb09bae41c8918d75a063a7176519d503488541971325e701",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/heroWork-640.webp",
+      "status": 200,
+      "bytes": 51294,
+      "sha256": "40be04cd01f40710ea6dfa9a95d629a208f80ac6f3ef3a5e250c081df930a0c7",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/heroWork-720.webp",
+      "status": 200,
+      "bytes": 60114,
+      "sha256": "d5bf6c208823f462c4f72a9fe16bd64bd24c7e9e29c4eb612f736779fc2a9994",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/heroWork-790.webp",
+      "status": 200,
+      "bytes": 69898,
+      "sha256": "4e50dad60eab97dd5919bbe696c12c30c8c25b40fd9654371b6527d7637c16cc",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/insulation-1160.webp",
+      "status": 200,
+      "bytes": 131052,
+      "sha256": "d9b555220eb21c70329df8c78cc110a94db6bff540910f8a1e45f627c7d505d2",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/insulation-480.webp",
+      "status": 200,
+      "bytes": 32342,
+      "sha256": "b92f49628c3bb1d83df6b62e9b05a9fcaeeb470663addfae205a2e7a4d4d1df7",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/insulation-640.webp",
+      "status": 200,
+      "bytes": 49726,
+      "sha256": "5b7dd3bc834767fdd5143b34b32468f464ff8046dbca4af7fa2995f2634a624e",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/insulation-720.webp",
+      "status": 200,
+      "bytes": 59550,
+      "sha256": "e873cf77ce33d5e4dafc860a42966604f482e50d59c989bd336ddb5b7e5ea8ee",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/insulation-800.webp",
+      "status": 200,
+      "bytes": 69954,
+      "sha256": "76420bd0be905ec78d889eb7fae84e15039995cb4edd77bddddce373829047b8",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/locks-1200.webp",
+      "status": 200,
+      "bytes": 52730,
+      "sha256": "dbd617164e2a1ff3f7827775e8c7faefedeaeb0eefee05f1a8e528cd652ab27e",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/locks-1599.webp",
+      "status": 200,
+      "bytes": 78334,
+      "sha256": "bdcade5095df68447ec05119b3ef6c8ef6809171b117c781c0b1381ee5a51f17",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/locks-480.webp",
+      "status": 200,
+      "bytes": 16804,
+      "sha256": "cb94ce25b378ba4a3299d1cad524ba195d5e7fb63ccac3c2351a1b5ebe808493",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/locks-640.webp",
+      "status": 200,
+      "bytes": 23788,
+      "sha256": "07a29df6ad36ea2abb5f81aadf9d5205d8289d3b9fed8f9103eb9727fac2329c",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/locks-720.webp",
+      "status": 200,
+      "bytes": 27646,
+      "sha256": "c31f2ba9f4d018e5616fd678dafb46487ae45e56d522e025245d2f89d244c383",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/locks-800.webp",
+      "status": 200,
+      "bytes": 31366,
+      "sha256": "ab8b86cef9a687c94279c9dae71f0f7b64743c52ba8d83e020242e150a31b577",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/maintenance-1176.webp",
+      "status": 200,
+      "bytes": 67796,
+      "sha256": "efa53ee8618e9ffa9c2bc4254848c47e67e8f62d7b85a21b23df02e751b9260d",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/maintenance-480.webp",
+      "status": 200,
+      "bytes": 19596,
+      "sha256": "783ba5d7746da9173aa0d8bd0472a63e6d7faa2825b6f87c9f420ff2f4390fdb",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/maintenance-640.webp",
+      "status": 200,
+      "bytes": 28018,
+      "sha256": "5e88b8b9947919488691eb5b1ec2074e83da6d5975e6b86fec8b69e7ec3f90c9",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/maintenance-720.webp",
+      "status": 200,
+      "bytes": 33210,
+      "sha256": "717debb90f0461042206fe63f2fb115e3e0625ef2e3ba41df7cfebc391ef2573",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/maintenance-800.webp",
+      "status": 200,
+      "bytes": 38310,
+      "sha256": "fd3bc06bd10052b55abb84f4fc11f49a6cb795d16a2f43ca0a6b338f82fdf98a",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/property-1200.webp",
+      "status": 200,
+      "bytes": 96142,
+      "sha256": "a7c09d61f7ef40e3a780a9571ee3219ee679ee89ab2fb6440d3f1bd1dd94c73b",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/property-1540.webp",
+      "status": 200,
+      "bytes": 135422,
+      "sha256": "c30b78d1d63ee790e09533da0e430d895b98744bd464ae3c6da1b5db1d6a9ee8",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/property-480.webp",
+      "status": 200,
+      "bytes": 21946,
+      "sha256": "e1c742eef50d325d89013d28edae2a9ab1fed1be756202f737dfb71cd77f0f95",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/property-640.webp",
+      "status": 200,
+      "bytes": 37660,
+      "sha256": "16c73df4d3e4c3535800f549df0930dda8f399e32d907ed0b5fd2ef254362374",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/property-720.webp",
+      "status": 200,
+      "bytes": 45924,
+      "sha256": "547b60a77223f5631d95c64d806e2b5e4350b1da6652464adab2058f140fd73b",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/property-800.webp",
+      "status": 200,
+      "bytes": 54272,
+      "sha256": "03773e417906329e2d5fa214b3286bf05c286ef5c1ab7152e2ec126bac3f87d8",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/team-1200.webp",
+      "status": 200,
+      "bytes": 195196,
+      "sha256": "82b4443df3d8b3a0ddbb7f64e7e405457b0d07c767b07a3b5e06a6eb2997ccf1",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/team-1600.webp",
+      "status": 200,
+      "bytes": 319522,
+      "sha256": "3560bf913ec366f812c72a5bd3a4b58816229067fbbaaaa6b17159116aa55f74",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/team-480.webp",
+      "status": 200,
+      "bytes": 31448,
+      "sha256": "e472db9dd070512ce02a2905f68737a79b12f243676bfb23d33064891dd82a54",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/team-640.webp",
+      "status": 200,
+      "bytes": 55880,
+      "sha256": "7ebbef01e453188228cb7d1c19400f67d7c18cefb41431c94ca0698d4ea0b67b",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/team-720.webp",
+      "status": 200,
+      "bytes": 71096,
+      "sha256": "6d0970258f2ae74fed024b70ed132afcc2b932ee17193915dc1d213d3621afbb",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/team-800.webp",
+      "status": 200,
+      "bytes": 89334,
+      "sha256": "a0fa64f5de911d7c67d39091acc91aef3d5bf6e9e75312258257737f5cdb202f",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/teamBanner-1200.webp",
+      "status": 200,
+      "bytes": 59112,
+      "sha256": "261d469ac5dd501d2c373eebd8d9b02c201bb8999bbfca2e5e171d6e9a7d37fa",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/teamBanner-1800.webp",
+      "status": 200,
+      "bytes": 117882,
+      "sha256": "79301dab12b69ac30919b90f8b6220e1db473366e6729f5e14e3d8e4804ef46e",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/teamBanner-480.webp",
+      "status": 200,
+      "bytes": 12002,
+      "sha256": "61731030d6bb535e92875773a8325c8799944cc79b3a69a490d1f1fdd61a4588",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/teamBanner-800.webp",
+      "status": 200,
+      "bytes": 29320,
+      "sha256": "4d70f89932d9fe79661a49b4dee9fc868516a9d167d687e69de3ba40619d3973",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/workshop-1200.webp",
+      "status": 200,
+      "bytes": 65158,
+      "sha256": "d42c501d88a0a52765e1014d731a2658f69c480dd8a42fd46e3fb5836fe8cb6a",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/workshop-1600.webp",
+      "status": 200,
+      "bytes": 92318,
+      "sha256": "398c1d4f5af418f354b3f103b8678c32df2dcf67a27914c89423e546e902707d",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/workshop-480.webp",
+      "status": 200,
+      "bytes": 21616,
+      "sha256": "f0137be4048b4df47e2080a97a917f5e5a001a5832f411f276d1adc7f08da56a",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/workshop-640.webp",
+      "status": 200,
+      "bytes": 30908,
+      "sha256": "34a0fb68ac6752b4a44ff73882bd1ea41504973dec9ccbaa812fd03f70372365",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/workshop-720.webp",
+      "status": 200,
+      "bytes": 35366,
+      "sha256": "676a06d82d9cde735f797c47995f06b0125e1fe67182ca79cc4af660a739289e",
+      "pass": true
+    },
+    {
+      "path": "assets/photos/workshop-800.webp",
+      "status": 200,
+      "bytes": 39852,
+      "sha256": "ee83ac1effecd528527e00c67855d766aa089fbfb18d8d7ba7fcf44721acfdd6",
+      "pass": true
+    },
+    {
+      "path": "assets/style-Y6T4H_BA.css",
+      "status": 200,
+      "bytes": 25875,
+      "sha256": "04c327e265ae771e09e317fea2a3939209070cb834d2a68910448c6613f89729",
+      "pass": true
+    },
+    {
+      "path": "contact/index.html",
+      "status": 200,
+      "bytes": 41587,
+      "sha256": "18162da2fae70f095679937e30080afacff1ce44ff05627f00e7fad4b33f997e",
+      "pass": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 49932,
+      "sha256": "34fb33695817e77f37880f9ecacfa85cc5097e2a7acbbf9b22edc0049cc05872",
+      "pass": true
+    },
+    {
+      "path": "isolatie/index.html",
+      "status": 200,
+      "bytes": 48745,
+      "sha256": "34c7218ef96cf87953a91d34c440df519a389e4eb09deac2274076fbd233cf8c",
+      "pass": true
+    },
+    {
+      "path": "onderhoud/index.html",
+      "status": 200,
+      "bytes": 46209,
+      "sha256": "dc771f3999f787a427294682792b540aed0714d9f16e47138d719e135e75bb44",
+      "pass": true
+    },
+    {
+      "path": "robots.txt",
+      "status": 200,
+      "bytes": 26,
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "pass": true
+    },
+    {
+      "path": "slotenservice/index.html",
+      "status": 200,
+      "bytes": 47112,
+      "sha256": "c3dbf4508c582b18f8f6228f2ad27d89f6eab6e0993fcea043dd121d89199074",
+      "pass": true
+    },
+    {
+      "path": "zakelijk/index.html",
+      "status": 200,
+      "bytes": 45162,
+      "sha256": "94222ae4a00e223ce396fca29556c68a3eaaf3640b74aa65e5a75bbcb8486b40",
+      "pass": true
+    }
+  ],
+  "captures": [
+    {
+      "route": "/",
+      "width": 390,
+      "status": 200,
+      "screenshot": "home-390.png",
+      "overflow": 0
+    },
+    {
+      "route": "onderhoud/",
+      "width": 390,
+      "status": 200,
+      "screenshot": "onderhoud-390.png",
+      "overflow": 0
+    },
+    {
+      "route": "slotenservice/",
+      "width": 390,
+      "status": 200,
+      "screenshot": "slotenservice-390.png",
+      "overflow": 0
+    },
+    {
+      "route": "isolatie/",
+      "width": 390,
+      "status": 200,
+      "screenshot": "isolatie-390.png",
+      "overflow": 0
+    },
+    {
+      "route": "zakelijk/",
+      "width": 390,
+      "status": 200,
+      "screenshot": "zakelijk-390.png",
+      "overflow": 0
+    },
+    {
+      "route": "contact/",
+      "width": 390,
+      "status": 200,
+      "screenshot": "contact-390.png",
+      "overflow": 0
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "status": 200,
+      "screenshot": "home-1440.png",
+      "overflow": 0
+    },
+    {
+      "route": "onderhoud/",
+      "width": 1440,
+      "status": 200,
+      "screenshot": "onderhoud-1440.png",
+      "overflow": 0
+    },
+    {
+      "route": "slotenservice/",
+      "width": 1440,
+      "status": 200,
+      "screenshot": "slotenservice-1440.png",
+      "overflow": 0
+    },
+    {
+      "route": "isolatie/",
+      "width": 1440,
+      "status": 200,
+      "screenshot": "isolatie-1440.png",
+      "overflow": 0
+    },
+    {
+      "route": "zakelijk/",
+      "width": 1440,
+      "status": 200,
+      "screenshot": "zakelijk-1440.png",
+      "overflow": 0
+    },
+    {
+      "route": "contact/",
+      "width": 1440,
+      "status": 200,
+      "screenshot": "contact-1440.png",
+      "overflow": 0
+    }
+  ],
+  "notFound": {
+    "status": 404,
+    "heading": "Pagina niet gevonden"
+  },
+  "pass": true
+}
