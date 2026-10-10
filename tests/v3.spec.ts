@@ -12,7 +12,7 @@ test('home hero presents the original team panorama as one compact full-width ba
   expect(photo?.x).toBe(0)
   expect(photo?.width).toBe(390)
   expect(photo?.y).toBe(hero?.y)
-  expect((hero?.y ?? 0) + (hero?.height ?? 0)).toBeLessThanOrEqual(650)
+  expect(action!.y + action!.height).toBeLessThan(844)
   expect(heading!.y).toBeGreaterThan(photo!.y)
   expect(action!.y + action!.height).toBeLessThan(photo!.y + photo!.height)
   await expect(page.locator('.home-hero img')).toHaveAttribute('src', /teamBanner-/)
@@ -146,4 +146,33 @@ test('tablet team banner selects enough source pixels for its actual cover width
     })
     expect(painted.source).toBeGreaterThanOrEqual(Math.min(painted.cover, 1800))
   }
+})
+
+
+test('home opening keeps the light services below the first viewport and adapts when browser chrome retracts', async ({ page }) => {
+  for (const [width, height] of [[320, 568], [375, 812], [390, 844], [430, 932], [768, 1024], [1024, 900], [1440, 1000]]) {
+    await page.setViewportSize({ width, height })
+    await page.goto('')
+    await page.evaluate(() => document.fonts.ready)
+    const services = await page.locator('#diensten').boundingBox()
+    const action = await page.locator('.home-hero .button--primary').boundingBox()
+    expect(services!.y, `light services must remain below ${width}x${height} opening`).toBeGreaterThanOrEqual(height - 1)
+    expect(action!.y + action!.height, `contact action visible at ${width}x${height}`).toBeLessThanOrEqual(height)
+    expect(await page.evaluate(() => document.documentElement.scrollWidth - innerWidth)).toBeLessThanOrEqual(1)
+    const image = await page.locator('.home-hero img').evaluate(async (element) => {
+      const img = element as HTMLImageElement
+      await img.decode()
+      const box = img.getBoundingClientRect()
+      return { source: Number(img.currentSrc.match(/teamBanner-(\d+)/)?.[1]), required: Math.min(1800, Math.max(box.width, box.height * 1800 / 709)) }
+    })
+    // Rounded integer dimensions of the exported variants allow at most 1% discrepancy.
+    expect(image.source).toBeGreaterThanOrEqual(image.required * 0.99)
+  }
+  await page.setViewportSize({ width: 390, height: 700 })
+  await page.goto('')
+  await page.setViewportSize({ width: 390, height: 950 })
+  await expect.poll(async () => (await page.locator('#diensten').boundingBox())!.y).toBeGreaterThanOrEqual(949)
+  await page.getByRole('link', { name: 'Onze diensten', exact: true }).click()
+  await expect.poll(async () => Math.round((await page.locator('#diensten').boundingBox())!.y)).toBeGreaterThanOrEqual(70)
+  await expect.poll(async () => Math.round((await page.locator('#diensten').boundingBox())!.y)).toBeLessThanOrEqual(120)
 })

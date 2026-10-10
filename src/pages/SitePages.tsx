@@ -110,58 +110,60 @@ export function HomePage() {
         title="BKW Groep | Onderhoud, isolatie en slotenservice"
         description="Vakwerk voor woning en vastgoed. BKW Groep helpt particulieren en zakelijke opdrachtgevers met onderhoud, isolatie en slotenservice."
       />
-      <section className="home-hero">
-        <div className="home-hero__photo">
-          <Photo
-            name="teamBanner"
-            alt="BKW-medewerkers met gereedschap en bedrijfsvoertuigen"
-            priority
-            sizes="(max-width: 760px) 1100px, (max-width: 1422px) 1422px, 100vw"
-          />
-        </div>
-        <div className="container home-hero__grid">
-          <div className="home-hero__copy">
-            <span className="eyebrow">
-              Onderhoud · Slotenservice · Isolatie
-            </span>
-            <h1>
-              Vakwerk voor{' '}
-              woning <span>&amp; vastgoed.</span>
-            </h1>
-            <p>
-              Onderhoud, slotenservice en isolatie.
-              Voor uw woning of zakelijk pand.
-            </p>
-            <div className="hero-actions">
-              <Link className="button button--primary" to="/contact/">
-                Neem contact op
-                <ArrowUpRight aria-hidden="true" />
-              </Link>
-              <Link className="text-link" to="/#diensten">
-                Onze diensten
-                <ArrowRight aria-hidden="true" />
-              </Link>
+      <div className="home-opening">
+        <section className="home-hero">
+          <div className="home-hero__photo">
+            <Photo
+              name="teamBanner"
+              alt="BKW-medewerkers met gereedschap en bedrijfsvoertuigen"
+              priority
+              sizes="(max-width: 760px) max(1100px, calc(254dvh - 579px)), max(1422px, 100vw, calc(254dvh - 548px))"
+            />
+          </div>
+          <div className="container home-hero__grid">
+            <div className="home-hero__copy">
+              <span className="eyebrow">
+                Onderhoud · Slotenservice · Isolatie
+              </span>
+              <h1>
+                Vakwerk voor{' '}
+                woning <span>&amp; vastgoed.</span>
+              </h1>
+              <p>
+                Onderhoud, slotenservice en isolatie.
+                Voor uw woning of zakelijk pand.
+              </p>
+              <div className="hero-actions">
+                <Link className="button button--primary" to="/contact/">
+                  Neem contact op
+                  <ArrowUpRight aria-hidden="true" />
+                </Link>
+                <Link className="text-link" to="/#diensten">
+                  Onze diensten
+                  <ArrowRight aria-hidden="true" />
+                </Link>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section className="urgent-strip" aria-label="Direct hulp nodig">
-        <div className="container urgent-strip__inner">
-          <div className="urgent-strip__question">
-            <span className="urgent-icon">
-              <Phone aria-hidden="true" />
-            </span>
-            <div>
-              <strong>Buitengesloten of een storing?</strong>
-              <span>Bespreek uw situatie direct telefonisch.</span>
+        </section>
+        <section className="urgent-strip" aria-label="Direct hulp nodig">
+          <div className="container urgent-strip__inner">
+            <div className="urgent-strip__question">
+              <span className="urgent-icon">
+                <Phone aria-hidden="true" />
+              </span>
+              <div>
+                <strong>Buitengesloten of een storing?</strong>
+                <span>Bespreek uw situatie direct telefonisch.</span>
+              </div>
             </div>
+            <a href="tel:+31850606663">
+              085 060 66 63
+              <ArrowUpRight aria-hidden="true" />
+            </a>
           </div>
-          <a href="tel:+31850606663">
-            085 060 66 63
-            <ArrowUpRight aria-hidden="true" />
-          </a>
-        </div>
-      </section>
+        </section>
+      </div>
       <section className="section section--warm" id="diensten">
         <div className="container">
           <div className="section-heading-row">

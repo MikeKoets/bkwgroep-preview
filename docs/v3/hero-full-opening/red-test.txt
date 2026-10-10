@@ -1,0 +1,78 @@
+
+Running 2 tests using 2 workers
+
+(node:58330) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:58331) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 [webkit] › tests/v3.spec.ts:152:1 › home opening keeps the light services below the first viewport and adapts when browser chrome retracts (1.5s)
+  ✘  1 [chromium] › tests/v3.spec.ts:152:1 › home opening keeps the light services below the first viewport and adapts when browser chrome retracts (934ms)
+
+
+  1) [chromium] › tests/v3.spec.ts:152:1 › home opening keeps the light services below the first viewport and adapts when browser chrome retracts 
+
+    Error: light services must remain below 375x812 opening
+
+    expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 811
+    Received:    687
+
+      157 |     const services = await page.locator('#diensten').boundingBox()
+      158 |     const action = await page.locator('.home-hero .button--primary').boundingBox()
+    > 159 |     expect(services!.y, `light services must remain below ${width}x${height} opening`).toBeGreaterThanOrEqual(height - 1)
+          |                                                                                        ^
+      160 |     expect(action!.y + action!.height, `contact action visible at ${width}x${height}`).toBeLessThanOrEqual(height)
+      161 |     expect(await page.evaluate(() => document.documentElement.scrollWidth - innerWidth)).toBeLessThanOrEqual(1)
+      162 |   }
+        at /Users/jsmecommerceb.v./Documents/Codex/worktrees/bkwgroep-preview/tests/v3.spec.ts:159:88
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/v3-home-opening-keeps-the--08d07-hen-browser-chrome-retracts-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/v3-home-opening-keeps-the--08d07-hen-browser-chrome-retracts-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/v3-home-opening-keeps-the--08d07-hen-browser-chrome-retracts-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/v3-home-opening-keeps-the--08d07-hen-browser-chrome-retracts-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [webkit] › tests/v3.spec.ts:152:1 › home opening keeps the light services below the first viewport and adapts when browser chrome retracts 
+
+    Error: light services must remain below 375x812 opening
+
+    expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 811
+    Received:    687
+
+      157 |     const services = await page.locator('#diensten').boundingBox()
+      158 |     const action = await page.locator('.home-hero .button--primary').boundingBox()
+    > 159 |     expect(services!.y, `light services must remain below ${width}x${height} opening`).toBeGreaterThanOrEqual(height - 1)
+          |                                                                                        ^
+      160 |     expect(action!.y + action!.height, `contact action visible at ${width}x${height}`).toBeLessThanOrEqual(height)
+      161 |     expect(await page.evaluate(() => document.documentElement.scrollWidth - innerWidth)).toBeLessThanOrEqual(1)
+      162 |   }
+        at /Users/jsmecommerceb.v./Documents/Codex/worktrees/bkwgroep-preview/tests/v3.spec.ts:159:88
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/v3-home-opening-keeps-the--08d07-hen-browser-chrome-retracts-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/v3-home-opening-keeps-the--08d07-hen-browser-chrome-retracts-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/v3-home-opening-keeps-the--08d07-hen-browser-chrome-retracts-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/v3-home-opening-keeps-the--08d07-hen-browser-chrome-retracts-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [chromium] › tests/v3.spec.ts:152:1 › home opening keeps the light services below the first viewport and adapts when browser chrome retracts 
+    [webkit] › tests/v3.spec.ts:152:1 › home opening keeps the light services below the first viewport and adapts when browser chrome retracts 

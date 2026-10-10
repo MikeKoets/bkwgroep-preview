@@ -18,6 +18,8 @@
   --dark-raised: #2b332e;
   --white: #fff;
   --max-width: 1280px;
+  --main-nav-height: 82px;
+  --utility-bar-height: 33px;
   --gutter: clamp(20px, 4vw, 64px);
   --section-space: clamp(64px, 7vw, 104px);
   --radius: 4px;
@@ -261,7 +263,7 @@ main:focus {
 .main-nav__inner {
   display: flex;
   align-items: center;
-  min-height: 82px;
+  min-height: var(--main-nav-height);
   gap: 24px;
 }
 .wordmark {
@@ -388,7 +390,16 @@ main:focus {
   color: white;
   border-color: #768279;
 }
+.home-opening {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - var(--main-nav-height) - var(--utility-bar-height));
+  min-height: calc(100dvh - var(--main-nav-height) - var(--utility-bar-height));
+  background: var(--dark);
+}
 .home-hero {
+  display: flex;
+  flex: 1;
   position: relative;
   isolation: isolate;
   background: var(--dark);
@@ -463,6 +474,7 @@ main:focus {
   object-position: center 45%;
 }
 .urgent-strip {
+  flex: none;
   background: var(--dark);
   color: white;
   border-top: 1px solid #3c443e;
@@ -1347,6 +1359,9 @@ main:focus {
 
 
 @media (max-width: 1100px) {
+  :root {
+    --main-nav-height: 72px;
+  }
   .desktop-nav,
   .header-cta,
   .utility-note {
@@ -1356,7 +1371,6 @@ main:focus {
     justify-content: flex-end;
   }
   .main-nav__inner {
-    min-height: 72px;
     gap: 16px;
   }
   .menu-button {
@@ -1421,6 +1435,7 @@ main:focus {
 }
 @media (max-width: 760px) {
   :root {
+    --utility-bar-height: 0px;
     --gutter: 24px;
     --section-space: 64px;
   }
@@ -1429,9 +1444,6 @@ main:focus {
   }
   .utility-bar {
     display: none;
-  }
-  .main-nav__inner {
-    min-height: 72px;
   }
   .wordmark img {
     width: 105px;

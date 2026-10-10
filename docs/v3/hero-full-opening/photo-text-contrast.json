@@ -1,0 +1,250 @@
+{
+  "method": "Actual composed photo+CSS overlay, text hidden with boxes retained; conservative maximum background luminance within each text box.",
+  "measurements": [
+    {
+      "width": 320,
+      "selector": ".home-hero .eyebrow",
+      "ratio": 11.51,
+      "threshold": 4.5,
+      "pass_": true
+    },
+    {
+      "width": 320,
+      "selector": ".home-hero h1",
+      "ratio": 13.07,
+      "threshold": 3,
+      "pass_": true
+    },
+    {
+      "width": 320,
+      "selector": ".home-hero h1 span",
+      "ratio": 8.14,
+      "threshold": 3,
+      "pass_": true
+    },
+    {
+      "width": 320,
+      "selector": ".home-hero__copy > p",
+      "ratio": 15.86,
+      "threshold": 4.5,
+      "pass_": true
+    },
+    {
+      "width": 320,
+      "selector": ".home-hero .text-link",
+      "ratio": 16.8,
+      "threshold": 4.5,
+      "pass_": true
+    },
+    {
+      "width": 375,
+      "selector": ".home-hero .eyebrow",
+      "ratio": 14.05,
+      "threshold": 4.5,
+      "pass_": true
+    },
+    {
+      "width": 375,
+      "selector": ".home-hero h1",
+      "ratio": 15.03,
+      "threshold": 3,
+      "pass_": true
+    },
+    {
+      "width": 375,
+      "selector": ".home-hero h1 span",
+      "ratio": 8.6,
+      "threshold": 3,
+      "pass_": true
+    },
+    {
+      "width": 375,
+      "selector": ".home-hero__copy > p",
+      "ratio": 16.04,
+      "threshold": 4.5,
+      "pass_": true
+    },
+    {
+      "width": 375,
+      "selector": ".home-hero .text-link",
+      "ratio": 16.84,
+      "threshold": 4.5,
+      "pass_": true
+    },
+    {
+      "width": 390,
+      "selector": ".home-hero .eyebrow",
+      "ratio": 14.09,
+      "threshold": 4.5,
+      "pass_": true
+    },
+    {
+      "width": 390,
+      "selector": ".home-hero h1",
+      "ratio": 15.0,
+      "threshold": 3,
+      "pass_": true
+    },
+    {
+      "width": 390,
+      "selector": ".home-hero h1 span",
+      "ratio": 8.61,
+      "threshold": 3,
+      "pass_": true
+    },
+    {
+      "width": 390,
+      "selector": ".home-hero__copy > p",
+      "ratio": 16.05,
+      "threshold": 4.5,
+      "pass_": true
+    },
+    {
+      "width": 390,
+      "selector": ".home-hero .text-link",
+      "ratio": 16.8,
+      "threshold": 4.5,
+      "pass_": true
+    },
+    {
+      "width": 430,
+      "selector": ".home-hero .eyebrow",
+      "ratio": 13.22,
+      "threshold": 4.5,
+      "pass_": true
+    },
+    {
+      "width": 430,
+      "selector": ".home-hero h1",
+      "ratio": 14.64,
+      "threshold": 3,
+      "pass_": true
+    },
+    {
+      "width": 430,
+      "selector": ".home-hero h1 span",
+      "ratio": 8.66,
+      "threshold": 3,
+      "pass_": true
+    },
+    {
+      "width": 430,
+      "selector": ".home-hero__copy > p",
+      "ratio": 16.2,
+      "threshold": 4.5,
+      "pass_": true
+    },
+    {
+      "width": 430,
+      "selector": ".home-hero .text-link",
+      "ratio": 16.8,
+      "threshold": 4.5,
+      "pass_": true
+    },
+    {
+      "width": 768,
+      "selector": ".home-hero .eyebrow",
+      "ratio": 12.49,
+      "threshold": 4.5,
+      "pass_": true
+    },
+    {
+      "width": 768,
+      "selector": ".home-hero h1",
+      "ratio": 15.03,
+      "threshold": 3,
+      "pass_": true
+    },
+    {
+      "width": 768,
+      "selector": ".home-hero h1 span",
+      "ratio": 8.06,
+      "threshold": 3,
+      "pass_": true
+    },
+    {
+      "width": 768,
+      "selector": ".home-hero__copy > p",
+      "ratio": 15.82,
+      "threshold": 4.5,
+      "pass_": true
+    },
+    {
+      "width": 768,
+      "selector": ".home-hero .text-link",
+      "ratio": 16.58,
+      "threshold": 4.5,
+      "pass_": true
+    },
+    {
+      "width": 1024,
+      "selector": ".home-hero .eyebrow",
+      "ratio": 9.58,
+      "threshold": 4.5,
+      "pass_": true
+    },
+    {
+      "width": 1024,
+      "selector": ".home-hero h1",
+      "ratio": 10.57,
+      "threshold": 3,
+      "pass_": true
+    },
+    {
+      "width": 1024,
+      "selector": ".home-hero h1 span",
+      "ratio": 7.75,
+      "threshold": 3,
+      "pass_": true
+    },
+    {
+      "width": 1024,
+      "selector": ".home-hero__copy > p",
+      "ratio": 16.23,
+      "threshold": 4.5,
+      "pass_": true
+    },
+    {
+      "width": 1024,
+      "selector": ".home-hero .text-link",
+      "ratio": 16.62,
+      "threshold": 4.5,
+      "pass_": true
+    },
+    {
+      "width": 1440,
+      "selector": ".home-hero .eyebrow",
+      "ratio": 8.5,
+      "threshold": 4.5,
+      "pass_": true
+    },
+    {
+      "width": 1440,
+      "selector": ".home-hero h1",
+      "ratio": 9.7,
+      "threshold": 3,
+      "pass_": true
+    },
+    {
+      "width": 1440,
+      "selector": ".home-hero h1 span",
+      "ratio": 7.64,
+      "threshold": 3,
+      "pass_": true
+    },
+    {
+      "width": 1440,
+      "selector": ".home-hero__copy > p",
+      "ratio": 15.63,
+      "threshold": 4.5,
+      "pass_": true
+    },
+    {
+      "width": 1440,
+      "selector": ".home-hero .text-link",
+      "ratio": 16.58,
+      "threshold": 4.5,
+      "pass_": true
+    }
+  ]
+}
