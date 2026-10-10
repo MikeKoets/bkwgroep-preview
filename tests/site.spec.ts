@@ -88,7 +88,7 @@ for (const path of ['', 'onderhoud', 'contact']) {
   })
 }
 
-test('captures durable presentation screenshots', async ({ page }) => {
+test('captures durable presentation screenshots', async ({ page }, testInfo) => {
   await page.setViewportSize({ width: 1440, height: 1000 })
   await page.goto('')
   await page.evaluate(async () => {
@@ -99,7 +99,7 @@ test('captures durable presentation screenshots', async ({ page }) => {
     )
   })
   await page.screenshot({
-    path: 'docs/v2/after/home-desktop.png',
+    path: `docs/v3/after/${testInfo.project.name}/home-desktop.png`,
     fullPage: true,
   })
   await page.goto('onderhoud')
@@ -111,7 +111,7 @@ test('captures durable presentation screenshots', async ({ page }) => {
     )
   })
   await page.screenshot({
-    path: 'docs/v2/after/onderhoud-desktop.png',
+    path: `docs/v3/after/${testInfo.project.name}/onderhoud-desktop.png`,
     fullPage: true,
   })
   await page.goto('contact')
@@ -123,7 +123,7 @@ test('captures durable presentation screenshots', async ({ page }) => {
     )
   })
   await page.screenshot({
-    path: 'docs/v2/after/contact-desktop.png',
+    path: `docs/v3/after/${testInfo.project.name}/contact-desktop.png`,
     fullPage: true,
   })
 
@@ -137,7 +137,7 @@ test('captures durable presentation screenshots', async ({ page }) => {
     )
   })
   await page.screenshot({
-    path: 'docs/v2/after/home-mobile.png',
+    path: `docs/v3/after/${testInfo.project.name}/home-mobile.png`,
     fullPage: true,
   })
   await page.goto('onderhoud')
@@ -149,7 +149,7 @@ test('captures durable presentation screenshots', async ({ page }) => {
     )
   })
   await page.screenshot({
-    path: 'docs/v2/after/onderhoud-mobile.png',
+    path: `docs/v3/after/${testInfo.project.name}/onderhoud-mobile.png`,
     fullPage: true,
   })
 })

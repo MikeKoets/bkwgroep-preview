@@ -1,0 +1,30 @@
+[
+  {
+    "asset": "public/assets/photos/maintenance-800.webp",
+    "beforeBytes": 63292,
+    "afterBytes": 38310,
+    "sameDimensions": true,
+    "psnrAgainstV2Db": 38.27
+  },
+  {
+    "asset": "public/assets/photos/locks-800.webp",
+    "beforeBytes": 52464,
+    "afterBytes": 31366,
+    "sameDimensions": true,
+    "psnrAgainstV2Db": 39.23
+  },
+  {
+    "asset": "public/assets/photos/insulation-800.webp",
+    "beforeBytes": 113702,
+    "afterBytes": 69954,
+    "sameDimensions": true,
+    "psnrAgainstV2Db": 35.87
+  },
+  {
+    "asset": "public/assets/photos/property-800.webp",
+    "beforeBytes": 93664,
+    "afterBytes": 54272,
+    "sameDimensions": true,
+    "psnrAgainstV2Db": 36.09
+  }
+]

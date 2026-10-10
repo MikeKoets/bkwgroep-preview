@@ -1,0 +1,41 @@
+{
+  "name": "heroWork",
+  "source": "https://bkwgroep.nl/media/filer_public/ff/bb/ffbb62bc-f3ce-488b-adb5-9e7011a7a46a/bkw-professionals.jpg",
+  "original": [
+    1090,
+    633
+  ],
+  "crop": [
+    300,
+    0,
+    1090,
+    530
+  ],
+  "transforms": "crop, brightness x1.035, Lanczos resize, WebP quality70(hero)/78(other)",
+  "variants": [
+    {
+      "src": "heroWork-480.webp",
+      "width": 480,
+      "height": 322,
+      "bytes": 34546
+    },
+    {
+      "src": "heroWork-640.webp",
+      "width": 640,
+      "height": 429,
+      "bytes": 51294
+    },
+    {
+      "src": "heroWork-720.webp",
+      "width": 720,
+      "height": 483,
+      "bytes": 60114
+    },
+    {
+      "src": "heroWork-790.webp",
+      "width": 790,
+      "height": 530,
+      "bytes": 69898
+    }
+  ]
+}

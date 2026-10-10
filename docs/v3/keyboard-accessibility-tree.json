@@ -1,0 +1,7034 @@
+{
+  "time": "2026-10-10T00:39:11.177Z",
+  "scope": "candidate local; real browser keyboard events and accessibility tree, not actual VoiceOver/NVDA speech",
+  "routes": [
+    {
+      "route": "/",
+      "skip": "Ga naar de inhoud",
+      "mainFocused": true,
+      "keyboard": [
+        {
+          "tag": "A",
+          "label": "Bespreek uw vraag",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Onze diensten",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "085 060 66 63",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Meer over onderhoud",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Meer over slotenservice",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Meer over isolatie",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Meer over zakelijk",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Maak uw vraag concreet",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Ontdek BKW Zakelijk",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Contact opnemen",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "085 060 66 63",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep home",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep op Facebook",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep op LinkedIn",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep op Instagram",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep op YouTube",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Alle diensten",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Onderhoud",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Slotenservice",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Isolatie",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Zakelijk",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "085 060 66 63",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "info@bkwgroup.nl",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Privacyverklaring",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Algemene voorwaarden",
+          "outline": "solid"
+        },
+        {
+          "tag": "BODY",
+          "label": "\n    Ga naar de inhoudBKW Groep · onderhoud, isolatie en slotenserviceinfo@bkwgroup.nl085 060 66 63H",
+          "outline": "none"
+        },
+        {
+          "tag": "A",
+          "label": "Ga naar de inhoud",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "info@bkwgroup.nl",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Bel 085 060 66 63",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep home",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Home, huidige pagina",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Onderhoud",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Slotenservice",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Isolatie",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Zakelijk",
+          "outline": "solid"
+        }
+      ],
+      "accessibilityTree": [
+        {
+          "role": "link",
+          "name": "Ga naar de inhoud",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/#main-content"
+              }
+            }
+          ]
+        },
+        {
+          "role": "banner",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "main",
+          "name": "",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "contentinfo",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "link",
+          "name": "info@bkwgroup.nl",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "mailto:info@bkwgroup.nl"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Bel 085 060 66 63",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "tel:+31850606663"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep home",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "navigation",
+          "name": "Hoofdnavigatie",
+          "properties": []
+        },
+        {
+          "role": "link",
+          "name": "Adviesgesprek",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep home",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "WERKZAAMHEDEN",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "CONTACT",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Privacyverklaring",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://bkwgroep.nl/privacyverklaring/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Algemene voorwaarden",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://bkwgroep.nl/algemene-voorwaarden/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Home , huidige pagina",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Onderhoud",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/onderhoud/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Slotenservice",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/slotenservice/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Isolatie",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/isolatie/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Zakelijk",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "focused",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/zakelijk/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Vakwerk voorwoning & vastgoed.",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 1
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Bespreek uw vraag",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Onze diensten",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/#diensten"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "085 060 66 63",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "tel:+31850606663"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Van herstel tot verbetering.",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Goed werk begint met duidelijke afspraken.",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Maak uw vraag concreet",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Uw vastgoed. Onze aandacht.",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Ontdek BKW Zakelijk",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/zakelijk/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Een goed begin is een helder gesprek.",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Contact opnemen",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "085 060 66 63",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "tel:+31850606663"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep op Facebook",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://www.facebook.com/bkwgroep/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep op LinkedIn",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://www.linkedin.com/company/bkw-group/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep op Instagram",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://www.instagram.com/bkwgroup/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep op YouTube",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://www.youtube.com/@bkwgroup8106"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Onderhoud",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Meer over onderhoud",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/onderhoud/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Slotenservice",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Meer over slotenservice",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/slotenservice/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Isolatie",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Meer over isolatie",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/isolatie/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Zakelijk",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Meer over zakelijk",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/zakelijk/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Uw woning of pand als vertrekpunt",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Inzicht in het werk en de kosten",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Meerdere diensten, één contactlijn",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Alle diensten",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/#diensten"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Onderhoud",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/onderhoud/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Slotenservice",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/slotenservice/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Isolatie",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/isolatie/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Zakelijk",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/zakelijk/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "085 060 66 63",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "tel:+31850606663"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "info@bkwgroup.nl",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "mailto:info@bkwgroup.nl"
+              }
+            }
+          ]
+        }
+      ],
+      "h1": 1
+    },
+    {
+      "route": "onderhoud/",
+      "skip": "Ga naar de inhoud",
+      "mainFocused": true,
+      "keyboard": [
+        {
+          "tag": "A",
+          "label": "Home",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Bespreek uw vraag ",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Bekijk werkzaamheden",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Bespreek uw onderhoudsvraag",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Slotenservice",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Isolatie",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Zakelijk",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Contact opnemen",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "085 060 66 63",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep home",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep op Facebook",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep op LinkedIn",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep op Instagram",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep op YouTube",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Alle diensten",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Onderhoud",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Slotenservice",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Isolatie",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Zakelijk",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "085 060 66 63",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "info@bkwgroup.nl",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Privacyverklaring",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Algemene voorwaarden",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Ga naar de inhoud",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "info@bkwgroup.nl",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Bel 085 060 66 63",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep home",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Home",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Onderhoud, huidige pagina",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Slotenservice",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Isolatie",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Zakelijk",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Contact",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Adviesgesprek",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Home",
+          "outline": "solid"
+        }
+      ],
+      "accessibilityTree": [
+        {
+          "role": "link",
+          "name": "Ga naar de inhoud",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/onderhoud/#main-content"
+              }
+            }
+          ]
+        },
+        {
+          "role": "banner",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "main",
+          "name": "",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "contentinfo",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "link",
+          "name": "info@bkwgroup.nl",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "mailto:info@bkwgroup.nl"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Bel 085 060 66 63",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "tel:+31850606663"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep home",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "navigation",
+          "name": "Hoofdnavigatie",
+          "properties": []
+        },
+        {
+          "role": "link",
+          "name": "Adviesgesprek",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep home",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "WERKZAAMHEDEN",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "CONTACT",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Privacyverklaring",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://bkwgroep.nl/privacyverklaring/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Algemene voorwaarden",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://bkwgroep.nl/algemene-voorwaarden/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Onderhoud , huidige pagina",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/onderhoud/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Slotenservice",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/slotenservice/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Isolatie",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/isolatie/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Zakelijk",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/zakelijk/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "navigation",
+          "name": "Kruimelpad",
+          "properties": []
+        },
+        {
+          "role": "heading",
+          "name": "Professioneel woningonderhoud",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 1
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Bespreek uw vraag",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Bekijk werkzaamheden",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/onderhoud/#werkzaamheden"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Een pand vraagt om aandacht.",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Herstel & storingen",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Woningverbetering",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Verbouwing & renovatie",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Mutatieonderhoud",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Vakmensen voor het werk aan uw woning.",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Bespreek uw onderhoudsvraag",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "tel:+31850606663"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Maak het vooraf helder.",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Ook bij BKW Groep",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "navigation",
+          "name": "Gerelateerde diensten",
+          "properties": []
+        },
+        {
+          "role": "heading",
+          "name": "Vertel wat er aan uw woning moet gebeuren.",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Contact opnemen",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "085 060 66 63",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "tel:+31850606663"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep op Facebook",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://www.facebook.com/bkwgroep/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep op LinkedIn",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://www.linkedin.com/company/bkw-group/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep op Instagram",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://www.instagram.com/bkwgroup/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep op YouTube",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://www.youtube.com/@bkwgroup8106"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "focused",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Slotenservice",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/slotenservice/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Isolatie",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/isolatie/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Zakelijk",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/zakelijk/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Alle diensten",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/#diensten"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Onderhoud",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/onderhoud/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Slotenservice",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/slotenservice/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Isolatie",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/isolatie/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Zakelijk",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/zakelijk/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "085 060 66 63",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "tel:+31850606663"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "info@bkwgroup.nl",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "mailto:info@bkwgroup.nl"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Vertel wat er speelt",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Bespreek de werkzaamheden",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Stem de uitvoering af",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        }
+      ],
+      "h1": 1
+    },
+    {
+      "route": "slotenservice/",
+      "skip": "Ga naar de inhoud",
+      "mainFocused": true,
+      "keyboard": [
+        {
+          "tag": "A",
+          "label": "Home",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Bel 085 060 66 63",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Bekijk werkzaamheden",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Bel voor hulp",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Bespreek herstel",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Vraag preventief advies",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "085 060 66 63",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Onderhoud",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Isolatie",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Zakelijk",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Contact opnemen",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "085 060 66 63",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep home",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep op Facebook",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep op LinkedIn",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep op Instagram",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep op YouTube",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Alle diensten",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Onderhoud",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Slotenservice",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Isolatie",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Zakelijk",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "085 060 66 63",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "info@bkwgroup.nl",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Privacyverklaring",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Algemene voorwaarden",
+          "outline": "solid"
+        },
+        {
+          "tag": "BODY",
+          "label": "\n    Ga naar de inhoudBKW Groep · onderhoud, isolatie en slotenserviceinfo@bkwgroup.nl085 060 66 63H",
+          "outline": "none"
+        },
+        {
+          "tag": "A",
+          "label": "Ga naar de inhoud",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "info@bkwgroup.nl",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Bel 085 060 66 63",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep home",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Home",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Onderhoud",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Slotenservice, huidige pagina",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Isolatie",
+          "outline": "solid"
+        }
+      ],
+      "accessibilityTree": [
+        {
+          "role": "link",
+          "name": "Ga naar de inhoud",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/slotenservice/#main-content"
+              }
+            }
+          ]
+        },
+        {
+          "role": "banner",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "main",
+          "name": "",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "contentinfo",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "link",
+          "name": "info@bkwgroup.nl",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "mailto:info@bkwgroup.nl"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Bel 085 060 66 63",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "tel:+31850606663"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep home",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "navigation",
+          "name": "Hoofdnavigatie",
+          "properties": []
+        },
+        {
+          "role": "link",
+          "name": "Adviesgesprek",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep home",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "WERKZAAMHEDEN",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "CONTACT",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Privacyverklaring",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://bkwgroep.nl/privacyverklaring/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Algemene voorwaarden",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://bkwgroep.nl/algemene-voorwaarden/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Onderhoud",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/onderhoud/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Slotenservice , huidige pagina",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/slotenservice/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Isolatie",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "focused",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/isolatie/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Zakelijk",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/zakelijk/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "navigation",
+          "name": "Kruimelpad",
+          "properties": []
+        },
+        {
+          "role": "heading",
+          "name": "Slotenservice",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 1
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Bel 085 060 66 63",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "tel:+31850606663"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Bekijk werkzaamheden",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/slotenservice/#werkzaamheden"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Hulp bij uw deur. Advies voor daarna.",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Vertel wat er aan de hand is.",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Rechtstreeks contact",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "085 060 66 63",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "tel:+31850606663"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Ook bij BKW Groep",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "navigation",
+          "name": "Gerelateerde diensten",
+          "properties": []
+        },
+        {
+          "role": "heading",
+          "name": "Een goed slot begint bij uw situatie.",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Contact opnemen",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "085 060 66 63",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "tel:+31850606663"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep op Facebook",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://www.facebook.com/bkwgroep/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep op LinkedIn",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://www.linkedin.com/company/bkw-group/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep op Instagram",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://www.instagram.com/bkwgroup/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep op YouTube",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://www.youtube.com/@bkwgroup8106"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Deur openen",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Bel voor hulp",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "tel:+31850606663"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Herstel & vervangen",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Bespreek herstel",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Inbraakpreventie",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Vraag preventief advies",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Onderhoud",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/onderhoud/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Isolatie",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/isolatie/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Zakelijk",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/zakelijk/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Alle diensten",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/#diensten"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Onderhoud",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/onderhoud/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Slotenservice",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/slotenservice/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Isolatie",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/isolatie/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Zakelijk",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/zakelijk/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "085 060 66 63",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "tel:+31850606663"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "info@bkwgroup.nl",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "mailto:info@bkwgroup.nl"
+              }
+            }
+          ]
+        }
+      ],
+      "h1": 1
+    },
+    {
+      "route": "isolatie/",
+      "skip": "Ga naar de inhoud",
+      "mainFocused": true,
+      "keyboard": [
+        {
+          "tag": "A",
+          "label": "Home",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Bespreek uw vraag ",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Bekijk werkzaamheden",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Bespreek spouwmuurisolatie",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Bespreek dakisolatie",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Bespreek vloerisolatie",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Bespreek bodemisolatie",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Isolatie voor uw organisatie",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Onderhoud",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Slotenservice",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Zakelijk",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Contact opnemen",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "085 060 66 63",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep home",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep op Facebook",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep op LinkedIn",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep op Instagram",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep op YouTube",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Alle diensten",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Onderhoud",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Slotenservice",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Isolatie",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Zakelijk",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "085 060 66 63",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "info@bkwgroup.nl",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Privacyverklaring",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Algemene voorwaarden",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Ga naar de inhoud",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "info@bkwgroup.nl",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Bel 085 060 66 63",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep home",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Home",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Onderhoud",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Slotenservice",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Isolatie, huidige pagina",
+          "outline": "solid"
+        }
+      ],
+      "accessibilityTree": [
+        {
+          "role": "link",
+          "name": "Ga naar de inhoud",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/isolatie/#main-content"
+              }
+            }
+          ]
+        },
+        {
+          "role": "banner",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "main",
+          "name": "",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "contentinfo",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "link",
+          "name": "info@bkwgroup.nl",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "mailto:info@bkwgroup.nl"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Bel 085 060 66 63",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "tel:+31850606663"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep home",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "navigation",
+          "name": "Hoofdnavigatie",
+          "properties": []
+        },
+        {
+          "role": "link",
+          "name": "Adviesgesprek",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep home",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "WERKZAAMHEDEN",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "CONTACT",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Privacyverklaring",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://bkwgroep.nl/privacyverklaring/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Algemene voorwaarden",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://bkwgroep.nl/algemene-voorwaarden/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Onderhoud",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/onderhoud/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Slotenservice",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/slotenservice/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Isolatie , huidige pagina",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "focused",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/isolatie/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Zakelijk",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/zakelijk/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "navigation",
+          "name": "Kruimelpad",
+          "properties": []
+        },
+        {
+          "role": "heading",
+          "name": "Isolatie voor een comfortabeler pand",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 1
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Bespreek uw vraag",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Bekijk werkzaamheden",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/isolatie/#werkzaamheden"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "De juiste aanpak voor uw gebouw.",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Elke bouwsituatie is anders.",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Isolatie voor uw organisatie",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/zakelijk/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Ook bij BKW Groep",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "navigation",
+          "name": "Gerelateerde diensten",
+          "properties": []
+        },
+        {
+          "role": "heading",
+          "name": "Wat past bij uw woning of gebouw?",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Contact opnemen",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "085 060 66 63",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "tel:+31850606663"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep op Facebook",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://www.facebook.com/bkwgroep/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep op LinkedIn",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://www.linkedin.com/company/bkw-group/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep op Instagram",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://www.instagram.com/bkwgroup/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep op YouTube",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://www.youtube.com/@bkwgroup8106"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Spouwmuur",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Bespreek spouwmuurisolatie",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Dakisolatie",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Bespreek dakisolatie",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Vloerisolatie",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Bespreek vloerisolatie",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Bodemisolatie",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Bespreek bodemisolatie",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Onderhoud",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/onderhoud/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Slotenservice",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/slotenservice/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Zakelijk",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/zakelijk/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Alle diensten",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/#diensten"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Onderhoud",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/onderhoud/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Slotenservice",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/slotenservice/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Isolatie",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/isolatie/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Zakelijk",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/zakelijk/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "085 060 66 63",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "tel:+31850606663"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "info@bkwgroup.nl",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "mailto:info@bkwgroup.nl"
+              }
+            }
+          ]
+        }
+      ],
+      "h1": 1
+    },
+    {
+      "route": "zakelijk/",
+      "skip": "Ga naar de inhoud",
+      "mainFocused": true,
+      "keyboard": [
+        {
+          "tag": "A",
+          "label": "Home",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Bespreek uw vraag ",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Bekijk werkzaamheden",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "yoeri@bkwgroep.nl",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Contact & adresgegevens",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Onderhoud",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Slotenservice",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Isolatie",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Contact opnemen",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "085 060 66 63",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep home",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep op Facebook",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep op LinkedIn",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep op Instagram",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep op YouTube",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Alle diensten",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Onderhoud",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Slotenservice",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Isolatie",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Zakelijk",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "085 060 66 63",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "info@bkwgroup.nl",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Privacyverklaring",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Algemene voorwaarden",
+          "outline": "solid"
+        },
+        {
+          "tag": "BODY",
+          "label": "\n    Ga naar de inhoudBKW Groep · onderhoud, isolatie en slotenserviceinfo@bkwgroup.nl085 060 66 63H",
+          "outline": "none"
+        },
+        {
+          "tag": "A",
+          "label": "Ga naar de inhoud",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "info@bkwgroup.nl",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Bel 085 060 66 63",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep home",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Home",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Onderhoud",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Slotenservice",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Isolatie",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Zakelijk, huidige pagina",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Contact",
+          "outline": "solid"
+        }
+      ],
+      "accessibilityTree": [
+        {
+          "role": "link",
+          "name": "Ga naar de inhoud",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/zakelijk/#main-content"
+              }
+            }
+          ]
+        },
+        {
+          "role": "banner",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "main",
+          "name": "",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "contentinfo",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "link",
+          "name": "info@bkwgroup.nl",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "mailto:info@bkwgroup.nl"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Bel 085 060 66 63",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "tel:+31850606663"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep home",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "navigation",
+          "name": "Hoofdnavigatie",
+          "properties": []
+        },
+        {
+          "role": "link",
+          "name": "Adviesgesprek",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep home",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "WERKZAAMHEDEN",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "CONTACT",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Privacyverklaring",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://bkwgroep.nl/privacyverklaring/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Algemene voorwaarden",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://bkwgroep.nl/algemene-voorwaarden/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Onderhoud",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/onderhoud/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Slotenservice",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/slotenservice/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Isolatie",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/isolatie/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Zakelijk , huidige pagina",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/zakelijk/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "focused",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "navigation",
+          "name": "Kruimelpad",
+          "properties": []
+        },
+        {
+          "role": "heading",
+          "name": "Zakelijk onderhoud en isolatie",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 1
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Bespreek uw vraag",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Bekijk werkzaamheden",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/zakelijk/#werkzaamheden"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Aandacht voor uw pand én uw organisatie.",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Vastgoedonderhoud",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Storingsdienst",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Renovatie & isolatie",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 3
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Bespreek uw vastgoedvraag.",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "yoeri@bkwgroep.nl",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "mailto:yoeri@bkwgroep.nl"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Contact & adresgegevens",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Ook bij BKW Groep",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "navigation",
+          "name": "Gerelateerde diensten",
+          "properties": []
+        },
+        {
+          "role": "heading",
+          "name": "Maak uw volgende onderhoudsvraag concreet.",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Contact opnemen",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "085 060 66 63",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "tel:+31850606663"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep op Facebook",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://www.facebook.com/bkwgroep/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep op LinkedIn",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://www.linkedin.com/company/bkw-group/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep op Instagram",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://www.instagram.com/bkwgroup/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep op YouTube",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://www.youtube.com/@bkwgroup8106"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Onderhoud",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/onderhoud/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Slotenservice",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/slotenservice/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Isolatie",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/isolatie/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Alle diensten",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/#diensten"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Onderhoud",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/onderhoud/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Slotenservice",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/slotenservice/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Isolatie",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/isolatie/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Zakelijk",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/zakelijk/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "085 060 66 63",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "tel:+31850606663"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "info@bkwgroup.nl",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "mailto:info@bkwgroup.nl"
+              }
+            }
+          ]
+        }
+      ],
+      "h1": 1
+    },
+    {
+      "route": "contact/",
+      "skip": "Ga naar de inhoud",
+      "mainFocused": true,
+      "keyboard": [
+        {
+          "tag": "A",
+          "label": "Home",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Direct bespreken085 060 66 63Bij een urgente situatie: bel ons.",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Liever per e-mail?info@bkwgroup.nlBeschrijf kort de situatie en uw vraag.",
+          "outline": "solid"
+        },
+        {
+          "tag": "INPUT",
+          "label": "name",
+          "outline": "solid"
+        },
+        {
+          "tag": "INPUT",
+          "label": "email",
+          "outline": "solid"
+        },
+        {
+          "tag": "TEXTAREA",
+          "label": "message",
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Demo controleren ",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep home",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep op Facebook",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep op LinkedIn",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep op Instagram",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep op YouTube",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Alle diensten",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Onderhoud",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Slotenservice",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Isolatie",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Zakelijk",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "085 060 66 63",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "info@bkwgroup.nl",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Privacyverklaring",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Algemene voorwaarden",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Ga naar de inhoud",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "info@bkwgroup.nl",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Bel 085 060 66 63",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "BKW Groep home",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Home",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Onderhoud",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Slotenservice",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Isolatie",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Zakelijk",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Contact, huidige pagina",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Adviesgesprek",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Home",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Direct bespreken085 060 66 63Bij een urgente situatie: bel ons.",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Liever per e-mail?info@bkwgroup.nlBeschrijf kort de situatie en uw vraag.",
+          "outline": "solid"
+        }
+      ],
+      "accessibilityTree": [
+        {
+          "role": "link",
+          "name": "Ga naar de inhoud",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/#main-content"
+              }
+            }
+          ]
+        },
+        {
+          "role": "banner",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "main",
+          "name": "",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "contentinfo",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "link",
+          "name": "info@bkwgroup.nl",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "mailto:info@bkwgroup.nl"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Bel 085 060 66 63",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "tel:+31850606663"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep home",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "navigation",
+          "name": "Hoofdnavigatie",
+          "properties": []
+        },
+        {
+          "role": "link",
+          "name": "Adviesgesprek",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep home",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "WERKZAAMHEDEN",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "CONTACT",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Privacyverklaring",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://bkwgroep.nl/privacyverklaring/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Algemene voorwaarden",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://bkwgroep.nl/algemene-voorwaarden/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Onderhoud",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/onderhoud/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Slotenservice",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/slotenservice/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Isolatie",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/isolatie/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Zakelijk",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/zakelijk/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Contact , huidige pagina",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/contact/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "navigation",
+          "name": "Kruimelpad",
+          "properties": []
+        },
+        {
+          "role": "heading",
+          "name": "Contact opnemen met BKW Groep",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 1
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Direct bespreken 085 060 66 63 Bij een urgente situatie: bel ons.",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "tel:+31850606663"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Liever per e-mail? info@bkwgroup.nl Beschrijf kort de situatie en uw vraag.",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "focused",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "mailto:info@bkwgroup.nl"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Handig om te vermelden",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep op Facebook",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://www.facebook.com/bkwgroep/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep op LinkedIn",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://www.linkedin.com/company/bkw-group/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep op Instagram",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://www.instagram.com/bkwgroup/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "BKW Groep op YouTube",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "https://www.youtube.com/@bkwgroup8106"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "heading",
+          "name": "Vertel kort waarmee we kunnen helpen",
+          "properties": [
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 2
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Alle diensten",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/#diensten"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Onderhoud",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/onderhoud/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Slotenservice",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/slotenservice/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Isolatie",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/isolatie/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "Zakelijk",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:4175/bkwgroep-preview/zakelijk/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "085 060 66 63",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "tel:+31850606663"
+              }
+            }
+          ]
+        },
+        {
+          "role": "link",
+          "name": "info@bkwgroup.nl",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "mailto:info@bkwgroup.nl"
+              }
+            }
+          ]
+        },
+        {
+          "role": "textbox",
+          "name": "Naam",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "editable",
+              "value": {
+                "type": "token",
+                "value": "plaintext"
+              }
+            },
+            {
+              "name": "settable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "multiline",
+              "value": {
+                "type": "boolean",
+                "value": false
+              }
+            },
+            {
+              "name": "readonly",
+              "value": {
+                "type": "boolean",
+                "value": false
+              }
+            },
+            {
+              "name": "required",
+              "value": {
+                "type": "boolean",
+                "value": true
+              }
+            },
+            {
+              "name": "labelledby",
+              "value": {
+                "type": "nodeList",
+                "relatedNodes": [
+                  {
+                    "backendDOMNodeId": 1841,
+                    "text": "Naam"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "role": "textbox",
+          "name": "E-mailadres",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "editable",
+              "value": {
+                "type": "token",
+                "value": "plaintext"
+              }
+            },
+            {
+              "name": "settable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "multiline",
+              "value": {
+                "type": "boolean",
+                "value": false
+              }
+            },
+            {
+              "name": "readonly",
+              "value": {
+                "type": "boolean",
+                "value": false
+              }
+            },
+            {
+              "name": "required",
+              "value": {
+                "type": "boolean",
+                "value": true
+              }
+            },
+            {
+              "name": "labelledby",
+              "value": {
+                "type": "nodeList",
+                "relatedNodes": [
+                  {
+                    "backendDOMNodeId": 1844,
+                    "text": "E-mailadres"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "role": "textbox",
+          "name": "Uw vraag",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "editable",
+              "value": {
+                "type": "token",
+                "value": "plaintext"
+              }
+            },
+            {
+              "name": "settable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "multiline",
+              "value": {
+                "type": "boolean",
+                "value": true
+              }
+            },
+            {
+              "name": "readonly",
+              "value": {
+                "type": "boolean",
+                "value": false
+              }
+            },
+            {
+              "name": "required",
+              "value": {
+                "type": "boolean",
+                "value": true
+              }
+            },
+            {
+              "name": "labelledby",
+              "value": {
+                "type": "nodeList",
+                "relatedNodes": [
+                  {
+                    "backendDOMNodeId": 1847,
+                    "text": "Uw vraag"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Demo controleren",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        }
+      ],
+      "h1": 1
+    }
+  ],
+  "touch": [
+    {
+      "width": 375,
+      "box": {
+        "x": 45,
+        "y": 0,
+        "width": 330,
+        "height": 844
+      },
+      "texts": [
+        "Menu sluiten",
+        "Home, huidige pagina",
+        "Onderhoud",
+        "Slotenservice",
+        "Isolatie",
+        "Zakelijk",
+        "Contact",
+        "Bel 085 060 66 63",
+        "Contact opnemen"
+      ],
+      "phoneHref": "tel:+31850606663",
+      "inertReleased": true
+    },
+    {
+      "width": 390,
+      "box": {
+        "x": 46.8125,
+        "y": 0,
+        "width": 343.1875,
+        "height": 844
+      },
+      "texts": [
+        "Menu sluiten",
+        "Home, huidige pagina",
+        "Onderhoud",
+        "Slotenservice",
+        "Isolatie",
+        "Zakelijk",
+        "Contact",
+        "Bel 085 060 66 63",
+        "Contact opnemen"
+      ],
+      "phoneHref": "tel:+31850606663",
+      "inertReleased": true
+    },
+    {
+      "width": 430,
+      "box": {
+        "x": 51.609375,
+        "y": 0,
+        "width": 378.390625,
+        "height": 844
+      },
+      "texts": [
+        "Menu sluiten",
+        "Home, huidige pagina",
+        "Onderhoud",
+        "Slotenservice",
+        "Isolatie",
+        "Zakelijk",
+        "Contact",
+        "Bel 085 060 66 63",
+        "Contact opnemen"
+      ],
+      "phoneHref": "tel:+31850606663",
+      "inertReleased": true
+    }
+  ],
+  "contrast": [],
+  "menu": {
+    "tabCycle": [
+      "Menu sluiten",
+      "Home",
+      "Onderhoud",
+      "Slotenservice",
+      "Isolatie",
+      "Zakelijk",
+      "Contact, huidige pagina",
+      "Bel 085 060 66 63",
+      "Contact opnemen"
+    ],
+    "backgroundInert": true
+  },
+  "formAX": [
+    {
+      "role": "StaticText",
+      "name": "Beschrijf kort de situatie en uw vraag.",
+      "properties": []
+    },
+    {
+      "role": "textbox",
+      "name": "Naam",
+      "description": "Vul uw naam in.",
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "true"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "focused",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "editable",
+          "value": {
+            "type": "token",
+            "value": "plaintext"
+          }
+        },
+        {
+          "name": "settable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "multiline",
+          "value": {
+            "type": "boolean",
+            "value": false
+          }
+        },
+        {
+          "name": "readonly",
+          "value": {
+            "type": "boolean",
+            "value": false
+          }
+        },
+        {
+          "name": "required",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        },
+        {
+          "name": "describedby",
+          "value": {
+            "type": "idrefList",
+            "value": "contact-name-error",
+            "relatedNodes": [
+              {
+                "backendDOMNodeId": 2111,
+                "idref": "contact-name-error"
+              }
+            ]
+          }
+        },
+        {
+          "name": "labelledby",
+          "value": {
+            "type": "nodeList",
+            "relatedNodes": [
+              {
+                "backendDOMNodeId": 2109,
+                "text": "Naam"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "role": "textbox",
+      "name": "E-mailadres",
+      "description": "Vul uw e-mailadres in.",
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "true"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "editable",
+          "value": {
+            "type": "token",
+            "value": "plaintext"
+          }
+        },
+        {
+          "name": "settable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "multiline",
+          "value": {
+            "type": "boolean",
+            "value": false
+          }
+        },
+        {
+          "name": "readonly",
+          "value": {
+            "type": "boolean",
+            "value": false
+          }
+        },
+        {
+          "name": "required",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        },
+        {
+          "name": "describedby",
+          "value": {
+            "type": "idrefList",
+            "value": "contact-email-error",
+            "relatedNodes": [
+              {
+                "backendDOMNodeId": 2114,
+                "idref": "contact-email-error"
+              }
+            ]
+          }
+        },
+        {
+          "name": "labelledby",
+          "value": {
+            "type": "nodeList",
+            "relatedNodes": [
+              {
+                "backendDOMNodeId": 2112,
+                "text": "E-mailadres"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "role": "textbox",
+      "name": "Uw vraag",
+      "description": "Beschrijf kort uw vraag.",
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "true"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "editable",
+          "value": {
+            "type": "token",
+            "value": "plaintext"
+          }
+        },
+        {
+          "name": "settable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "multiline",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        },
+        {
+          "name": "readonly",
+          "value": {
+            "type": "boolean",
+            "value": false
+          }
+        },
+        {
+          "name": "required",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        },
+        {
+          "name": "describedby",
+          "value": {
+            "type": "idrefList",
+            "value": "contact-message-error",
+            "relatedNodes": [
+              {
+                "backendDOMNodeId": 2118,
+                "idref": "contact-message-error"
+              }
+            ]
+          }
+        },
+        {
+          "name": "labelledby",
+          "value": {
+            "type": "nodeList",
+            "relatedNodes": [
+              {
+                "backendDOMNodeId": 2115,
+                "text": "Uw vraag"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "role": "alert",
+      "name": "",
+      "properties": [
+        {
+          "name": "live",
+          "value": {
+            "type": "token",
+            "value": "assertive"
+          }
+        },
+        {
+          "name": "atomic",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        },
+        {
+          "name": "relevant",
+          "value": {
+            "type": "tokenList",
+            "value": "additions text"
+          }
+        }
+      ]
+    },
+    {
+      "role": "StaticText",
+      "name": "Vul uw naam in.",
+      "properties": []
+    },
+    {
+      "role": "StaticText",
+      "name": "Vul uw e-mailadres in.",
+      "properties": []
+    },
+    {
+      "role": "StaticText",
+      "name": "Beschrijf kort uw vraag.",
+      "properties": []
+    },
+    {
+      "role": "StaticText",
+      "name": "Controleer de gemarkeerde velden. Er is niets verzonden.",
+      "properties": []
+    }
+  ],
+  "cssCoverage": [
+    {
+      "url": "http://127.0.0.1:4175/bkwgroep-preview/",
+      "totalBytes": 25843,
+      "usedBytes": 0
+    },
+    {
+      "url": "http://127.0.0.1:4175/bkwgroep-preview/onderhoud/",
+      "totalBytes": 25843,
+      "usedBytes": 0
+    },
+    {
+      "url": "http://127.0.0.1:4175/bkwgroep-preview/slotenservice/",
+      "totalBytes": 25843,
+      "usedBytes": 0
+    },
+    {
+      "url": "http://127.0.0.1:4175/bkwgroep-preview/isolatie/",
+      "totalBytes": 25843,
+      "usedBytes": 0
+    },
+    {
+      "url": "http://127.0.0.1:4175/bkwgroep-preview/zakelijk/",
+      "totalBytes": 25843,
+      "usedBytes": 0
+    },
+    {
+      "url": "http://127.0.0.1:4175/bkwgroep-preview/contact/",
+      "totalBytes": 25843,
+      "usedBytes": 0
+    },
+    {
+      "url": "http://127.0.0.1:4175/bkwgroep-preview/contact/",
+      "totalBytes": 25843,
+      "usedBytes": 10217
+    }
+  ]
+}

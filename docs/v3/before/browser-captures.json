@@ -1,0 +1,254 @@
+[
+  {
+    "route": "/",
+    "width": 320,
+    "header": "Vakwerk voor\nwoning\n& vastgoed.",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/"
+  },
+  {
+    "route": "onderhoud/",
+    "width": 320,
+    "header": "Professioneel woningonderhoud",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/onderhoud/"
+  },
+  {
+    "route": "slotenservice/",
+    "width": 320,
+    "header": "Slotenservice",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/slotenservice/"
+  },
+  {
+    "route": "isolatie/",
+    "width": 320,
+    "header": "Isolatie voor een comfortabeler pand",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/isolatie/"
+  },
+  {
+    "route": "zakelijk/",
+    "width": 320,
+    "header": "Zakelijk onderhoud en isolatie",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/zakelijk/"
+  },
+  {
+    "route": "contact/",
+    "width": 320,
+    "header": "Contact opnemen\nmet BKW Groep",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/contact/"
+  },
+  {
+    "route": "/",
+    "width": 375,
+    "header": "Vakwerk voor\nwoning\n& vastgoed.",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/"
+  },
+  {
+    "route": "onderhoud/",
+    "width": 375,
+    "header": "Professioneel woningonderhoud",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/onderhoud/"
+  },
+  {
+    "route": "slotenservice/",
+    "width": 375,
+    "header": "Slotenservice",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/slotenservice/"
+  },
+  {
+    "route": "isolatie/",
+    "width": 375,
+    "header": "Isolatie voor een comfortabeler pand",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/isolatie/"
+  },
+  {
+    "route": "zakelijk/",
+    "width": 375,
+    "header": "Zakelijk onderhoud en isolatie",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/zakelijk/"
+  },
+  {
+    "route": "contact/",
+    "width": 375,
+    "header": "Contact opnemen\nmet BKW Groep",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/contact/"
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "header": "Vakwerk voor\nwoning\n& vastgoed.",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/"
+  },
+  {
+    "route": "onderhoud/",
+    "width": 390,
+    "header": "Professioneel woningonderhoud",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/onderhoud/"
+  },
+  {
+    "route": "slotenservice/",
+    "width": 390,
+    "header": "Slotenservice",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/slotenservice/"
+  },
+  {
+    "route": "isolatie/",
+    "width": 390,
+    "header": "Isolatie voor een comfortabeler pand",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/isolatie/"
+  },
+  {
+    "route": "zakelijk/",
+    "width": 390,
+    "header": "Zakelijk onderhoud en isolatie",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/zakelijk/"
+  },
+  {
+    "route": "contact/",
+    "width": 390,
+    "header": "Contact opnemen\nmet BKW Groep",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/contact/"
+  },
+  {
+    "route": "/",
+    "width": 430,
+    "header": "Vakwerk voor\nwoning\n& vastgoed.",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/"
+  },
+  {
+    "route": "onderhoud/",
+    "width": 430,
+    "header": "Professioneel woningonderhoud",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/onderhoud/"
+  },
+  {
+    "route": "slotenservice/",
+    "width": 430,
+    "header": "Slotenservice",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/slotenservice/"
+  },
+  {
+    "route": "isolatie/",
+    "width": 430,
+    "header": "Isolatie voor een comfortabeler pand",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/isolatie/"
+  },
+  {
+    "route": "zakelijk/",
+    "width": 430,
+    "header": "Zakelijk onderhoud en isolatie",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/zakelijk/"
+  },
+  {
+    "route": "contact/",
+    "width": 430,
+    "header": "Contact opnemen\nmet BKW Groep",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/contact/"
+  },
+  {
+    "route": "/",
+    "width": 768,
+    "header": "Vakwerk voor\nwoning\n& vastgoed.",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/"
+  },
+  {
+    "route": "onderhoud/",
+    "width": 768,
+    "header": "Professioneel woningonderhoud",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/onderhoud/"
+  },
+  {
+    "route": "slotenservice/",
+    "width": 768,
+    "header": "Slotenservice",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/slotenservice/"
+  },
+  {
+    "route": "isolatie/",
+    "width": 768,
+    "header": "Isolatie voor een comfortabeler pand",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/isolatie/"
+  },
+  {
+    "route": "zakelijk/",
+    "width": 768,
+    "header": "Zakelijk onderhoud en isolatie",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/zakelijk/"
+  },
+  {
+    "route": "contact/",
+    "width": 768,
+    "header": "Contact opnemen\nmet BKW Groep",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/contact/"
+  },
+  {
+    "route": "/",
+    "width": 1024,
+    "header": "Vakwerk voor\nwoning\n& vastgoed.",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/"
+  },
+  {
+    "route": "onderhoud/",
+    "width": 1024,
+    "header": "Professioneel woningonderhoud",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/onderhoud/"
+  },
+  {
+    "route": "slotenservice/",
+    "width": 1024,
+    "header": "Slotenservice",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/slotenservice/"
+  },
+  {
+    "route": "isolatie/",
+    "width": 1024,
+    "header": "Isolatie voor een comfortabeler pand",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/isolatie/"
+  },
+  {
+    "route": "zakelijk/",
+    "width": 1024,
+    "header": "Zakelijk onderhoud en isolatie",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/zakelijk/"
+  },
+  {
+    "route": "contact/",
+    "width": 1024,
+    "header": "Contact opnemen\nmet BKW Groep",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/contact/"
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "header": "Vakwerk voor\nwoning\n& vastgoed.",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/"
+  },
+  {
+    "route": "onderhoud/",
+    "width": 1440,
+    "header": "Professioneel woningonderhoud",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/onderhoud/"
+  },
+  {
+    "route": "slotenservice/",
+    "width": 1440,
+    "header": "Slotenservice",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/slotenservice/"
+  },
+  {
+    "route": "isolatie/",
+    "width": 1440,
+    "header": "Isolatie voor een comfortabeler pand",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/isolatie/"
+  },
+  {
+    "route": "zakelijk/",
+    "width": 1440,
+    "header": "Zakelijk onderhoud en isolatie",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/zakelijk/"
+  },
+  {
+    "route": "contact/",
+    "width": 1440,
+    "header": "Contact opnemen\nmet BKW Groep",
+    "url": "https://mikekoets.github.io/bkwgroep-preview/contact/"
+  }
+]

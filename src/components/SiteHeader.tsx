@@ -1,3 +1,4 @@
+import { useHydrated } from './useHydrated'
 import { useEffect, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { ArrowUpRight, Mail, Menu, Phone, X } from 'lucide-react'
@@ -34,9 +35,19 @@ function NavigationLinks({ onNavigate }: { onNavigate?: () => void }) {
 }
 
 export function SiteHeader() {
+  const interactive = useHydrated()
   const [menuOpen, setMenuOpen] = useState(false)
   const menuButtonRef = useRef<HTMLButtonElement>(null)
   const drawerRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    if (!interactive) return
+    delete window.__bkwHydrate
+    if (!window.__bkwPendingMenu) return
+    delete window.__bkwPendingMenu
+    // Dispatch after hydration so React owns the same event path as every later tap.
+    queueMicrotask(() => menuButtonRef.current?.click())
+  }, [interactive])
 
   useEffect(() => {
     if (!menuOpen) return
@@ -54,15 +65,15 @@ export function SiteHeader() {
       const elements =
         drawerRef.current?.querySelectorAll<HTMLElement>('button, a[href]')
       if (!elements?.length) return
-      const first = elements[0],
-        last = elements[elements.length - 1]
-      if (event.shiftKey && document.activeElement === first) {
-        event.preventDefault()
-        last.focus()
-      } else if (!event.shiftKey && document.activeElement === last) {
-        event.preventDefault()
-        first.focus()
-      }
+      // Explicitly cycle every control, including links, independent of Safari's
+      // system preference for which elements receive Tab focus.
+      const controls = [...elements]
+      const current = controls.indexOf(document.activeElement as HTMLElement)
+      const next = event.shiftKey
+        ? (current <= 0 ? controls.length - 1 : current - 1)
+        : (current + 1) % controls.length
+      event.preventDefault()
+      controls[next].focus()
     }
     const closeOnDesktop = () => {
       if (window.innerWidth > 1100) setMenuOpen(false)
@@ -128,6 +139,8 @@ export function SiteHeader() {
             <span>Bellen</span>
           </a>
           <button
+            data-interactive={interactive}
+            aria-busy={!interactive}
             ref={menuButtonRef}
             type="button"
             className="menu-button"

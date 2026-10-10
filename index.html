@@ -2,6 +2,17 @@
 <html lang="nl">
   <head>
     <meta charset="UTF-8" />
+    <script>
+      // Capture the first mobile-menu tap even before the small bootstrap loads.
+      document.addEventListener('click', function (event) {
+        var button = event.target instanceof Element ? event.target.closest('.menu-button') : null;
+        if (!button || button.dataset.interactive === 'true') return;
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        window.__bkwPendingMenu = true;
+        if (window.__bkwHydrate) window.__bkwHydrate();
+      }, true);
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex, nofollow, noarchive" />
     <meta name="theme-color" content="#202623" />
@@ -18,39 +29,9 @@
       content="Conceptuele redesign-preview voor BKW Groep. Deze demo verwerkt geen persoonsgegevens."
     />
     <title>BKW Groep | Websitepreview</title>
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "BKW Groep",
-        "url": "https://bkwgroep.nl/",
-        "telephone": "+31850606663",
-        "email": "info@bkwgroup.nl",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Noordeindseweg 256A",
-          "postalCode": "2651 LL",
-          "addressLocality": "Berkel en Rodenrijs",
-          "addressCountry": "NL"
-        }
-      }
-    </script>
-    <script>
-      ;(() => {
-        const params = new URLSearchParams(window.location.search)
-        const redirectPath = params.get('path')
-        if (!redirectPath) return
-        const base = '/bkwgroep-preview/'
-        window.history.replaceState(
-          null,
-          '',
-          base + redirectPath.replace(/^\//, ''),
-        )
-      })()
-    </script>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <script type="module" fetchpriority="low" src="/src/bootstrap.ts"></script>
   </body>
 </html>

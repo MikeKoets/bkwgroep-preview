@@ -1,0 +1,317 @@
+{
+  "heroWork": {
+    "variants": [
+      {
+        "src": "heroWork-480.webp",
+        "width": 480,
+        "height": 322
+      },
+      {
+        "src": "heroWork-640.webp",
+        "width": 640,
+        "height": 429
+      },
+      {
+        "src": "heroWork-720.webp",
+        "width": 720,
+        "height": 483
+      },
+      {
+        "src": "heroWork-790.webp",
+        "width": 790,
+        "height": 530
+      }
+    ]
+  },
+  "craft": {
+    "variants": [
+      {
+        "src": "craft-480.webp",
+        "width": 480,
+        "height": 387
+      },
+      {
+        "src": "craft-640.webp",
+        "width": 640,
+        "height": 516
+      },
+      {
+        "src": "craft-720.webp",
+        "width": 720,
+        "height": 581
+      },
+      {
+        "src": "craft-800.webp",
+        "width": 800,
+        "height": 645
+      },
+      {
+        "src": "craft-1200.webp",
+        "width": 1200,
+        "height": 968
+      },
+      {
+        "src": "craft-1570.webp",
+        "width": 1570,
+        "height": 1266
+      }
+    ]
+  },
+  "maintenance": {
+    "variants": [
+      {
+        "src": "maintenance-480.webp",
+        "width": 480,
+        "height": 388
+      },
+      {
+        "src": "maintenance-640.webp",
+        "width": 640,
+        "height": 517
+      },
+      {
+        "src": "maintenance-720.webp",
+        "width": 720,
+        "height": 582
+      },
+      {
+        "src": "maintenance-800.webp",
+        "width": 800,
+        "height": 646
+      },
+      {
+        "src": "maintenance-1176.webp",
+        "width": 1176,
+        "height": 950
+      }
+    ]
+  },
+  "locks": {
+    "variants": [
+      {
+        "src": "locks-480.webp",
+        "width": 480,
+        "height": 382
+      },
+      {
+        "src": "locks-640.webp",
+        "width": 640,
+        "height": 509
+      },
+      {
+        "src": "locks-720.webp",
+        "width": 720,
+        "height": 573
+      },
+      {
+        "src": "locks-800.webp",
+        "width": 800,
+        "height": 636
+      },
+      {
+        "src": "locks-1200.webp",
+        "width": 1200,
+        "height": 955
+      },
+      {
+        "src": "locks-1599.webp",
+        "width": 1599,
+        "height": 1272
+      }
+    ]
+  },
+  "insulation": {
+    "variants": [
+      {
+        "src": "insulation-480.webp",
+        "width": 480,
+        "height": 395
+      },
+      {
+        "src": "insulation-640.webp",
+        "width": 640,
+        "height": 527
+      },
+      {
+        "src": "insulation-720.webp",
+        "width": 720,
+        "height": 593
+      },
+      {
+        "src": "insulation-800.webp",
+        "width": 800,
+        "height": 659
+      },
+      {
+        "src": "insulation-1160.webp",
+        "width": 1160,
+        "height": 955
+      }
+    ]
+  },
+  "property": {
+    "variants": [
+      {
+        "src": "property-480.webp",
+        "width": 480,
+        "height": 395
+      },
+      {
+        "src": "property-640.webp",
+        "width": 640,
+        "height": 526
+      },
+      {
+        "src": "property-720.webp",
+        "width": 720,
+        "height": 592
+      },
+      {
+        "src": "property-800.webp",
+        "width": 800,
+        "height": 658
+      },
+      {
+        "src": "property-1200.webp",
+        "width": 1200,
+        "height": 986
+      },
+      {
+        "src": "property-1540.webp",
+        "width": 1540,
+        "height": 1266
+      }
+    ]
+  },
+  "workshop": {
+    "variants": [
+      {
+        "src": "workshop-480.webp",
+        "width": 480,
+        "height": 355
+      },
+      {
+        "src": "workshop-640.webp",
+        "width": 640,
+        "height": 474
+      },
+      {
+        "src": "workshop-720.webp",
+        "width": 720,
+        "height": 533
+      },
+      {
+        "src": "workshop-800.webp",
+        "width": 800,
+        "height": 592
+      },
+      {
+        "src": "workshop-1200.webp",
+        "width": 1200,
+        "height": 888
+      },
+      {
+        "src": "workshop-1600.webp",
+        "width": 1600,
+        "height": 1185
+      }
+    ]
+  },
+  "team": {
+    "variants": [
+      {
+        "src": "team-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "team-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "team-720.webp",
+        "width": 720,
+        "height": 540
+      },
+      {
+        "src": "team-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "team-1200.webp",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "src": "team-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  },
+  "fleet": {
+    "variants": [
+      {
+        "src": "fleet-480.webp",
+        "width": 480,
+        "height": 366
+      },
+      {
+        "src": "fleet-640.webp",
+        "width": 640,
+        "height": 488
+      },
+      {
+        "src": "fleet-720.webp",
+        "width": 720,
+        "height": 549
+      },
+      {
+        "src": "fleet-800.webp",
+        "width": 800,
+        "height": 610
+      },
+      {
+        "src": "fleet-1200.webp",
+        "width": 1200,
+        "height": 915
+      },
+      {
+        "src": "fleet-1600.webp",
+        "width": 1600,
+        "height": 1220
+      }
+    ]
+  },
+  "detail": {
+    "variants": [
+      {
+        "src": "detail-480.webp",
+        "width": 480,
+        "height": 382
+      },
+      {
+        "src": "detail-640.webp",
+        "width": 640,
+        "height": 509
+      },
+      {
+        "src": "detail-720.webp",
+        "width": 720,
+        "height": 572
+      },
+      {
+        "src": "detail-800.webp",
+        "width": 800,
+        "height": 636
+      },
+      {
+        "src": "detail-1200.webp",
+        "width": 1200,
+        "height": 954
+      }
+    ]
+  }
+}

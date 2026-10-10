@@ -1,0 +1,37 @@
+{
+  "": {
+    "title": "BKW Groep | Onderhoud, isolatie en slotenservice",
+    "description": "Vakwerk voor woning en vastgoed. BKW Groep helpt particulieren en zakelijke opdrachtgevers met onderhoud, isolatie en slotenservice.",
+    "image": "heroWork"
+  },
+  "onderhoud": {
+    "title": "Professioneel woningonderhoud | BKW Groep",
+    "description": "Onderhoud, woningverbetering, renovatie en hulp bij bouwkundige storingen door BKW Groep.",
+    "image": "maintenance"
+  },
+  "slotenservice": {
+    "title": "Slotenservice | BKW Groep",
+    "description": "BKW Groep helpt bij het openen en vervangen van sloten, herstel na inbraak en inbraakpreventie.",
+    "image": "locks"
+  },
+  "isolatie": {
+    "title": "Isolatie voor woning en vastgoed | BKW Groep",
+    "description": "Lees hoe BKW Groep ondersteunt bij spouwmuur-, dak-, vloer- en bodemisolatie.",
+    "image": "insulation"
+  },
+  "zakelijk": {
+    "title": "Zakelijk onderhoud en isolatie | BKW Groep",
+    "description": "BKW Groep ondersteunt VvE’s, woningcorporaties en andere organisaties bij onderhoud, renovatie en isolatie.",
+    "image": "property"
+  },
+  "contact": {
+    "title": "Contact opnemen | BKW Groep",
+    "description": "Neem telefonisch of per e-mail contact op met BKW Groep in Berkel en Rodenrijs.",
+    "image": null
+  },
+  "404": {
+    "title": "Pagina niet gevonden | BKW Groep",
+    "description": "Deze pagina bestaat niet in de BKW Groep-preview.",
+    "image": null
+  }
+}

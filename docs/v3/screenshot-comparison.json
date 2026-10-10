@@ -1,0 +1,464 @@
+[
+  {
+    "capture": "home-320.png",
+    "changedPercent": 55.365,
+    "boundingBox": [
+      0,
+      31,
+      320,
+      896
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "zakelijk-1024.png",
+    "changedPercent": 3.982,
+    "boundingBox": [
+      41,
+      12,
+      983,
+      893
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "contact-390.png",
+    "changedPercent": 1.457,
+    "boundingBox": [
+      20,
+      31,
+      359,
+      889
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "contact-1024.png",
+    "changedPercent": 0.636,
+    "boundingBox": [
+      41,
+      12,
+      983,
+      900
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "contact-768.png",
+    "changedPercent": 0.836,
+    "boundingBox": [
+      31,
+      12,
+      737,
+      898
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "isolatie-1440.png",
+    "changedPercent": 2.841,
+    "boundingBox": [
+      80,
+      12,
+      1360,
+      871
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "onderhoud-375.png",
+    "changedPercent": 1.669,
+    "boundingBox": [
+      20,
+      31,
+      355,
+      869
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "contact-430.png",
+    "changedPercent": 1.555,
+    "boundingBox": [
+      20,
+      31,
+      401,
+      889
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "slotenservice-320.png",
+    "changedPercent": 1.357,
+    "boundingBox": [
+      20,
+      31,
+      300,
+      807
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "isolatie-320.png",
+    "changedPercent": 1.891,
+    "boundingBox": [
+      20,
+      31,
+      300,
+      853
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "isolatie-390.png",
+    "changedPercent": 2.371,
+    "boundingBox": [
+      20,
+      31,
+      370,
+      853
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "isolatie-1024.png",
+    "changedPercent": 2.593,
+    "boundingBox": [
+      41,
+      12,
+      983,
+      862
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "slotenservice-390.png",
+    "changedPercent": 1.511,
+    "boundingBox": [
+      20,
+      31,
+      370,
+      840
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "home-430.png",
+    "changedPercent": 54.965,
+    "boundingBox": [
+      0,
+      31,
+      430,
+      900
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "slotenservice-768.png",
+    "changedPercent": 1.125,
+    "boundingBox": [
+      30,
+      12,
+      737,
+      841
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "zakelijk-1440.png",
+    "changedPercent": 2.59,
+    "boundingBox": [
+      80,
+      12,
+      1360,
+      794
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "isolatie-768.png",
+    "changedPercent": 1.595,
+    "boundingBox": [
+      30,
+      12,
+      737,
+      828
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "contact-1440.png",
+    "changedPercent": 0.58,
+    "boundingBox": [
+      80,
+      12,
+      1360,
+      899
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "zakelijk-375.png",
+    "changedPercent": 1.762,
+    "boundingBox": [
+      20,
+      31,
+      355,
+      869
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "home-768.png",
+    "changedPercent": 49.873,
+    "boundingBox": [
+      0,
+      12,
+      768,
+      893
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "isolatie-430.png",
+    "changedPercent": 2.563,
+    "boundingBox": [
+      20,
+      31,
+      410,
+      885
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "slotenservice-430.png",
+    "changedPercent": 1.678,
+    "boundingBox": [
+      20,
+      31,
+      410,
+      897
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "contact-320.png",
+    "changedPercent": 1.372,
+    "boundingBox": [
+      20,
+      31,
+      277,
+      888
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "home-390.png",
+    "changedPercent": 57.628,
+    "boundingBox": [
+      0,
+      31,
+      390,
+      898
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "onderhoud-1440.png",
+    "changedPercent": 1.634,
+    "boundingBox": [
+      80,
+      12,
+      1360,
+      896
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "zakelijk-390.png",
+    "changedPercent": 1.913,
+    "boundingBox": [
+      20,
+      31,
+      370,
+      853
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "home-375.png",
+    "changedPercent": 56.402,
+    "boundingBox": [
+      0,
+      31,
+      375,
+      886
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "home-1440.png",
+    "changedPercent": 50.306,
+    "boundingBox": [
+      0,
+      12,
+      1440,
+      877
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "zakelijk-768.png",
+    "changedPercent": 1.557,
+    "boundingBox": [
+      30,
+      12,
+      737,
+      887
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "slotenservice-375.png",
+    "changedPercent": 1.477,
+    "boundingBox": [
+      20,
+      31,
+      355,
+      828
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "slotenservice-1440.png",
+    "changedPercent": 1.181,
+    "boundingBox": [
+      80,
+      12,
+      1360,
+      871
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "isolatie-375.png",
+    "changedPercent": 2.255,
+    "boundingBox": [
+      20,
+      31,
+      355,
+      841
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "onderhoud-320.png",
+    "changedPercent": 1.496,
+    "boundingBox": [
+      20,
+      31,
+      300,
+      816
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "zakelijk-430.png",
+    "changedPercent": 2.083,
+    "boundingBox": [
+      20,
+      31,
+      410,
+      885
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "home-1024.png",
+    "changedPercent": 47.201,
+    "boundingBox": [
+      0,
+      12,
+      1024,
+      900
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "onderhoud-390.png",
+    "changedPercent": 1.719,
+    "boundingBox": [
+      20,
+      31,
+      370,
+      881
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "onderhoud-1024.png",
+    "changedPercent": 1.72,
+    "boundingBox": [
+      41,
+      12,
+      983,
+      900
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "onderhoud-768.png",
+    "changedPercent": 1.34,
+    "boundingBox": [
+      30,
+      12,
+      737,
+      893
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "contact-375.png",
+    "changedPercent": 1.514,
+    "boundingBox": [
+      20,
+      31,
+      348,
+      889
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "zakelijk-320.png",
+    "changedPercent": 1.614,
+    "boundingBox": [
+      20,
+      31,
+      300,
+      853
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "onderhoud-430.png",
+    "changedPercent": 1.835,
+    "boundingBox": [
+      20,
+      31,
+      410,
+      885
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  },
+  {
+    "capture": "slotenservice-1024.png",
+    "changedPercent": 1.186,
+    "boundingBox": [
+      41,
+      12,
+      983,
+      889
+    ],
+    "note": "home composition, contact borders, other routes photo compression/font rendering; dimensions/crops unchanged outside home"
+  }
+]

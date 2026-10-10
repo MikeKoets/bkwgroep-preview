@@ -18,6 +18,10 @@ export function Seo({
       document.head.append(meta)
     }
     meta.content = description
+    for (const [property, content] of Object.entries({ 'og:title': title, 'og:description': description })) {
+      const tag = document.querySelector<HTMLMetaElement>(`meta[property="${property}"]`)
+      if (tag) tag.content = content
+    }
   }, [description, title])
 
   return null

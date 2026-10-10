@@ -117,12 +117,12 @@ export function HomePage() {
               Onderhoud · Slotenservice · Isolatie
             </span>
             <h1>
-              Vakwerk voor <br />
+              Vakwerk voor{' '}
               woning <span>&amp; vastgoed.</span>
             </h1>
             <p>
-              Van een slot dat niet meer werkt tot onderhoud aan een heel pand.
-              BKW Groep helpt particulieren en zakelijke opdrachtgevers verder.
+              Onderhoud, isolatie en slotenservice. Voor particulieren en
+              zakelijke opdrachtgevers.
             </p>
             <div className="hero-actions">
               <Link className="button button--primary" to="/contact/">
@@ -141,10 +141,10 @@ export function HomePage() {
           </div>
           <figure className="home-hero__photo">
             <Photo
-              name="craft"
-              alt="BKW-vakman boort bij de gevel van een woning"
+              name="heroWork"
+              alt="BKW-vakman aan het werk bij een woning, met boormachine en gereedschap"
               priority
-              sizes="(max-width: 760px) calc(100vw - 40px), 52vw"
+              sizes="(max-width: 760px) calc(100vw - 40px), (max-width: 1440px) 46vw, 600px"
             />
             <figcaption>
               <span aria-hidden="true" />

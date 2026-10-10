@@ -4,7 +4,9 @@ import json, pathlib, urllib.request
 root=pathlib.Path(__file__).resolve().parents[1]
 sources=json.loads((root/'docs/v2/source-assets/manifest.json').read_text())
 urls={x['file']:x['url'] for x in sources}
+urls['bkw-professionals.jpg']='https://bkwgroep.nl/media/filer_public/ff/bb/ffbb62bc-f3ce-488b-adb5-9e7011a7a46a/bkw-professionals.jpg'
 choices={
+ 'heroWork': ('bkw-professionals.jpg',(300,0,1090,530)),
  'craft': ('schuin_rechterkant_scherm-min.png',(610,0,2180,1266)),
  'maintenance': ('professioneel-woningonderhoud-bkw.jpg',(460,0,1636,950)),
  'locks': ('slotenmaker-slotenservice-berkel.png',(600,0,2199,1272)),
@@ -26,12 +28,12 @@ for name,(filename,box) in choices.items():
  brightness=1.22 if name=='property' else 1.035
  image=ImageEnhance.Brightness(image).enhance(brightness)
  variants=[]
- for w in sorted(set(min(s,image.width) for s in [480,800,1200,1600])):
+ for w in sorted(set(min(s,image.width) for s in ([480,640,720,790] if name=='heroWork' else [480,640,720,800,1200,1600]))):
   h=round(image.height*w/image.width);dst=out/f'{name}-{w}.webp'
-  image.resize((w,h),Image.Resampling.LANCZOS).save(dst,'WEBP',quality=88,method=6)
+  image.resize((w,h),Image.Resampling.LANCZOS).save(dst,'WEBP',quality=(70 if name=='heroWork' else 78),method=6)
   variants.append({'src':dst.name,'width':w,'height':h})
  manifest[name]={'variants':variants}
- report.append({'name':name,'source':urls[filename],'original':list(Image.open(p).size),'crop':list(box),'transforms':f'crop, brightness x{brightness}, Lanczos resize, WebP quality88','variants':[{**v,'bytes':(out/v['src']).stat().st_size} for v in variants]})
-(root/'src/data/images.ts').write_text('export const images = '+json.dumps(manifest,indent=2)+' as const\n\nexport type ImageName = keyof typeof images\n')
-(root/'docs/v2/source-assets/optimized-manifest.json').write_text(json.dumps(report,indent=2))
+ report.append({'name':name,'source':urls[filename],'original':list(Image.open(p).size),'crop':list(box),'transforms':f'crop, brightness x{brightness}, Lanczos resize, WebP quality70(hero)/78(other)','variants':[{**v,'bytes':(out/v['src']).stat().st_size} for v in variants]})
+(root/'src/data/images.json').write_text(json.dumps(manifest,indent=2)+'\n')
+(root/'docs/v3/optimized-manifest.json').write_text(json.dumps(report,indent=2))
 print('Prepared',len(manifest),'real BKW images with responsive variants')

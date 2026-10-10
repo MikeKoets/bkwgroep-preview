@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { createRoot, hydrateRoot } from 'react-dom/client'
 import {
   createBrowserRouter,
   RouterProvider,
-  ScrollRestoration,
 } from 'react-router-dom'
+import { StartupScroll } from './components/StartupScroll'
 import { AppRoutes } from './App'
 import './styles.css'
 
@@ -28,7 +28,7 @@ const router = createBrowserRouter(
       element: (
         <>
           <AppRoutes />
-          <ScrollRestoration storageKey="bkw-preview-scroll" />
+          <StartupScroll />
         </>
       ),
     },
@@ -36,8 +36,11 @@ const router = createBrowserRouter(
   { basename },
 )
 
-createRoot(document.getElementById('root')!).render(
+const root = document.getElementById('root')!
+const application = (
   <StrictMode>
     <RouterProvider router={router} />
-  </StrictMode>,
+  </StrictMode>
 )
+if (root.hasChildNodes()) hydrateRoot(root, application)
+else createRoot(root).render(application)

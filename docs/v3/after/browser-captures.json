@@ -1,0 +1,296 @@
+[
+  {
+    "route": "/",
+    "width": 320,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "onderhoud",
+    "width": 320,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "slotenservice",
+    "width": 320,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "isolatie",
+    "width": 320,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "zakelijk",
+    "width": 320,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "contact",
+    "width": 320,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "/",
+    "width": 375,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "onderhoud",
+    "width": 375,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "slotenservice",
+    "width": 375,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "isolatie",
+    "width": 375,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "zakelijk",
+    "width": 375,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "contact",
+    "width": 375,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "onderhoud",
+    "width": 390,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "slotenservice",
+    "width": 390,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "isolatie",
+    "width": 390,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "zakelijk",
+    "width": 390,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "contact",
+    "width": 390,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "/",
+    "width": 430,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "onderhoud",
+    "width": 430,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "slotenservice",
+    "width": 430,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "isolatie",
+    "width": 430,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "zakelijk",
+    "width": 430,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "contact",
+    "width": 430,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "/",
+    "width": 768,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "onderhoud",
+    "width": 768,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "slotenservice",
+    "width": 768,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "isolatie",
+    "width": 768,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "zakelijk",
+    "width": 768,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "contact",
+    "width": 768,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "/",
+    "width": 1024,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "onderhoud",
+    "width": 1024,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "slotenservice",
+    "width": 1024,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "isolatie",
+    "width": 1024,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "zakelijk",
+    "width": 1024,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "contact",
+    "width": 1024,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "onderhoud",
+    "width": 1440,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "slotenservice",
+    "width": 1440,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "isolatie",
+    "width": 1440,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "zakelijk",
+    "width": 1440,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  },
+  {
+    "route": "contact",
+    "width": 1440,
+    "height": 900,
+    "source": "local V3 candidate",
+    "overflow": 0
+  }
+]

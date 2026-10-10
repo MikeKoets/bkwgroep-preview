@@ -1,0 +1,3493 @@
+{
+  "phase": "after-local",
+  "measuredAt": "2026-10-10T00:17:12.348Z",
+  "source": "e7b2fbb93f4621d282eaf68d45afcd02ddd8dde0",
+  "runs": [
+    {
+      "environment": "local",
+      "route": "/",
+      "finalUrl": "http://127.0.0.1:4175/bkwgroep-preview/",
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-10T00:17:14.431Z",
+      "benchmarkIndex": 2851,
+      "settings": {
+        "output": "json",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices"
+        ],
+        "skipAudits": null
+      },
+      "performance": 93,
+      "lcpMs": 3229.4534999999996,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 1504.4535,
+      "warnings": [],
+      "diagnostics": {
+        "cumulative-layout-shift": {
+          "score": 1,
+          "displayValue": "0",
+          "details": {
+            "type": "debugdata",
+            "items": [
+              {
+                "cumulativeLayoutShiftMainFrame": 0,
+                "newEngineResult": {
+                  "cumulativeLayoutShift": 0,
+                  "cumulativeLayoutShiftMainFrame": 0
+                },
+                "newEngineResultDiffered": false
+              }
+            ]
+          }
+        },
+        "image-aspect-ratio": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "displayedAspectRatio",
+                "valueType": "text",
+                "label": "Aspect Ratio (Displayed)"
+              },
+              {
+                "key": "actualAspectRatio",
+                "valueType": "text",
+                "label": "Aspect Ratio (Actual)"
+              }
+            ],
+            "items": []
+          }
+        },
+        "image-size-responsive": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "displayedSize",
+                "valueType": "text",
+                "label": "Displayed size"
+              },
+              {
+                "key": "actualSize",
+                "valueType": "text",
+                "label": "Actual size"
+              },
+              {
+                "key": "expectedSize",
+                "valueType": "text",
+                "label": "Expected size"
+              }
+            ],
+            "items": []
+          }
+        },
+        "layout-shifts": {
+          "score": null,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "extra"
+                },
+                "label": "Element"
+              },
+              {
+                "key": "score",
+                "valueType": "numeric",
+                "subItemsHeading": {
+                  "key": "cause",
+                  "valueType": "text"
+                },
+                "granularity": 0.001,
+                "label": "Layout shift score"
+              }
+            ],
+            "items": []
+          }
+        },
+        "unsized-images": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              }
+            ],
+            "items": []
+          }
+        },
+        "image-alt": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "relatedNode",
+                  "valueType": "node"
+                },
+                "label": "Failing Elements"
+              }
+            ],
+            "items": []
+          }
+        },
+        "image-redundant-alt": {
+          "score": null
+        },
+        "input-image-alt": {
+          "score": null
+        },
+        "total-byte-weight": {
+          "score": 1,
+          "displayValue": "Total size was 580 KiB",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "label": "Transfer Size"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/hero-work-790.webp",
+                "totalBytes": 118660
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/insulation-800.webp",
+                "totalBytes": 113972
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/index-C0qHIdMY.js",
+                "totalBytes": 113918
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/property-800.webp",
+                "totalBytes": 93932
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/maintenance-800.webp",
+                "totalBytes": 63560
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/locks-800.webp",
+                "totalBytes": 52732
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/fonts/manrope-latin.woff2",
+                "totalBytes": 23464
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/index-25braK6O.css",
+                "totalBytes": 6167
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/",
+                "totalBytes": 4813
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/logo-bkw.svg",
+                "totalBytes": 2101
+              }
+            ],
+            "sortedBy": [
+              "totalBytes"
+            ]
+          }
+        },
+        "unused-css-rules": {
+          "score": 1,
+          "displayValue": "",
+          "details": {
+            "type": "opportunity",
+            "headings": [],
+            "items": [],
+            "overallSavingsMs": 0,
+            "overallSavingsBytes": 0,
+            "sortedBy": [
+              "wastedBytes"
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "metricSavings": {
+                "FCP": 0,
+                "LCP": 0
+              }
+            }
+          }
+        },
+        "unused-javascript": {
+          "score": 0,
+          "displayValue": "Est savings of 64 KiB",
+          "details": {
+            "type": "opportunity",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "subItemsHeading": {
+                  "key": "source",
+                  "valueType": "code"
+                },
+                "label": "URL"
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "subItemsHeading": {
+                  "key": "sourceBytes"
+                },
+                "label": "Transfer Size"
+              },
+              {
+                "key": "wastedBytes",
+                "valueType": "bytes",
+                "subItemsHeading": {
+                  "key": "sourceWastedBytes"
+                },
+                "label": "Est Savings"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/index-C0qHIdMY.js",
+                "totalBytes": 113553,
+                "wastedBytes": 65806,
+                "wastedPercent": 57.9515682363324
+              }
+            ],
+            "overallSavingsMs": 300,
+            "overallSavingsBytes": 65806,
+            "sortedBy": [
+              "wastedBytes"
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "metricSavings": {
+                "FCP": 300,
+                "LCP": 300
+              }
+            }
+          }
+        },
+        "font-display-insight": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "wastedMs",
+                "valueType": "ms",
+                "label": "Est Savings"
+              }
+            ],
+            "items": [],
+            "skipSumming": [
+              "wastedMs"
+            ]
+          }
+        },
+        "image-delivery-insight": {
+          "score": 0,
+          "displayValue": "Est savings of 348 KiB",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL",
+                "subItemsHeading": {
+                  "key": "reason",
+                  "valueType": "text"
+                }
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "label": "Resource Size"
+              },
+              {
+                "key": "wastedBytes",
+                "valueType": "bytes",
+                "label": "Est Savings",
+                "subItemsHeading": {
+                  "key": "wastedBytes",
+                  "valueType": "bytes"
+                }
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "page-0-IMG",
+                  "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,0,SECTION,0,DIV,1,FIGURE,0,IMG",
+                  "selector": "section.home-hero > div.container > figure.home-hero__photo > img",
+                  "boundingRect": {
+                    "top": 406,
+                    "bottom": 704,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 298
+                  },
+                  "snippet": "<img src=\"/bkwgroep-preview/assets/photos/hero-work-790.webp\" srcset=\"/bkwgroep-preview/assets/photos/hero-work-480.webp 480w, /bkwgroep-preview…\" sizes=\"(max-width: 760px) calc(100vw - 40px), (max-width: 1440px) 46vw, 600px\" width=\"790\" height=\"633\" alt=\"BKW-vakman aan het werk bij een woning, met boormachine en gereedschap\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
+                  "nodeLabel": "BKW-vakman aan het werk bij een woning, met boormachine en gereedschap"
+                },
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/hero-work-790.webp",
+                "totalBytes": 118390,
+                "wastedBytes": 99910,
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "reason": "Increasing the image compression factor could improve this image's download size.",
+                      "wastedBytes": 35045
+                    },
+                    {
+                      "reason": "This image file is larger than it needs to be (790x633) for its displayed dimensions (372x298). Use responsive images to reduce the image download size.",
+                      "wastedBytes": 92140
+                    }
+                  ]
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "page-1-IMG",
+                  "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,2,SECTION,0,DIV,1,DIV,2,ARTICLE,0,A,0,IMG",
+                  "selector": "div.service-grid > article.service-card > a.service-card__image > img",
+                  "boundingRect": {
+                    "top": 2202,
+                    "bottom": 2458,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 257
+                  },
+                  "snippet": "<img src=\"http://127.0.0.1:4175/bkwgroep-preview/assets/photos/insulation-800.webp\" srcset=\"/bkwgroep-preview/assets/photos/insulation-480.webp 480w, /bkwgroep-previe…\" sizes=\"(max-width: 600px) calc(100vw - 40px), (max-width: 1100px) 45vw, 300px\" width=\"1160\" height=\"955\" alt=\"BKW-medewerker brengt spouwmuurisolatie aan\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
+                  "nodeLabel": "BKW-medewerker brengt spouwmuurisolatie aan"
+                },
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/insulation-800.webp",
+                "totalBytes": 113702,
+                "wastedBytes": 94704,
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "reason": "Increasing the image compression factor could improve this image's download size.",
+                      "wastedBytes": 40193
+                    },
+                    {
+                      "reason": "This image file is larger than it needs to be (800x551) for its displayed dimensions (372x306). Use responsive images to reduce the image download size.",
+                      "wastedBytes": 84316
+                    }
+                  ]
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "page-2-IMG",
+                  "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,2,SECTION,0,DIV,1,DIV,3,ARTICLE,0,A,0,IMG",
+                  "selector": "div.service-grid > article.service-card > a.service-card__image > img",
+                  "boundingRect": {
+                    "top": 2697,
+                    "bottom": 2954,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 257
+                  },
+                  "snippet": "<img src=\"http://127.0.0.1:4175/bkwgroep-preview/assets/photos/property-800.webp\" srcset=\"/bkwgroep-preview/assets/photos/property-480.webp 480w, /bkwgroep-preview/…\" sizes=\"(max-width: 600px) calc(100vw - 40px), (max-width: 1100px) 45vw, 300px\" width=\"1540\" height=\"1266\" alt=\"Gebouw uit de bedrijfsfotografie van BKW Groep\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
+                  "nodeLabel": "Gebouw uit de bedrijfsfotografie van BKW Groep"
+                },
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/property-800.webp",
+                "totalBytes": 93664,
+                "wastedBytes": 74694,
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "reason": "Increasing the image compression factor could improve this image's download size.",
+                      "wastedBytes": 19979
+                    },
+                    {
+                      "reason": "This image file is larger than it needs to be (800x553) for its displayed dimensions (372x306). Use responsive images to reduce the image download size.",
+                      "wastedBytes": 69550
+                    }
+                  ]
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "page-3-IMG",
+                  "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,2,SECTION,0,DIV,1,DIV,0,ARTICLE,0,A,0,IMG",
+                  "selector": "div.service-grid > article.service-card > a.service-card__image > img",
+                  "boundingRect": {
+                    "top": 1211,
+                    "bottom": 1467,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 257
+                  },
+                  "snippet": "<img src=\"http://127.0.0.1:4175/bkwgroep-preview/assets/photos/maintenance-800.webp\" srcset=\"/bkwgroep-preview/assets/photos/maintenance-480.webp 480w, /bkwgroep-previ…\" sizes=\"(max-width: 600px) calc(100vw - 40px), (max-width: 1100px) 45vw, 300px\" width=\"1176\" height=\"950\" alt=\"BKW-medewerker in gesprek bij een voordeur\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
+                  "nodeLabel": "BKW-medewerker in gesprek bij een voordeur"
+                },
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/maintenance-800.webp",
+                "totalBytes": 63292,
+                "wastedBytes": 47255,
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "reason": "This image file is larger than it needs to be (800x551) for its displayed dimensions (372x300). Use responsive images to reduce the image download size.",
+                      "wastedBytes": 47255
+                    }
+                  ]
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "page-4-IMG",
+                  "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,2,SECTION,0,DIV,1,DIV,1,ARTICLE,0,A,0,IMG",
+                  "selector": "div.service-grid > article.service-card > a.service-card__image > img",
+                  "boundingRect": {
+                    "top": 1706,
+                    "bottom": 1963,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 257
+                  },
+                  "snippet": "<img src=\"http://127.0.0.1:4175/bkwgroep-preview/assets/photos/locks-800.webp\" srcset=\"/bkwgroep-preview/assets/photos/locks-480.webp 480w, /bkwgroep-preview/ass…\" sizes=\"(max-width: 600px) calc(100vw - 40px), (max-width: 1100px) 45vw, 300px\" width=\"1599\" height=\"1272\" alt=\"Slotenmakers werken aan een deurslot\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
+                  "nodeLabel": "Slotenmakers werken aan een deurslot"
+                },
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/locks-800.webp",
+                "totalBytes": 52464,
+                "wastedBytes": 39443,
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "reason": "This image file is larger than it needs to be (800x554) for its displayed dimensions (372x296). Use responsive images to reduce the image download size.",
+                      "wastedBytes": 39443
+                    }
+                  ]
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "wastedBytes": 356006
+            }
+          }
+        },
+        "lcp-breakdown-insight": {
+          "score": 1,
+          "details": {
+            "type": "list",
+            "items": [
+              {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "label",
+                    "valueType": "text",
+                    "label": "Subpart"
+                  },
+                  {
+                    "key": "duration",
+                    "valueType": "ms",
+                    "label": "Duration"
+                  }
+                ],
+                "items": [
+                  {
+                    "subpart": "timeToFirstByte",
+                    "label": "Time to first byte",
+                    "duration": 2.166
+                  },
+                  {
+                    "subpart": "resourceLoadDelay",
+                    "label": "Resource load delay",
+                    "duration": 6.846
+                  },
+                  {
+                    "subpart": "resourceLoadDuration",
+                    "label": "Resource load duration",
+                    "duration": 6.28
+                  },
+                  {
+                    "subpart": "elementRenderDelay",
+                    "label": "Element render delay",
+                    "duration": 41.213
+                  }
+                ]
+              },
+              {
+                "type": "node",
+                "lhId": "page-0-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,0,SECTION,0,DIV,1,FIGURE,0,IMG",
+                "selector": "section.home-hero > div.container > figure.home-hero__photo > img",
+                "boundingRect": {
+                  "top": 406,
+                  "bottom": 704,
+                  "left": 20,
+                  "right": 392,
+                  "width": 372,
+                  "height": 298
+                },
+                "snippet": "<img src=\"/bkwgroep-preview/assets/photos/hero-work-790.webp\" srcset=\"/bkwgroep-preview/assets/photos/hero-work-480.webp 480w, /bkwgroep-preview…\" sizes=\"(max-width: 760px) calc(100vw - 40px), (max-width: 1440px) 46vw, 600px\" width=\"790\" height=\"633\" alt=\"BKW-vakman aan het werk bij een woning, met boormachine en gereedschap\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
+                "nodeLabel": "BKW-vakman aan het werk bij een woning, met boormachine en gereedschap"
+              }
+            ]
+          }
+        },
+        "lcp-discovery-insight": {
+          "score": 1,
+          "details": {
+            "type": "list",
+            "items": [
+              {
+                "type": "checklist",
+                "items": {
+                  "priorityHinted": {
+                    "label": "fetchpriority=high applied",
+                    "value": true
+                  },
+                  "requestDiscoverable": {
+                    "label": "Request is discoverable in initial document",
+                    "value": true
+                  },
+                  "eagerlyLoaded": {
+                    "label": "LCP resources should not use loading=lazy",
+                    "value": true
+                  }
+                }
+              },
+              {
+                "type": "node",
+                "lhId": "page-0-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,0,SECTION,0,DIV,1,FIGURE,0,IMG",
+                "selector": "section.home-hero > div.container > figure.home-hero__photo > img",
+                "boundingRect": {
+                  "top": 406,
+                  "bottom": 704,
+                  "left": 20,
+                  "right": 392,
+                  "width": 372,
+                  "height": 298
+                },
+                "snippet": "<img src=\"/bkwgroep-preview/assets/photos/hero-work-790.webp\" srcset=\"/bkwgroep-preview/assets/photos/hero-work-480.webp 480w, /bkwgroep-preview…\" sizes=\"(max-width: 760px) calc(100vw - 40px), (max-width: 1440px) 46vw, 600px\" width=\"790\" height=\"633\" alt=\"BKW-vakman aan het werk bij een woning, met boormachine en gereedschap\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
+                "nodeLabel": "BKW-vakman aan het werk bij een woning, met boormachine en gereedschap"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "environment": "local",
+      "route": "onderhoud/",
+      "finalUrl": "http://127.0.0.1:4175/bkwgroep-preview/onderhoud/",
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-10T00:17:20.606Z",
+      "benchmarkIndex": 2890.5,
+      "settings": {
+        "output": "json",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices"
+        ],
+        "skipAudits": null
+      },
+      "performance": 98,
+      "lcpMs": 2328.8668,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 1503.8668,
+      "warnings": [],
+      "diagnostics": {
+        "cumulative-layout-shift": {
+          "score": 1,
+          "displayValue": "0",
+          "details": {
+            "type": "debugdata",
+            "items": [
+              {
+                "cumulativeLayoutShiftMainFrame": 0,
+                "newEngineResult": {
+                  "cumulativeLayoutShift": 0,
+                  "cumulativeLayoutShiftMainFrame": 0
+                },
+                "newEngineResultDiffered": false
+              }
+            ]
+          }
+        },
+        "image-aspect-ratio": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "displayedAspectRatio",
+                "valueType": "text",
+                "label": "Aspect Ratio (Displayed)"
+              },
+              {
+                "key": "actualAspectRatio",
+                "valueType": "text",
+                "label": "Aspect Ratio (Actual)"
+              }
+            ],
+            "items": []
+          }
+        },
+        "image-size-responsive": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "displayedSize",
+                "valueType": "text",
+                "label": "Displayed size"
+              },
+              {
+                "key": "actualSize",
+                "valueType": "text",
+                "label": "Actual size"
+              },
+              {
+                "key": "expectedSize",
+                "valueType": "text",
+                "label": "Expected size"
+              }
+            ],
+            "items": []
+          }
+        },
+        "layout-shifts": {
+          "score": null,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "extra"
+                },
+                "label": "Element"
+              },
+              {
+                "key": "score",
+                "valueType": "numeric",
+                "subItemsHeading": {
+                  "key": "cause",
+                  "valueType": "text"
+                },
+                "granularity": 0.001,
+                "label": "Layout shift score"
+              }
+            ],
+            "items": []
+          }
+        },
+        "unsized-images": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              }
+            ],
+            "items": []
+          }
+        },
+        "image-alt": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "relatedNode",
+                  "valueType": "node"
+                },
+                "label": "Failing Elements"
+              }
+            ],
+            "items": []
+          }
+        },
+        "image-redundant-alt": {
+          "score": null
+        },
+        "input-image-alt": {
+          "score": null
+        },
+        "total-byte-weight": {
+          "score": 1,
+          "displayValue": "Total size was 271 KiB",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "label": "Transfer Size"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/index-C0qHIdMY.js",
+                "totalBytes": 113918
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/workshop-800.webp",
+                "totalBytes": 64198
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/maintenance-800.webp",
+                "totalBytes": 63560
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/fonts/manrope-latin.woff2",
+                "totalBytes": 23464
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/index-25braK6O.css",
+                "totalBytes": 6167
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/onderhoud/",
+                "totalBytes": 4271
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/logo-bkw.svg",
+                "totalBytes": 2101
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/logo-bkw.svg",
+                "totalBytes": 127
+              }
+            ],
+            "sortedBy": [
+              "totalBytes"
+            ]
+          }
+        },
+        "unused-css-rules": {
+          "score": 1,
+          "displayValue": "",
+          "details": {
+            "type": "opportunity",
+            "headings": [],
+            "items": [],
+            "overallSavingsMs": 0,
+            "overallSavingsBytes": 0,
+            "sortedBy": [
+              "wastedBytes"
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "metricSavings": {
+                "FCP": 0,
+                "LCP": 0
+              }
+            }
+          }
+        },
+        "unused-javascript": {
+          "score": 0,
+          "displayValue": "Est savings of 65 KiB",
+          "details": {
+            "type": "opportunity",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "subItemsHeading": {
+                  "key": "source",
+                  "valueType": "code"
+                },
+                "label": "URL"
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "subItemsHeading": {
+                  "key": "sourceBytes"
+                },
+                "label": "Transfer Size"
+              },
+              {
+                "key": "wastedBytes",
+                "valueType": "bytes",
+                "subItemsHeading": {
+                  "key": "sourceWastedBytes"
+                },
+                "label": "Est Savings"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/index-C0qHIdMY.js",
+                "totalBytes": 113553,
+                "wastedBytes": 66088,
+                "wastedPercent": 58.200283851191145
+              }
+            ],
+            "overallSavingsMs": 450,
+            "overallSavingsBytes": 66088,
+            "sortedBy": [
+              "wastedBytes"
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "metricSavings": {
+                "FCP": 300,
+                "LCP": 450
+              }
+            }
+          }
+        },
+        "font-display-insight": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "wastedMs",
+                "valueType": "ms",
+                "label": "Est Savings"
+              }
+            ],
+            "items": [],
+            "skipSumming": [
+              "wastedMs"
+            ]
+          }
+        },
+        "image-delivery-insight": {
+          "score": 0,
+          "displayValue": "Est savings of 94 KiB",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL",
+                "subItemsHeading": {
+                  "key": "reason",
+                  "valueType": "text"
+                }
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "label": "Resource Size"
+              },
+              {
+                "key": "wastedBytes",
+                "valueType": "bytes",
+                "label": "Est Savings",
+                "subItemsHeading": {
+                  "key": "wastedBytes",
+                  "valueType": "bytes"
+                }
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "page-0-IMG",
+                  "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,0,SECTION,0,DIV,1,FIGURE,0,IMG",
+                  "selector": "section.page-hero > div.container > figure.page-hero__photo > img",
+                  "boundingRect": {
+                    "top": 601,
+                    "bottom": 898,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 298
+                  },
+                  "snippet": "<img src=\"http://127.0.0.1:4175/bkwgroep-preview/assets/photos/maintenance-800.webp\" srcset=\"/bkwgroep-preview/assets/photos/maintenance-480.webp 480w, /bkwgroep-previ…\" sizes=\"(max-width: 760px) calc(100vw - 40px), (max-width: 1100px) 50vw, 600px\" width=\"1176\" height=\"950\" alt=\"BKW-medewerker bespreekt werkzaamheden bij een woning\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
+                  "nodeLabel": "BKW-medewerker bespreekt werkzaamheden bij een woning"
+                },
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/maintenance-800.webp",
+                "totalBytes": 63292,
+                "wastedBytes": 49423,
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "reason": "This image file is larger than it needs to be (800x637) for its displayed dimensions (372x300). Use responsive images to reduce the image download size.",
+                      "wastedBytes": 49423
+                    }
+                  ]
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "page-1-IMG",
+                  "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,2,SECTION,0,DIV,1,FIGURE,0,IMG",
+                  "selector": "section.section > div.container > figure.image-panel > img",
+                  "boundingRect": {
+                    "top": 2340,
+                    "bottom": 2638,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 298
+                  },
+                  "snippet": "<img src=\"http://127.0.0.1:4175/bkwgroep-preview/assets/photos/workshop-800.webp\" srcset=\"/bkwgroep-preview/assets/photos/workshop-480.webp 480w, /bkwgroep-preview/…\" sizes=\"(max-width: 760px) calc(100vw - 40px), (max-width: 1100px) 50vw, 600px\" width=\"1600\" height=\"1185\" alt=\"BKW-vakman aan het werk met een zaag\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
+                  "nodeLabel": "BKW-vakman aan het werk met een zaag"
+                },
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/workshop-800.webp",
+                "totalBytes": 63930,
+                "wastedBytes": 46473,
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "reason": "This image file is larger than it needs to be (740x592) for its displayed dimensions (402x298). Use responsive images to reduce the image download size.",
+                      "wastedBytes": 46473
+                    }
+                  ]
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "wastedBytes": 95896
+            }
+          }
+        },
+        "lcp-breakdown-insight": {
+          "score": 1,
+          "details": {
+            "type": "list",
+            "items": [
+              {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "label",
+                    "valueType": "text",
+                    "label": "Subpart"
+                  },
+                  {
+                    "key": "duration",
+                    "valueType": "ms",
+                    "label": "Duration"
+                  }
+                ],
+                "items": [
+                  {
+                    "subpart": "timeToFirstByte",
+                    "label": "Time to first byte",
+                    "duration": 5.298
+                  },
+                  {
+                    "subpart": "resourceLoadDelay",
+                    "label": "Resource load delay",
+                    "duration": 5.322
+                  },
+                  {
+                    "subpart": "resourceLoadDuration",
+                    "label": "Resource load duration",
+                    "duration": 3.118
+                  },
+                  {
+                    "subpart": "elementRenderDelay",
+                    "label": "Element render delay",
+                    "duration": 36.076
+                  }
+                ]
+              },
+              {
+                "type": "node",
+                "lhId": "page-0-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,0,SECTION,0,DIV,1,FIGURE,0,IMG",
+                "selector": "section.page-hero > div.container > figure.page-hero__photo > img",
+                "boundingRect": {
+                  "top": 601,
+                  "bottom": 898,
+                  "left": 20,
+                  "right": 392,
+                  "width": 372,
+                  "height": 298
+                },
+                "snippet": "<img src=\"http://127.0.0.1:4175/bkwgroep-preview/assets/photos/maintenance-800.webp\" srcset=\"/bkwgroep-preview/assets/photos/maintenance-480.webp 480w, /bkwgroep-previ…\" sizes=\"(max-width: 760px) calc(100vw - 40px), (max-width: 1100px) 50vw, 600px\" width=\"1176\" height=\"950\" alt=\"BKW-medewerker bespreekt werkzaamheden bij een woning\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
+                "nodeLabel": "BKW-medewerker bespreekt werkzaamheden bij een woning"
+              }
+            ]
+          }
+        },
+        "lcp-discovery-insight": {
+          "score": 1,
+          "details": {
+            "type": "list",
+            "items": [
+              {
+                "type": "checklist",
+                "items": {
+                  "priorityHinted": {
+                    "label": "fetchpriority=high applied",
+                    "value": true
+                  },
+                  "requestDiscoverable": {
+                    "label": "Request is discoverable in initial document",
+                    "value": true
+                  },
+                  "eagerlyLoaded": {
+                    "label": "LCP resources should not use loading=lazy",
+                    "value": true
+                  }
+                }
+              },
+              {
+                "type": "node",
+                "lhId": "page-0-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,0,SECTION,0,DIV,1,FIGURE,0,IMG",
+                "selector": "section.page-hero > div.container > figure.page-hero__photo > img",
+                "boundingRect": {
+                  "top": 601,
+                  "bottom": 898,
+                  "left": 20,
+                  "right": 392,
+                  "width": 372,
+                  "height": 298
+                },
+                "snippet": "<img src=\"http://127.0.0.1:4175/bkwgroep-preview/assets/photos/maintenance-800.webp\" srcset=\"/bkwgroep-preview/assets/photos/maintenance-480.webp 480w, /bkwgroep-previ…\" sizes=\"(max-width: 760px) calc(100vw - 40px), (max-width: 1100px) 50vw, 600px\" width=\"1176\" height=\"950\" alt=\"BKW-medewerker bespreekt werkzaamheden bij een woning\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
+                "nodeLabel": "BKW-medewerker bespreekt werkzaamheden bij een woning"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "environment": "local",
+      "route": "slotenservice/",
+      "finalUrl": "http://127.0.0.1:4175/bkwgroep-preview/slotenservice/",
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-10T00:17:26.614Z",
+      "benchmarkIndex": 2889.5,
+      "settings": {
+        "output": "json",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices"
+        ],
+        "skipAudits": null
+      },
+      "performance": 99,
+      "lcpMs": 2105.1581,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 1505.1581,
+      "warnings": [],
+      "diagnostics": {
+        "cumulative-layout-shift": {
+          "score": 1,
+          "displayValue": "0",
+          "details": {
+            "type": "debugdata",
+            "items": [
+              {
+                "cumulativeLayoutShiftMainFrame": 0,
+                "newEngineResult": {
+                  "cumulativeLayoutShift": 0,
+                  "cumulativeLayoutShiftMainFrame": 0
+                },
+                "newEngineResultDiffered": false
+              }
+            ]
+          }
+        },
+        "image-aspect-ratio": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "displayedAspectRatio",
+                "valueType": "text",
+                "label": "Aspect Ratio (Displayed)"
+              },
+              {
+                "key": "actualAspectRatio",
+                "valueType": "text",
+                "label": "Aspect Ratio (Actual)"
+              }
+            ],
+            "items": []
+          }
+        },
+        "image-size-responsive": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "displayedSize",
+                "valueType": "text",
+                "label": "Displayed size"
+              },
+              {
+                "key": "actualSize",
+                "valueType": "text",
+                "label": "Actual size"
+              },
+              {
+                "key": "expectedSize",
+                "valueType": "text",
+                "label": "Expected size"
+              }
+            ],
+            "items": []
+          }
+        },
+        "layout-shifts": {
+          "score": null,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "extra"
+                },
+                "label": "Element"
+              },
+              {
+                "key": "score",
+                "valueType": "numeric",
+                "subItemsHeading": {
+                  "key": "cause",
+                  "valueType": "text"
+                },
+                "granularity": 0.001,
+                "label": "Layout shift score"
+              }
+            ],
+            "items": []
+          }
+        },
+        "unsized-images": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              }
+            ],
+            "items": []
+          }
+        },
+        "image-alt": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "relatedNode",
+                  "valueType": "node"
+                },
+                "label": "Failing Elements"
+              }
+            ],
+            "items": []
+          }
+        },
+        "image-redundant-alt": {
+          "score": null
+        },
+        "input-image-alt": {
+          "score": null
+        },
+        "total-byte-weight": {
+          "score": 1,
+          "displayValue": "Total size was 198 KiB",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "label": "Transfer Size"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/index-C0qHIdMY.js",
+                "totalBytes": 113918
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/locks-800.webp",
+                "totalBytes": 52732
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/fonts/manrope-latin.woff2",
+                "totalBytes": 23464
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/index-25braK6O.css",
+                "totalBytes": 6167
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/slotenservice/",
+                "totalBytes": 4301
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/logo-bkw.svg",
+                "totalBytes": 2101
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/logo-bkw.svg",
+                "totalBytes": 127
+              }
+            ],
+            "sortedBy": [
+              "totalBytes"
+            ]
+          }
+        },
+        "unused-css-rules": {
+          "score": 1,
+          "displayValue": "",
+          "details": {
+            "type": "opportunity",
+            "headings": [],
+            "items": [],
+            "overallSavingsMs": 0,
+            "overallSavingsBytes": 0,
+            "sortedBy": [
+              "wastedBytes"
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "metricSavings": {
+                "FCP": 0,
+                "LCP": 0
+              }
+            }
+          }
+        },
+        "unused-javascript": {
+          "score": 0,
+          "displayValue": "Est savings of 65 KiB",
+          "details": {
+            "type": "opportunity",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "subItemsHeading": {
+                  "key": "source",
+                  "valueType": "code"
+                },
+                "label": "URL"
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "subItemsHeading": {
+                  "key": "sourceBytes"
+                },
+                "label": "Transfer Size"
+              },
+              {
+                "key": "wastedBytes",
+                "valueType": "bytes",
+                "subItemsHeading": {
+                  "key": "sourceWastedBytes"
+                },
+                "label": "Est Savings"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/index-C0qHIdMY.js",
+                "totalBytes": 113553,
+                "wastedBytes": 66344,
+                "wastedPercent": 58.42548352916115
+              }
+            ],
+            "overallSavingsMs": 450,
+            "overallSavingsBytes": 66344,
+            "sortedBy": [
+              "wastedBytes"
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "metricSavings": {
+                "FCP": 300,
+                "LCP": 450
+              }
+            }
+          }
+        },
+        "font-display-insight": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "wastedMs",
+                "valueType": "ms",
+                "label": "Est Savings"
+              }
+            ],
+            "items": [],
+            "skipSumming": [
+              "wastedMs"
+            ]
+          }
+        },
+        "image-delivery-insight": {
+          "score": 0,
+          "displayValue": "Est savings of 40 KiB",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL",
+                "subItemsHeading": {
+                  "key": "reason",
+                  "valueType": "text"
+                }
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "label": "Resource Size"
+              },
+              {
+                "key": "wastedBytes",
+                "valueType": "bytes",
+                "label": "Est Savings",
+                "subItemsHeading": {
+                  "key": "wastedBytes",
+                  "valueType": "bytes"
+                }
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "page-0-IMG",
+                  "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,0,SECTION,0,DIV,1,FIGURE,0,IMG",
+                  "selector": "section.page-hero > div.container > figure.page-hero__photo > img",
+                  "boundingRect": {
+                    "top": 532,
+                    "bottom": 829,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 298
+                  },
+                  "snippet": "<img src=\"http://127.0.0.1:4175/bkwgroep-preview/assets/photos/locks-800.webp\" srcset=\"/bkwgroep-preview/assets/photos/locks-480.webp 480w, /bkwgroep-preview/ass…\" sizes=\"(max-width: 760px) calc(100vw - 40px), (max-width: 1100px) 50vw, 600px\" width=\"1599\" height=\"1272\" alt=\"BKW-slotenmakers werken aan een deurslot\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
+                  "nodeLabel": "BKW-slotenmakers werken aan een deurslot"
+                },
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/locks-800.webp",
+                "totalBytes": 52464,
+                "wastedBytes": 40916,
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "reason": "This image file is larger than it needs to be (796x636) for its displayed dimensions (374x298). Use responsive images to reduce the image download size.",
+                      "wastedBytes": 40916
+                    }
+                  ]
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "wastedBytes": 40916
+            }
+          }
+        },
+        "lcp-breakdown-insight": {
+          "score": 1,
+          "details": {
+            "type": "list",
+            "items": [
+              {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "label",
+                    "valueType": "text",
+                    "label": "Subpart"
+                  },
+                  {
+                    "key": "duration",
+                    "valueType": "ms",
+                    "label": "Duration"
+                  }
+                ],
+                "items": [
+                  {
+                    "subpart": "timeToFirstByte",
+                    "label": "Time to first byte",
+                    "duration": 2.428
+                  },
+                  {
+                    "subpart": "resourceLoadDelay",
+                    "label": "Resource load delay",
+                    "duration": 6.111
+                  },
+                  {
+                    "subpart": "resourceLoadDuration",
+                    "label": "Resource load duration",
+                    "duration": 3.756
+                  },
+                  {
+                    "subpart": "elementRenderDelay",
+                    "label": "Element render delay",
+                    "duration": 17.791
+                  }
+                ]
+              },
+              {
+                "type": "node",
+                "lhId": "page-0-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,0,SECTION,0,DIV,1,FIGURE,0,IMG",
+                "selector": "section.page-hero > div.container > figure.page-hero__photo > img",
+                "boundingRect": {
+                  "top": 532,
+                  "bottom": 829,
+                  "left": 20,
+                  "right": 392,
+                  "width": 372,
+                  "height": 298
+                },
+                "snippet": "<img src=\"http://127.0.0.1:4175/bkwgroep-preview/assets/photos/locks-800.webp\" srcset=\"/bkwgroep-preview/assets/photos/locks-480.webp 480w, /bkwgroep-preview/ass…\" sizes=\"(max-width: 760px) calc(100vw - 40px), (max-width: 1100px) 50vw, 600px\" width=\"1599\" height=\"1272\" alt=\"BKW-slotenmakers werken aan een deurslot\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
+                "nodeLabel": "BKW-slotenmakers werken aan een deurslot"
+              }
+            ]
+          }
+        },
+        "lcp-discovery-insight": {
+          "score": 1,
+          "details": {
+            "type": "list",
+            "items": [
+              {
+                "type": "checklist",
+                "items": {
+                  "priorityHinted": {
+                    "label": "fetchpriority=high applied",
+                    "value": true
+                  },
+                  "requestDiscoverable": {
+                    "label": "Request is discoverable in initial document",
+                    "value": true
+                  },
+                  "eagerlyLoaded": {
+                    "label": "LCP resources should not use loading=lazy",
+                    "value": true
+                  }
+                }
+              },
+              {
+                "type": "node",
+                "lhId": "page-0-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,0,SECTION,0,DIV,1,FIGURE,0,IMG",
+                "selector": "section.page-hero > div.container > figure.page-hero__photo > img",
+                "boundingRect": {
+                  "top": 532,
+                  "bottom": 829,
+                  "left": 20,
+                  "right": 392,
+                  "width": 372,
+                  "height": 298
+                },
+                "snippet": "<img src=\"http://127.0.0.1:4175/bkwgroep-preview/assets/photos/locks-800.webp\" srcset=\"/bkwgroep-preview/assets/photos/locks-480.webp 480w, /bkwgroep-preview/ass…\" sizes=\"(max-width: 760px) calc(100vw - 40px), (max-width: 1100px) 50vw, 600px\" width=\"1599\" height=\"1272\" alt=\"BKW-slotenmakers werken aan een deurslot\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
+                "nodeLabel": "BKW-slotenmakers werken aan een deurslot"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "environment": "local",
+      "route": "isolatie/",
+      "finalUrl": "http://127.0.0.1:4175/bkwgroep-preview/isolatie/",
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-10T00:17:32.164Z",
+      "benchmarkIndex": 2901,
+      "settings": {
+        "output": "json",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices"
+        ],
+        "skipAudits": null
+      },
+      "performance": 97,
+      "lcpMs": 2555.6229000000003,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 1505.6229,
+      "warnings": [],
+      "diagnostics": {
+        "cumulative-layout-shift": {
+          "score": 1,
+          "displayValue": "0",
+          "details": {
+            "type": "debugdata",
+            "items": [
+              {
+                "cumulativeLayoutShiftMainFrame": 0,
+                "newEngineResult": {
+                  "cumulativeLayoutShift": 0,
+                  "cumulativeLayoutShiftMainFrame": 0
+                },
+                "newEngineResultDiffered": false
+              }
+            ]
+          }
+        },
+        "image-aspect-ratio": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "displayedAspectRatio",
+                "valueType": "text",
+                "label": "Aspect Ratio (Displayed)"
+              },
+              {
+                "key": "actualAspectRatio",
+                "valueType": "text",
+                "label": "Aspect Ratio (Actual)"
+              }
+            ],
+            "items": []
+          }
+        },
+        "image-size-responsive": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "displayedSize",
+                "valueType": "text",
+                "label": "Displayed size"
+              },
+              {
+                "key": "actualSize",
+                "valueType": "text",
+                "label": "Actual size"
+              },
+              {
+                "key": "expectedSize",
+                "valueType": "text",
+                "label": "Expected size"
+              }
+            ],
+            "items": []
+          }
+        },
+        "layout-shifts": {
+          "score": null,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "extra"
+                },
+                "label": "Element"
+              },
+              {
+                "key": "score",
+                "valueType": "numeric",
+                "subItemsHeading": {
+                  "key": "cause",
+                  "valueType": "text"
+                },
+                "granularity": 0.001,
+                "label": "Layout shift score"
+              }
+            ],
+            "items": []
+          }
+        },
+        "unsized-images": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              }
+            ],
+            "items": []
+          }
+        },
+        "image-alt": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "relatedNode",
+                  "valueType": "node"
+                },
+                "label": "Failing Elements"
+              }
+            ],
+            "items": []
+          }
+        },
+        "image-redundant-alt": {
+          "score": null
+        },
+        "input-image-alt": {
+          "score": null
+        },
+        "total-byte-weight": {
+          "score": 1,
+          "displayValue": "Total size was 364 KiB",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "label": "Transfer Size"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/insulation-800.webp",
+                "totalBytes": 113972
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/index-C0qHIdMY.js",
+                "totalBytes": 113918
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/craft-800.webp",
+                "totalBytes": 108630
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/fonts/manrope-latin.woff2",
+                "totalBytes": 23464
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/index-25braK6O.css",
+                "totalBytes": 6167
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/isolatie/",
+                "totalBytes": 4520
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/logo-bkw.svg",
+                "totalBytes": 2101
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/logo-bkw.svg",
+                "totalBytes": 127
+              }
+            ],
+            "sortedBy": [
+              "totalBytes"
+            ]
+          }
+        },
+        "unused-css-rules": {
+          "score": 1,
+          "displayValue": "",
+          "details": {
+            "type": "opportunity",
+            "headings": [],
+            "items": [],
+            "overallSavingsMs": 0,
+            "overallSavingsBytes": 0,
+            "sortedBy": [
+              "wastedBytes"
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "metricSavings": {
+                "FCP": 0,
+                "LCP": 0
+              }
+            }
+          }
+        },
+        "unused-javascript": {
+          "score": 0,
+          "displayValue": "Est savings of 65 KiB",
+          "details": {
+            "type": "opportunity",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "subItemsHeading": {
+                  "key": "source",
+                  "valueType": "code"
+                },
+                "label": "URL"
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "subItemsHeading": {
+                  "key": "sourceBytes"
+                },
+                "label": "Transfer Size"
+              },
+              {
+                "key": "wastedBytes",
+                "valueType": "bytes",
+                "subItemsHeading": {
+                  "key": "sourceWastedBytes"
+                },
+                "label": "Est Savings"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/index-C0qHIdMY.js",
+                "totalBytes": 113553,
+                "wastedBytes": 66161,
+                "wastedPercent": 58.26419186791236
+              }
+            ],
+            "overallSavingsMs": 300,
+            "overallSavingsBytes": 66161,
+            "sortedBy": [
+              "wastedBytes"
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "metricSavings": {
+                "FCP": 300,
+                "LCP": 300
+              }
+            }
+          }
+        },
+        "font-display-insight": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "wastedMs",
+                "valueType": "ms",
+                "label": "Est Savings"
+              }
+            ],
+            "items": [],
+            "skipSumming": [
+              "wastedMs"
+            ]
+          }
+        },
+        "image-delivery-insight": {
+          "score": 0,
+          "displayValue": "Est savings of 180 KiB",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL",
+                "subItemsHeading": {
+                  "key": "reason",
+                  "valueType": "text"
+                }
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "label": "Resource Size"
+              },
+              {
+                "key": "wastedBytes",
+                "valueType": "bytes",
+                "label": "Est Savings",
+                "subItemsHeading": {
+                  "key": "wastedBytes",
+                  "valueType": "bytes"
+                }
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "page-0-IMG",
+                  "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,0,SECTION,0,DIV,1,FIGURE,0,IMG",
+                  "selector": "section.page-hero > div.container > figure.page-hero__photo > img",
+                  "boundingRect": {
+                    "top": 573,
+                    "bottom": 870,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 298
+                  },
+                  "snippet": "<img src=\"http://127.0.0.1:4175/bkwgroep-preview/assets/photos/insulation-800.webp\" srcset=\"/bkwgroep-preview/assets/photos/insulation-480.webp 480w, /bkwgroep-previe…\" sizes=\"(max-width: 760px) calc(100vw - 40px), (max-width: 1100px) 50vw, 600px\" width=\"1160\" height=\"955\" alt=\"BKW-medewerker voert spouwmuurisolatiewerkzaamheden uit\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
+                  "nodeLabel": "BKW-medewerker voert spouwmuurisolatiewerkzaamheden uit"
+                },
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/insulation-800.webp",
+                "totalBytes": 113702,
+                "wastedBytes": 94704,
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "reason": "Increasing the image compression factor could improve this image's download size.",
+                      "wastedBytes": 28697
+                    },
+                    {
+                      "reason": "This image file is larger than it needs to be (800x638) for its displayed dimensions (372x306). Use responsive images to reduce the image download size.",
+                      "wastedBytes": 88290
+                    }
+                  ]
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "page-1-IMG",
+                  "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,2,SECTION,0,DIV,1,FIGURE,0,IMG",
+                  "selector": "section.section > div.container > figure.image-panel > img",
+                  "boundingRect": {
+                    "top": 2960,
+                    "bottom": 3257,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 298
+                  },
+                  "snippet": "<img src=\"http://127.0.0.1:4175/bkwgroep-preview/assets/photos/craft-800.webp\" srcset=\"/bkwgroep-preview/assets/photos/craft-480.webp 480w, /bkwgroep-preview/ass…\" sizes=\"(max-width: 760px) calc(100vw - 40px), (max-width: 1100px) 50vw, 600px\" width=\"1570\" height=\"1266\" alt=\"BKW-vakman werkt bij de gevel van een woning\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
+                  "nodeLabel": "BKW-vakman werkt bij de gevel van een woning"
+                },
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/craft-800.webp",
+                "totalBytes": 108360,
+                "wastedBytes": 89765,
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "reason": "Increasing the image compression factor could improve this image's download size.",
+                      "wastedBytes": 22935
+                    },
+                    {
+                      "reason": "This image file is larger than it needs to be (800x641) for its displayed dimensions (372x300). Use responsive images to reduce the image download size.",
+                      "wastedBytes": 84772
+                    }
+                  ]
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "wastedBytes": 184469
+            }
+          }
+        },
+        "lcp-breakdown-insight": {
+          "score": 1,
+          "details": {
+            "type": "list",
+            "items": [
+              {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "label",
+                    "valueType": "text",
+                    "label": "Subpart"
+                  },
+                  {
+                    "key": "duration",
+                    "valueType": "ms",
+                    "label": "Duration"
+                  }
+                ],
+                "items": [
+                  {
+                    "subpart": "timeToFirstByte",
+                    "label": "Time to first byte",
+                    "duration": 2.331
+                  },
+                  {
+                    "subpart": "resourceLoadDelay",
+                    "label": "Resource load delay",
+                    "duration": 4.43
+                  },
+                  {
+                    "subpart": "resourceLoadDuration",
+                    "label": "Resource load duration",
+                    "duration": 5.244
+                  },
+                  {
+                    "subpart": "elementRenderDelay",
+                    "label": "Element render delay",
+                    "duration": 16
+                  }
+                ]
+              },
+              {
+                "type": "node",
+                "lhId": "page-0-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,0,SECTION,0,DIV,1,FIGURE,0,IMG",
+                "selector": "section.page-hero > div.container > figure.page-hero__photo > img",
+                "boundingRect": {
+                  "top": 573,
+                  "bottom": 870,
+                  "left": 20,
+                  "right": 392,
+                  "width": 372,
+                  "height": 298
+                },
+                "snippet": "<img src=\"http://127.0.0.1:4175/bkwgroep-preview/assets/photos/insulation-800.webp\" srcset=\"/bkwgroep-preview/assets/photos/insulation-480.webp 480w, /bkwgroep-previe…\" sizes=\"(max-width: 760px) calc(100vw - 40px), (max-width: 1100px) 50vw, 600px\" width=\"1160\" height=\"955\" alt=\"BKW-medewerker voert spouwmuurisolatiewerkzaamheden uit\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
+                "nodeLabel": "BKW-medewerker voert spouwmuurisolatiewerkzaamheden uit"
+              }
+            ]
+          }
+        },
+        "lcp-discovery-insight": {
+          "score": 1,
+          "details": {
+            "type": "list",
+            "items": [
+              {
+                "type": "checklist",
+                "items": {
+                  "priorityHinted": {
+                    "label": "fetchpriority=high applied",
+                    "value": true
+                  },
+                  "requestDiscoverable": {
+                    "label": "Request is discoverable in initial document",
+                    "value": true
+                  },
+                  "eagerlyLoaded": {
+                    "label": "LCP resources should not use loading=lazy",
+                    "value": true
+                  }
+                }
+              },
+              {
+                "type": "node",
+                "lhId": "page-0-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,0,SECTION,0,DIV,1,FIGURE,0,IMG",
+                "selector": "section.page-hero > div.container > figure.page-hero__photo > img",
+                "boundingRect": {
+                  "top": 573,
+                  "bottom": 870,
+                  "left": 20,
+                  "right": 392,
+                  "width": 372,
+                  "height": 298
+                },
+                "snippet": "<img src=\"http://127.0.0.1:4175/bkwgroep-preview/assets/photos/insulation-800.webp\" srcset=\"/bkwgroep-preview/assets/photos/insulation-480.webp 480w, /bkwgroep-previe…\" sizes=\"(max-width: 760px) calc(100vw - 40px), (max-width: 1100px) 50vw, 600px\" width=\"1160\" height=\"955\" alt=\"BKW-medewerker voert spouwmuurisolatiewerkzaamheden uit\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
+                "nodeLabel": "BKW-medewerker voert spouwmuurisolatiewerkzaamheden uit"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "environment": "local",
+      "route": "zakelijk/",
+      "finalUrl": "http://127.0.0.1:4175/bkwgroep-preview/zakelijk/",
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-10T00:17:37.769Z",
+      "benchmarkIndex": 2913.5,
+      "settings": {
+        "output": "json",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices"
+        ],
+        "skipAudits": null
+      },
+      "performance": 97,
+      "lcpMs": 2567.234,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 1504.234,
+      "warnings": [],
+      "diagnostics": {
+        "cumulative-layout-shift": {
+          "score": 1,
+          "displayValue": "0",
+          "details": {
+            "type": "debugdata",
+            "items": [
+              {
+                "cumulativeLayoutShiftMainFrame": 0,
+                "newEngineResult": {
+                  "cumulativeLayoutShift": 0,
+                  "cumulativeLayoutShiftMainFrame": 0
+                },
+                "newEngineResultDiffered": false
+              }
+            ]
+          }
+        },
+        "image-aspect-ratio": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "displayedAspectRatio",
+                "valueType": "text",
+                "label": "Aspect Ratio (Displayed)"
+              },
+              {
+                "key": "actualAspectRatio",
+                "valueType": "text",
+                "label": "Aspect Ratio (Actual)"
+              }
+            ],
+            "items": []
+          }
+        },
+        "image-size-responsive": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "displayedSize",
+                "valueType": "text",
+                "label": "Displayed size"
+              },
+              {
+                "key": "actualSize",
+                "valueType": "text",
+                "label": "Actual size"
+              },
+              {
+                "key": "expectedSize",
+                "valueType": "text",
+                "label": "Expected size"
+              }
+            ],
+            "items": []
+          }
+        },
+        "layout-shifts": {
+          "score": null,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "extra"
+                },
+                "label": "Element"
+              },
+              {
+                "key": "score",
+                "valueType": "numeric",
+                "subItemsHeading": {
+                  "key": "cause",
+                  "valueType": "text"
+                },
+                "granularity": 0.001,
+                "label": "Layout shift score"
+              }
+            ],
+            "items": []
+          }
+        },
+        "unsized-images": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              }
+            ],
+            "items": []
+          }
+        },
+        "image-alt": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "relatedNode",
+                  "valueType": "node"
+                },
+                "label": "Failing Elements"
+              }
+            ],
+            "items": []
+          }
+        },
+        "image-redundant-alt": {
+          "score": null
+        },
+        "input-image-alt": {
+          "score": null
+        },
+        "total-byte-weight": {
+          "score": 1,
+          "displayValue": "Total size was 373 KiB",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "label": "Transfer Size"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/team-800.webp",
+                "totalBytes": 138046
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/index-C0qHIdMY.js",
+                "totalBytes": 113918
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/property-800.webp",
+                "totalBytes": 93932
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/fonts/manrope-latin.woff2",
+                "totalBytes": 23464
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/index-25braK6O.css",
+                "totalBytes": 6167
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/zakelijk/",
+                "totalBytes": 4050
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/logo-bkw.svg",
+                "totalBytes": 2101
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/logo-bkw.svg",
+                "totalBytes": 127
+              }
+            ],
+            "sortedBy": [
+              "totalBytes"
+            ]
+          }
+        },
+        "unused-css-rules": {
+          "score": 1,
+          "displayValue": "",
+          "details": {
+            "type": "opportunity",
+            "headings": [],
+            "items": [],
+            "overallSavingsMs": 0,
+            "overallSavingsBytes": 0,
+            "sortedBy": [
+              "wastedBytes"
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "metricSavings": {
+                "FCP": 0,
+                "LCP": 0
+              }
+            }
+          }
+        },
+        "unused-javascript": {
+          "score": 0,
+          "displayValue": "Est savings of 65 KiB",
+          "details": {
+            "type": "opportunity",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "subItemsHeading": {
+                  "key": "source",
+                  "valueType": "code"
+                },
+                "label": "URL"
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "subItemsHeading": {
+                  "key": "sourceBytes"
+                },
+                "label": "Transfer Size"
+              },
+              {
+                "key": "wastedBytes",
+                "valueType": "bytes",
+                "subItemsHeading": {
+                  "key": "sourceWastedBytes"
+                },
+                "label": "Est Savings"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/index-C0qHIdMY.js",
+                "totalBytes": 113553,
+                "wastedBytes": 66147,
+                "wastedPercent": 58.252018912346415
+              }
+            ],
+            "overallSavingsMs": 450,
+            "overallSavingsBytes": 66147,
+            "sortedBy": [
+              "wastedBytes"
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "metricSavings": {
+                "FCP": 300,
+                "LCP": 450
+              }
+            }
+          }
+        },
+        "font-display-insight": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "wastedMs",
+                "valueType": "ms",
+                "label": "Est Savings"
+              }
+            ],
+            "items": [],
+            "skipSumming": [
+              "wastedMs"
+            ]
+          }
+        },
+        "image-delivery-insight": {
+          "score": 0,
+          "displayValue": "Est savings of 188 KiB",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL",
+                "subItemsHeading": {
+                  "key": "reason",
+                  "valueType": "text"
+                }
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "label": "Resource Size"
+              },
+              {
+                "key": "wastedBytes",
+                "valueType": "bytes",
+                "label": "Est Savings",
+                "subItemsHeading": {
+                  "key": "wastedBytes",
+                  "valueType": "bytes"
+                }
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "page-1-IMG",
+                  "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,3,SECTION,0,DIV,1,FIGURE,0,IMG",
+                  "selector": "section.section > div.container > figure.image-panel > img",
+                  "boundingRect": {
+                    "top": 2338,
+                    "bottom": 2636,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 298
+                  },
+                  "snippet": "<img src=\"http://127.0.0.1:4175/bkwgroep-preview/assets/photos/team-800.webp\" srcset=\"/bkwgroep-preview/assets/photos/team-480.webp 480w, /bkwgroep-preview/asse…\" sizes=\"(max-width: 760px) calc(100vw - 40px), (max-width: 1100px) 50vw, 600px\" width=\"1600\" height=\"1200\" alt=\"BKW-bedrijfsvoertuigen bij een werkplaats, van de bestaande website\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
+                  "nodeLabel": "BKW-bedrijfsvoertuigen bij een werkplaats, van de bestaande website"
+                },
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/team-800.webp",
+                "totalBytes": 137776,
+                "wastedBytes": 118096,
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "reason": "Increasing the image compression factor could improve this image's download size.",
+                      "wastedBytes": 62624
+                    },
+                    {
+                      "reason": "This image file is larger than it needs to be (752x600) for its displayed dimensions (397x298). Use responsive images to reduce the image download size.",
+                      "wastedBytes": 101697
+                    }
+                  ]
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "page-0-IMG",
+                  "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,0,SECTION,0,DIV,1,FIGURE,0,IMG",
+                  "selector": "section.page-hero > div.container > figure.page-hero__photo > img",
+                  "boundingRect": {
+                    "top": 573,
+                    "bottom": 870,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 298
+                  },
+                  "snippet": "<img src=\"http://127.0.0.1:4175/bkwgroep-preview/assets/photos/property-800.webp\" srcset=\"/bkwgroep-preview/assets/photos/property-480.webp 480w, /bkwgroep-preview/…\" sizes=\"(max-width: 760px) calc(100vw - 40px), (max-width: 1100px) 50vw, 600px\" width=\"1540\" height=\"1266\" alt=\"Zakelijk gebouw afgebeeld op de bestaande BKW-website\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
+                  "nodeLabel": "Zakelijk gebouw afgebeeld op de bestaande BKW-website"
+                },
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/property-800.webp",
+                "totalBytes": 93664,
+                "wastedBytes": 74694,
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "reason": "Increasing the image compression factor could improve this image's download size.",
+                      "wastedBytes": 8511
+                    },
+                    {
+                      "reason": "This image file is larger than it needs to be (800x639) for its displayed dimensions (372x306). Use responsive images to reduce the image download size.",
+                      "wastedBytes": 72798
+                    }
+                  ]
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "wastedBytes": 192790
+            }
+          }
+        },
+        "lcp-breakdown-insight": {
+          "score": 1,
+          "details": {
+            "type": "list",
+            "items": [
+              {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "label",
+                    "valueType": "text",
+                    "label": "Subpart"
+                  },
+                  {
+                    "key": "duration",
+                    "valueType": "ms",
+                    "label": "Duration"
+                  }
+                ],
+                "items": [
+                  {
+                    "subpart": "timeToFirstByte",
+                    "label": "Time to first byte",
+                    "duration": 2.42
+                  },
+                  {
+                    "subpart": "resourceLoadDelay",
+                    "label": "Resource load delay",
+                    "duration": 4.77
+                  },
+                  {
+                    "subpart": "resourceLoadDuration",
+                    "label": "Resource load duration",
+                    "duration": 3.672
+                  },
+                  {
+                    "subpart": "elementRenderDelay",
+                    "label": "Element render delay",
+                    "duration": 36.816
+                  }
+                ]
+              },
+              {
+                "type": "node",
+                "lhId": "page-0-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,0,SECTION,0,DIV,1,FIGURE,0,IMG",
+                "selector": "section.page-hero > div.container > figure.page-hero__photo > img",
+                "boundingRect": {
+                  "top": 573,
+                  "bottom": 870,
+                  "left": 20,
+                  "right": 392,
+                  "width": 372,
+                  "height": 298
+                },
+                "snippet": "<img src=\"http://127.0.0.1:4175/bkwgroep-preview/assets/photos/property-800.webp\" srcset=\"/bkwgroep-preview/assets/photos/property-480.webp 480w, /bkwgroep-preview/…\" sizes=\"(max-width: 760px) calc(100vw - 40px), (max-width: 1100px) 50vw, 600px\" width=\"1540\" height=\"1266\" alt=\"Zakelijk gebouw afgebeeld op de bestaande BKW-website\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
+                "nodeLabel": "Zakelijk gebouw afgebeeld op de bestaande BKW-website"
+              }
+            ]
+          }
+        },
+        "lcp-discovery-insight": {
+          "score": 1,
+          "details": {
+            "type": "list",
+            "items": [
+              {
+                "type": "checklist",
+                "items": {
+                  "priorityHinted": {
+                    "label": "fetchpriority=high applied",
+                    "value": true
+                  },
+                  "requestDiscoverable": {
+                    "label": "Request is discoverable in initial document",
+                    "value": true
+                  },
+                  "eagerlyLoaded": {
+                    "label": "LCP resources should not use loading=lazy",
+                    "value": true
+                  }
+                }
+              },
+              {
+                "type": "node",
+                "lhId": "page-0-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,0,SECTION,0,DIV,1,FIGURE,0,IMG",
+                "selector": "section.page-hero > div.container > figure.page-hero__photo > img",
+                "boundingRect": {
+                  "top": 573,
+                  "bottom": 870,
+                  "left": 20,
+                  "right": 392,
+                  "width": 372,
+                  "height": 298
+                },
+                "snippet": "<img src=\"http://127.0.0.1:4175/bkwgroep-preview/assets/photos/property-800.webp\" srcset=\"/bkwgroep-preview/assets/photos/property-480.webp 480w, /bkwgroep-preview/…\" sizes=\"(max-width: 760px) calc(100vw - 40px), (max-width: 1100px) 50vw, 600px\" width=\"1540\" height=\"1266\" alt=\"Zakelijk gebouw afgebeeld op de bestaande BKW-website\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
+                "nodeLabel": "Zakelijk gebouw afgebeeld op de bestaande BKW-website"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "environment": "local",
+      "route": "contact/",
+      "finalUrl": "http://127.0.0.1:4175/bkwgroep-preview/contact/",
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-10T00:17:43.319Z",
+      "benchmarkIndex": 2912.5,
+      "settings": {
+        "output": "json",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices"
+        ],
+        "skipAudits": null
+      },
+      "performance": 99,
+      "lcpMs": 1878.2555000000002,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 1503.2555,
+      "warnings": [],
+      "diagnostics": {
+        "cumulative-layout-shift": {
+          "score": 1,
+          "displayValue": "0",
+          "details": {
+            "type": "debugdata",
+            "items": [
+              {
+                "cumulativeLayoutShiftMainFrame": 0,
+                "newEngineResult": {
+                  "cumulativeLayoutShift": 0,
+                  "cumulativeLayoutShiftMainFrame": 0
+                },
+                "newEngineResultDiffered": false
+              }
+            ]
+          }
+        },
+        "image-aspect-ratio": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "displayedAspectRatio",
+                "valueType": "text",
+                "label": "Aspect Ratio (Displayed)"
+              },
+              {
+                "key": "actualAspectRatio",
+                "valueType": "text",
+                "label": "Aspect Ratio (Actual)"
+              }
+            ],
+            "items": []
+          }
+        },
+        "image-size-responsive": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "displayedSize",
+                "valueType": "text",
+                "label": "Displayed size"
+              },
+              {
+                "key": "actualSize",
+                "valueType": "text",
+                "label": "Actual size"
+              },
+              {
+                "key": "expectedSize",
+                "valueType": "text",
+                "label": "Expected size"
+              }
+            ],
+            "items": []
+          }
+        },
+        "layout-shifts": {
+          "score": null,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "extra"
+                },
+                "label": "Element"
+              },
+              {
+                "key": "score",
+                "valueType": "numeric",
+                "subItemsHeading": {
+                  "key": "cause",
+                  "valueType": "text"
+                },
+                "granularity": 0.001,
+                "label": "Layout shift score"
+              }
+            ],
+            "items": []
+          }
+        },
+        "unsized-images": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              }
+            ],
+            "items": []
+          }
+        },
+        "image-alt": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "relatedNode",
+                  "valueType": "node"
+                },
+                "label": "Failing Elements"
+              }
+            ],
+            "items": []
+          }
+        },
+        "image-redundant-alt": {
+          "score": null
+        },
+        "input-image-alt": {
+          "score": null
+        },
+        "total-byte-weight": {
+          "score": 1,
+          "displayValue": "Total size was 189 KiB",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "label": "Transfer Size"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/index-C0qHIdMY.js",
+                "totalBytes": 113918
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/detail-800.webp",
+                "totalBytes": 43704
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/fonts/manrope-latin.woff2",
+                "totalBytes": 23464
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/index-25braK6O.css",
+                "totalBytes": 6167
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/contact/",
+                "totalBytes": 3749
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/logo-bkw.svg",
+                "totalBytes": 2101
+              },
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/logo-bkw.svg",
+                "totalBytes": 127
+              }
+            ],
+            "sortedBy": [
+              "totalBytes"
+            ]
+          }
+        },
+        "unused-css-rules": {
+          "score": 1,
+          "displayValue": "",
+          "details": {
+            "type": "opportunity",
+            "headings": [],
+            "items": [],
+            "overallSavingsMs": 0,
+            "overallSavingsBytes": 0,
+            "sortedBy": [
+              "wastedBytes"
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "metricSavings": {
+                "FCP": 0,
+                "LCP": 0
+              }
+            }
+          }
+        },
+        "unused-javascript": {
+          "score": 0,
+          "displayValue": "Est savings of 65 KiB",
+          "details": {
+            "type": "opportunity",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "subItemsHeading": {
+                  "key": "source",
+                  "valueType": "code"
+                },
+                "label": "URL"
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "subItemsHeading": {
+                  "key": "sourceBytes"
+                },
+                "label": "Transfer Size"
+              },
+              {
+                "key": "wastedBytes",
+                "valueType": "bytes",
+                "subItemsHeading": {
+                  "key": "sourceWastedBytes"
+                },
+                "label": "Est Savings"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/index-C0qHIdMY.js",
+                "totalBytes": 113553,
+                "wastedBytes": 66366,
+                "wastedPercent": 58.44484959483424
+              }
+            ],
+            "overallSavingsMs": 300,
+            "overallSavingsBytes": 66366,
+            "sortedBy": [
+              "wastedBytes"
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "metricSavings": {
+                "FCP": 300,
+                "LCP": 300
+              }
+            }
+          }
+        },
+        "font-display-insight": {
+          "score": 1,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "wastedMs",
+                "valueType": "ms",
+                "label": "Est Savings"
+              }
+            ],
+            "items": [],
+            "skipSumming": [
+              "wastedMs"
+            ]
+          }
+        },
+        "image-delivery-insight": {
+          "score": 0.5,
+          "displayValue": "Est savings of 25 KiB",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL",
+                "subItemsHeading": {
+                  "key": "reason",
+                  "valueType": "text"
+                }
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "label": "Resource Size"
+              },
+              {
+                "key": "wastedBytes",
+                "valueType": "bytes",
+                "label": "Est Savings",
+                "subItemsHeading": {
+                  "key": "wastedBytes",
+                  "valueType": "bytes"
+                }
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "page-1-IMG",
+                  "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,1,SECTION,0,DIV,0,DIV,2,IMG",
+                  "selector": "section.section > div.container > div > img.contact-detail-photo",
+                  "boundingRect": {
+                    "top": 954,
+                    "bottom": 1094,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 140
+                  },
+                  "snippet": "<img class=\"contact-detail-photo\" src=\"http://127.0.0.1:4175/bkwgroep-preview/assets/photos/detail-800.webp\" srcset=\"/bkwgroep-preview/assets/photos/detail-480.webp 480w, /bkwgroep-preview/as…\" sizes=\"(max-width: 760px) calc(100vw - 40px), (max-width: 1100px) 50vw, 600px\" width=\"1200\" height=\"954\" alt=\"Gereedschap uit de bedrijfsfotografie van BKW Groep\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
+                  "nodeLabel": "Gereedschap uit de bedrijfsfotografie van BKW Groep"
+                },
+                "url": "http://127.0.0.1:4175/bkwgroep-preview/assets/photos/detail-800.webp",
+                "totalBytes": 43436,
+                "wastedBytes": 25101,
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "reason": "This image file is larger than it needs to be (800x302) for its displayed dimensions (372x296). Use responsive images to reduce the image download size.",
+                      "wastedBytes": 23646
+                    }
+                  ]
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "wastedBytes": 25101
+            }
+          }
+        },
+        "lcp-breakdown-insight": {
+          "score": 1,
+          "details": {
+            "type": "list",
+            "items": [
+              {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "label",
+                    "valueType": "text",
+                    "label": "Subpart"
+                  },
+                  {
+                    "key": "duration",
+                    "valueType": "ms",
+                    "label": "Duration"
+                  }
+                ],
+                "items": [
+                  {
+                    "subpart": "timeToFirstByte",
+                    "label": "Time to first byte",
+                    "duration": 2.472
+                  },
+                  {
+                    "subpart": "elementRenderDelay",
+                    "label": "Element render delay",
+                    "duration": 34.033
+                  }
+                ]
+              },
+              {
+                "type": "node",
+                "lhId": "page-0-H1",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,MAIN,0,SECTION,0,DIV,2,H1",
+                "selector": "main#main-content > section.contact-intro > div.container > h1",
+                "boundingRect": {
+                  "top": 194,
+                  "bottom": 276,
+                  "left": 20,
+                  "right": 392,
+                  "width": 372,
+                  "height": 82
+                },
+                "snippet": "<h1>",
+                "nodeLabel": "Contact opnemen\nmet BKW Groep"
+              }
+            ]
+          }
+        },
+        "lcp-discovery-insight": {
+          "score": null
+        }
+      }
+    }
+  ],
+  "workingTreeDirty": true,
+  "localBuildSha256": "70f8b29f2394d9b5f01cd46c94a08e8c8531116fd2a606d2c4d3a7dc384e70c9"
+}
